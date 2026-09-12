@@ -1,0 +1,1 @@
+Reference seed 1337, eligible dev rows. Influence is TV(softmax(z_B/T_B), softmax(z_t/T_B)) with the same T_B. Outcome colors are retrospective diagnostics, not causal attribution or a selection rule.

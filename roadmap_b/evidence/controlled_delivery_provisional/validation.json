@@ -1,0 +1,21 @@
+{
+  "all_60_waveform_and_metadata_hashes_unchanged": true,
+  "all_60_waveform_hashes_distinct": true,
+  "all_60_pairs_independently_recomputed": true,
+  "all_audio_eligible": true,
+  "residual_bound_passed": true,
+  "text_invariant": true,
+  "frozen_existing_source_hashes_unchanged": 65,
+  "official_test_inferred": false,
+  "final_freeze_created": false,
+  "final_human_report_created": false,
+  "ordinary_tests": {
+    "tests": 61,
+    "skipped": 3,
+    "failures": 0,
+    "errors": 0
+  },
+  "lint": "ruff check src tests scripts: passed",
+  "format": "ruff format --check src tests scripts: 52 files already formatted",
+  "scope": "No pretrained suite rerun; 60 actual frozen raw-recording predictions executed. Three pretrained tests skipped in ordinary suite."
+}

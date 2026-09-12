@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checked": [
+    "evaluation/bias/1337",
+    "evaluation/bias/1338",
+    "evaluation/bias/1339",
+    "evaluation/constant/1337",
+    "evaluation/constant/1338",
+    "evaluation/constant/1339",
+    "evaluation/adaptive/1337",
+    "evaluation/adaptive/1338",
+    "evaluation/adaptive/1339",
+    "evaluation/text_only/1337",
+    "evaluation/text_only/1338",
+    "evaluation/text_only/1339"
+  ],
+  "method": "Direct NumPy confusion matrix and F1 recomputation from all twelve saved dev prediction files"
+}

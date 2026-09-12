@@ -1,0 +1,11 @@
+{
+  "scope": "Human-recorded same-words diagnostic. Fill paths and consent only after recording.",
+  "recordings": [
+    {"pair_id": "sure", "audio": "recordings/sure_neutral.wav", "text": "Yeah, sure.", "speaker": "speaker_1", "speaker_consented": false, "intended_delivery": "neutral acceptance", "listener_judgment": null},
+    {"pair_id": "sure", "audio": "recordings/sure_frustrated.wav", "text": "Yeah, sure.", "speaker": "speaker_1", "speaker_consented": false, "intended_delivery": "frustrated reluctance", "listener_judgment": null},
+    {"pair_id": "really", "audio": "recordings/really_curious.wav", "text": "Really?", "speaker": "speaker_1", "speaker_consented": false, "intended_delivery": "calm curiosity", "listener_judgment": null},
+    {"pair_id": "really", "audio": "recordings/really_surprised.wav", "text": "Really?", "speaker": "speaker_1", "speaker_consented": false, "intended_delivery": "strong surprise", "listener_judgment": null},
+    {"pair_id": "great", "audio": "recordings/great_joy.wav", "text": "That's great.", "speaker": "speaker_1", "speaker_consented": false, "intended_delivery": "joy", "listener_judgment": null},
+    {"pair_id": "great", "audio": "recordings/great_disappointed.wav", "text": "That's great.", "speaker": "speaker_1", "speaker_consented": false, "intended_delivery": "disappointed or ironic delivery", "listener_judgment": null}
+  ]
+}

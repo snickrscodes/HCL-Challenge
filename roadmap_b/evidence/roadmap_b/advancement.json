@@ -1,0 +1,31 @@
+{
+  "decision": "ADVANCE ROADMAP B",
+  "criteria": {
+    "mean_macro_gain": true,
+    "positive_gain_in_at_least_two_seeds": true,
+    "weighted_f1_not_materially_worse": true,
+    "beats_constant_residual": true,
+    "beats_matched_text_only": true,
+    "non_neutral_not_worse_mean_and_reference_seed": true,
+    "fear_disgust_tp_not_worse_mean_and_reference_seed": true,
+    "matched_beats_shuffled_and_training_mean": true,
+    "gate_not_effectively_constant": true,
+    "raw_inference_fallback_parameter_ledger": true,
+    "tests_passed": true
+  },
+  "thresholds": {
+    "macro_gain": 0.005,
+    "max_weighted_loss": 0.005,
+    "minimum_positive_seeds": 2,
+    "intervention_macro_margin": 0.005,
+    "minimum_gate_std": 0.01,
+    "minimum_gate_p90_p10": 0.02
+  },
+  "caution": "Engineering continuation criteria on selected development models, not significance tests",
+  "reference_seed": 1337,
+  "matched_reference": "A_replay_canonical",
+  "intervention_macro_means": {
+    "shuffle": 0.49071736246922004,
+    "training_mean": 0.49364657912616305
+  }
+}

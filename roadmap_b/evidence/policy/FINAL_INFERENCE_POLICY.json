@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "labels": [
+    "neutral",
+    "joy",
+    "sadness",
+    "anger",
+    "surprise",
+    "fear",
+    "disgust"
+  ],
+  "text": {
+    "encoding": "singleton",
+    "dtype": "float32",
+    "model": "exact unchanged selected causal T1"
+  },
+  "audio": {
+    "encoding": "singleton",
+    "dtype": "bfloat16",
+    "model": "exact unchanged WavLM"
+  },
+  "max_audio_seconds": 60,
+  "duration_limit": {
+    "audio_valid": true,
+    "audio_available": false,
+    "reason": "duration_limit",
+    "action": "skip WavLM; calibrated text fallback; retain overall row; no cropping/chunking"
+  },
+  "missing_corrupt_audio": "existing calibrated text fallback",
+  "selected_B": {
+    "variant": "adaptive",
+    "seed": 1337,
+    "temperature": 1.7140600388082663
+  },
+  "A_alpha": 0.4,
+  "A_temperatures": {
+    "text": 1.6053059396751617,
+    "audio": 1.0171745325238999,
+    "fusion": 1.085623850192602,
+    "fitted_on": "dev_calib",
+    "alpha_frozen": 0.4,
+    "audio_and_fusion_fit_subset": "valid audio",
+    "log_temperature_bounds": [
+      -5,
+      5
+    ]
+  },
+  "control_seeds": {
+    "constant": 1337,
+    "text_only": 1337
+  },
+  "models": [
+    "text_causal_canonical",
+    "A_fixed_canonical",
+    "B_adaptive_1337",
+    "constant_1337",
+    "text_only_1337"
+  ],
+  "historical_A": "A-original development evidence remains immutable; final inference uses A_fixed_canonical, never reintroduces historical batched BF16 text.",
+  "calibration": "All saved dev_calib temperatures preserved; no fitting on test.",
+  "confidence_slices": [
+    "<.4",
+    ".4-.6",
+    ".6-.8",
+    ">=.8"
+  ],
+  "bootstrap": {
+    "replicates": 1000,
+    "seed": 20260912,
+    "unit": "dialogue"
+  },
+  "production_recommendation_rule": {
+    "B_default_requires": {
+      "macro_F1_gain_at_least": 0.005,
+      "weighted_F1_loss_at_most": 0.005,
+      "non_neutral_net_at_least": 0,
+      "fear_disgust_TP_loss_at_most": 0
+    },
+    "otherwise": "A fixed canonical default, B documented experimental mode; no retraining"
+  },
+  "parameter_rule": "Total learned parameters including frozen models and calibration scalars; quantization is not a parameter discount.",
+  "timing": "Warm loaded session; explicitly separate fresh-process/model load; exclude recording, endpointing, ASR and disk reads from per-turn inference timing."
+}

@@ -1,0 +1,169 @@
+{
+  "passed": true,
+  "tolerances": {
+    "version": 1,
+    "max_audio_seconds": 60.0,
+    "embedding_atol": 0.0002,
+    "embedding_rtol": 0.0002,
+    "probability_atol": 0.005,
+    "encoding": "singleton",
+    "dtype": "bfloat16",
+    "real_4090_replay_complete": true,
+    "baseline_lock_sha256": "fcfddbe1d9413b6ba9bb77d60eb5948e07ee476d1a735744474346b07fe0652f",
+    "replay_sha256": "7dc313baac3878e935d472d4eb1048785b2c33aea4d9f0de7dad53c7e925429c",
+    "unavailable_behavior": "preserved calibrated T1 fallback",
+    "audio_valid_semantics": "decode validity, separate from acoustic eligibility"
+  },
+  "cases": [
+    {
+      "key": "dev/108/5",
+      "waveform_sha256": "392f3e39b5112c18ab16d07784f2d795887b24f3875aed280f5af467546792bb",
+      "embedding_allclose": true,
+      "text_embedding_allclose": true,
+      "text_probability_max_abs": 0.0,
+      "fused_probability_max_abs": 8.628026876289496e-09,
+      "argmax_changed": false,
+      "passed": true
+    },
+    {
+      "key": "dev/48/5",
+      "waveform_sha256": "9460d5e72df797fc34ddc30a4f4e4cd5d23c9fe784b41bf944f68400e8bcbeef",
+      "embedding_allclose": true,
+      "text_embedding_allclose": true,
+      "text_probability_max_abs": 0.0,
+      "fused_probability_max_abs": 3.4491461978203297e-09,
+      "argmax_changed": false,
+      "passed": true
+    },
+    {
+      "key": "dev/15/5",
+      "waveform_sha256": "db49d1077da6858c9a33835d5cc38033e59ffe5dc39dee01a2a3dad9e45fa1fd",
+      "embedding_allclose": true,
+      "text_embedding_allclose": true,
+      "text_probability_max_abs": 0.0,
+      "fused_probability_max_abs": 2.4380216734343207e-09,
+      "argmax_changed": false,
+      "passed": true
+    },
+    {
+      "key": "dev/23/0",
+      "waveform_sha256": "b0758bf37ed421943f59b389f62f72ac759f6eab20a9775e6ea0ef8231cbc6d7",
+      "embedding_allclose": true,
+      "text_embedding_allclose": true,
+      "text_probability_max_abs": 0.0,
+      "fused_probability_max_abs": 8.035725678617878e-10,
+      "argmax_changed": false,
+      "passed": true
+    },
+    {
+      "key": "dev/108/8",
+      "waveform_sha256": "78269978418b8768a423aeef56bc0c09c9e64c48b9c53554b059b771d63a45c1",
+      "embedding_allclose": true,
+      "text_embedding_allclose": true,
+      "text_probability_max_abs": 0.0,
+      "fused_probability_max_abs": 1.4481559285073331e-08,
+      "argmax_changed": false,
+      "passed": true
+    },
+    {
+      "key": "dev/54/8",
+      "waveform_sha256": "92ead1b63971c791d37d347ff90ff9b59f95e0652eb053713c6febeab0a2a722",
+      "embedding_allclose": true,
+      "text_embedding_allclose": true,
+      "text_probability_max_abs": 0.0,
+      "fused_probability_max_abs": 5.321451168605051e-09,
+      "argmax_changed": false,
+      "passed": true
+    },
+    {
+      "key": "dev/99/6",
+      "waveform_sha256": "22276e39565349ff605fac53a551096269d862904808ee068889f76d4f30a78b",
+      "embedding_allclose": true,
+      "text_embedding_allclose": true,
+      "text_probability_max_abs": 0.0,
+      "fused_probability_max_abs": 1.0260484822888216e-10,
+      "argmax_changed": false,
+      "passed": true
+    },
+    {
+      "key": "dev/82/10",
+      "waveform_sha256": "94d3445900aeb4b3eb2eb043fecefa392ed176af0982203f4be50728c7a7cc94",
+      "embedding_allclose": true,
+      "text_embedding_allclose": true,
+      "text_probability_max_abs": 0.0,
+      "fused_probability_max_abs": 1.1999548077401556e-08,
+      "argmax_changed": false,
+      "passed": true
+    },
+    {
+      "key": "dev/95/7",
+      "waveform_sha256": "f4576b73c742c67b4a3540d8830b3c04c67705676371e5909616f4f9b132a2db",
+      "embedding_allclose": true,
+      "text_embedding_allclose": true,
+      "text_probability_max_abs": 0.0,
+      "fused_probability_max_abs": 1.2157953088731688e-08,
+      "argmax_changed": false,
+      "passed": true
+    },
+    {
+      "key": "dev/40/2",
+      "waveform_sha256": "7f17ee1f2ce1c0b51bfa1b22fe34238dc2bcf75b26204e7041a2562366b13548",
+      "embedding_allclose": true,
+      "text_embedding_allclose": true,
+      "text_probability_max_abs": 0.0,
+      "fused_probability_max_abs": 6.293510879107345e-09,
+      "argmax_changed": false,
+      "passed": true
+    },
+    {
+      "key": "dev/11/10",
+      "waveform_sha256": "50dff513f8f0f43d260accbd26e5b5ff5fba2fec995b4249e60ed4bf30fe2660",
+      "embedding_allclose": true,
+      "text_embedding_allclose": true,
+      "text_probability_max_abs": 0.0,
+      "fused_probability_max_abs": 2.1183228088306194e-09,
+      "argmax_changed": false,
+      "passed": true
+    },
+    {
+      "key": "dev/74/19",
+      "waveform_sha256": "e268e4926b33d04f643226a944b3aed60868c91a87e3c1f378b98225334014f6",
+      "embedding_allclose": true,
+      "text_embedding_allclose": true,
+      "text_probability_max_abs": 0.0,
+      "fused_probability_max_abs": 2.213368843761998e-08,
+      "argmax_changed": false,
+      "passed": true
+    },
+    {
+      "key": "dev/99/3",
+      "waveform_sha256": "c6ce451b4717dfefdda392145fe964e49757628be3c6053d68d4dcc5a42a31d5",
+      "embedding_allclose": true,
+      "text_embedding_allclose": true,
+      "text_probability_max_abs": 0.0,
+      "fused_probability_max_abs": 0.0,
+      "argmax_changed": false,
+      "passed": true
+    },
+    {
+      "key": "dev/62/4",
+      "waveform_sha256": "3ca668d3b4834eef5b9bbadc9f7b29e5764a56cfccaa1827b009924d5bb222ea",
+      "embedding_allclose": true,
+      "text_embedding_allclose": true,
+      "text_probability_max_abs": 0.0,
+      "fused_probability_max_abs": 1.6898069610249422e-09,
+      "argmax_changed": false,
+      "passed": true
+    },
+    {
+      "key": "dev/72/0",
+      "waveform_sha256": "d0420f78dccb931cdc88cb48447cc3e2dda088ca588726282d5717e5374278cf",
+      "embedding_allclose": true,
+      "text_embedding_allclose": true,
+      "text_probability_max_abs": 0.0,
+      "fused_probability_max_abs": 1.492279078085801e-08,
+      "argmax_changed": false,
+      "passed": true
+    }
+  ]
+}

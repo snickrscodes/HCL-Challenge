@@ -1,0 +1,5510 @@
+[
+  {
+    "first": "S01_p01_d1",
+    "second": "S01_p01_d2",
+    "speaker": "S01",
+    "phrase_id": "p01",
+    "intended_categories": [
+      "joy",
+      "anger"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "joy",
+          "joy"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "anger",
+          "p_first_category_first": 0.8180374602463871,
+          "p_first_category_second": 0.8180374602463871,
+          "p_second_category_first": 0.01826220966132017,
+          "p_second_category_second": 0.01826220966132017,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.30058838389665304,
+        "argmaxes": [
+          "joy",
+          "neutral"
+        ],
+        "argmax_changed": true,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "anger",
+          "p_first_category_first": 0.5349297923865347,
+          "p_first_category_second": 0.24340583078106443,
+          "p_second_category_first": 0.01918904685941957,
+          "p_second_category_second": 0.15038529302767184,
+          "first_category_second_minus_first": -0.2915239616054703,
+          "second_category_second_minus_first": 0.13119624616825226
+        },
+        "directional_contrast_change": 0.42272020777372254,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "A": {
+        "posterior_tv": 0.0649231365019931,
+        "argmaxes": [
+          "joy",
+          "joy"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "anger",
+          "p_first_category_first": 0.8567618608991732,
+          "p_first_category_second": 0.7918387243971801,
+          "p_second_category_first": 0.008437667748716597,
+          "p_second_category_second": 0.022660576469939884,
+          "first_category_second_minus_first": -0.0649231365019931,
+          "second_category_second_minus_first": 0.014222908721223287
+        },
+        "directional_contrast_change": 0.07914604522321644,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "B": {
+        "posterior_tv": 0.0034693131350753068,
+        "argmaxes": [
+          "joy",
+          "joy"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "anger",
+          "p_first_category_first": 0.7901745177558548,
+          "p_first_category_second": 0.7875790233010523,
+          "p_second_category_first": 0.023101421939576074,
+          "p_second_category_second": 0.024168172742290713,
+          "first_category_second_minus_first": -0.0025954944548024494,
+          "second_category_second_minus_first": 0.0010667508027146395
+        },
+        "directional_contrast_change": 0.003662245257517016,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      }
+    },
+    "B_minus_A_TV": -0.0614538233669178
+  },
+  {
+    "first": "S01_p01_d1",
+    "second": "S01_p01_d3",
+    "speaker": "S01",
+    "phrase_id": "p01",
+    "intended_categories": [
+      "joy",
+      "sadness"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "joy",
+          "joy"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "sadness",
+          "p_first_category_first": 0.8180374602463871,
+          "p_first_category_second": 0.8180374602463871,
+          "p_second_category_first": 0.027034807126163053,
+          "p_second_category_second": 0.027034807126163053,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.17874522459907916,
+        "argmaxes": [
+          "joy",
+          "neutral"
+        ],
+        "argmax_changed": true,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "sadness",
+          "p_first_category_first": 0.5349297923865347,
+          "p_first_category_second": 0.36656697122515025,
+          "p_second_category_first": 0.024980473333732912,
+          "p_second_category_second": 0.09284653222207807,
+          "first_category_second_minus_first": -0.16836282116138446,
+          "second_category_second_minus_first": 0.06786605888834515
+        },
+        "directional_contrast_change": 0.23622888004972964,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "A": {
+        "posterior_tv": 0.03543329195979156,
+        "argmaxes": [
+          "joy",
+          "joy"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "sadness",
+          "p_first_category_first": 0.8567618608991732,
+          "p_first_category_second": 0.8224910823125585,
+          "p_second_category_first": 0.013191903186691991,
+          "p_second_category_second": 0.02386615642103678,
+          "first_category_second_minus_first": -0.03427077858661465,
+          "second_category_second_minus_first": 0.01067425323434479
+        },
+        "directional_contrast_change": 0.044945031820959436,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "B": {
+        "posterior_tv": 0.0034908722097775494,
+        "argmaxes": [
+          "joy",
+          "joy"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "sadness",
+          "p_first_category_first": 0.7901745177558548,
+          "p_first_category_second": 0.7866836455460772,
+          "p_second_category_first": 0.03136752003816385,
+          "p_second_category_second": 0.03250673653361294,
+          "first_category_second_minus_first": -0.003490872209777618,
+          "second_category_second_minus_first": 0.00113921649544909
+        },
+        "directional_contrast_change": 0.0046300887052266315,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      }
+    },
+    "B_minus_A_TV": -0.03194241975001401
+  },
+  {
+    "first": "S01_p01_d2",
+    "second": "S01_p01_d3",
+    "speaker": "S01",
+    "phrase_id": "p01",
+    "intended_categories": [
+      "anger",
+      "sadness"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "joy",
+          "joy"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "sadness",
+          "p_first_category_first": 0.01826220966132017,
+          "p_first_category_second": 0.01826220966132017,
+          "p_second_category_first": 0.027034807126163053,
+          "p_second_category_second": 0.027034807126163053,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.24249362063060537,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "sadness",
+          "p_first_category_first": 0.15038529302767184,
+          "p_first_category_second": 0.02001690149128056,
+          "p_second_category_first": 0.015916051042550186,
+          "p_second_category_second": 0.09284653222207807,
+          "first_category_second_minus_first": -0.1303683915363913,
+          "second_category_second_minus_first": 0.07693048117952789
+        },
+        "directional_contrast_change": 0.20729887271591918,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "A": {
+        "posterior_tv": 0.04068676574139464,
+        "argmaxes": [
+          "joy",
+          "joy"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "sadness",
+          "p_first_category_first": 0.022660576469939884,
+          "p_first_category_second": 0.009481692898496102,
+          "p_second_category_first": 0.013831748595020637,
+          "p_second_category_second": 0.02386615642103678,
+          "first_category_second_minus_first": -0.013178883571443782,
+          "second_category_second_minus_first": 0.010034407826016145
+        },
+        "directional_contrast_change": 0.023213291397459927,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "B": {
+        "posterior_tv": 0.003069734465466492,
+        "argmaxes": [
+          "joy",
+          "joy"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "sadness",
+          "p_first_category_first": 0.024168172742290713,
+          "p_first_category_second": 0.023253131314918084,
+          "p_second_category_first": 0.03213579809828455,
+          "p_second_category_second": 0.03250673653361294,
+          "first_category_second_minus_first": -0.0009150414273726287,
+          "second_category_second_minus_first": 0.0003709384353283926
+        },
+        "directional_contrast_change": 0.0012859798627010213,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      }
+    },
+    "B_minus_A_TV": -0.03761703127592815
+  },
+  {
+    "first": "S01_p02_d1",
+    "second": "S01_p02_d2",
+    "speaker": "S01",
+    "phrase_id": "p02",
+    "intended_categories": [
+      null,
+      "anger"
+    ],
+    "stable_control": false,
+    "direction_evaluable": false,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "audio": {
+        "posterior_tv": 0.1434418094659454,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "A": {
+        "posterior_tv": 0.02524710278387002,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "B": {
+        "posterior_tv": 0.015267070941037998,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      }
+    },
+    "B_minus_A_TV": -0.009980031842832023
+  },
+  {
+    "first": "S01_p02_d1",
+    "second": "S01_p02_d3",
+    "speaker": "S01",
+    "phrase_id": "p02",
+    "intended_categories": [
+      null,
+      "fear"
+    ],
+    "stable_control": false,
+    "direction_evaluable": false,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "audio": {
+        "posterior_tv": 0.0718827947190914,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "A": {
+        "posterior_tv": 0.017230234945867607,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "B": {
+        "posterior_tv": 0.025886006056617113,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      }
+    },
+    "B_minus_A_TV": 0.008655771110749506
+  },
+  {
+    "first": "S01_p02_d2",
+    "second": "S01_p02_d3",
+    "speaker": "S01",
+    "phrase_id": "p02",
+    "intended_categories": [
+      "anger",
+      "fear"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "fear",
+          "p_first_category_first": 0.04300647783810957,
+          "p_first_category_second": 0.04300647783810957,
+          "p_second_category_first": 0.050578820037308576,
+          "p_second_category_second": 0.050578820037308576,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.15816961246419578,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "fear",
+          "p_first_category_first": 0.19079946981697124,
+          "p_first_category_second": 0.13148384893619194,
+          "p_second_category_first": 0.04809275825131641,
+          "p_second_category_second": 0.09408965143026202,
+          "first_category_second_minus_first": -0.059315620880779296,
+          "second_category_second_minus_first": 0.045996893178945605
+        },
+        "directional_contrast_change": 0.10531251405972492,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "A": {
+        "posterior_tv": 0.034221420019922184,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "fear",
+          "p_first_category_first": 0.045225096195813705,
+          "p_first_category_second": 0.04099295000937092,
+          "p_second_category_first": 0.031157723550471632,
+          "p_second_category_second": 0.04175737424219859,
+          "first_category_second_minus_first": -0.004232146186442784,
+          "second_category_second_minus_first": 0.010599650691726956
+        },
+        "directional_contrast_change": 0.01483179687816974,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "B": {
+        "posterior_tv": 0.012890231770267642,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "fear",
+          "p_first_category_first": 0.05507353449960375,
+          "p_first_category_second": 0.0510474211017433,
+          "p_second_category_first": 0.04543370909480987,
+          "p_second_category_second": 0.04431360300606555,
+          "first_category_second_minus_first": -0.004026113397860451,
+          "second_category_second_minus_first": -0.00112010608874432
+        },
+        "directional_contrast_change": 0.0029060073091161306,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": false
+      }
+    },
+    "B_minus_A_TV": -0.02133118824965454
+  },
+  {
+    "first": "S01_p03_d1",
+    "second": "S01_p03_d2",
+    "speaker": "S01",
+    "phrase_id": "p03",
+    "intended_categories": [
+      "neutral",
+      "sadness"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "sadness",
+          "p_first_category_first": 0.7672807806513637,
+          "p_first_category_second": 0.7672807806513637,
+          "p_second_category_first": 0.10294106948766225,
+          "p_second_category_second": 0.10294106948766225,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.16618543989913812,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "sadness",
+          "p_first_category_first": 0.6555554489244909,
+          "p_first_category_second": 0.4927159013384093,
+          "p_second_category_first": 0.1015186167773347,
+          "p_second_category_second": 0.14789053221985968,
+          "first_category_second_minus_first": -0.1628395475860816,
+          "second_category_second_minus_first": 0.046371915442524975
+        },
+        "directional_contrast_change": 0.2092114630286066,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "A": {
+        "posterior_tv": 0.03721682071819457,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "sadness",
+          "p_first_category_first": 0.8566694576813663,
+          "p_first_category_second": 0.8200751770711612,
+          "p_second_category_first": 0.07165400332456395,
+          "p_second_category_second": 0.08790129420140903,
+          "first_category_second_minus_first": -0.03659428061020509,
+          "second_category_second_minus_first": 0.01624729087684508
+        },
+        "directional_contrast_change": 0.052841571487050154,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "B": {
+        "posterior_tv": 0.017716071781564,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "sadness",
+          "p_first_category_first": 0.7874675221443327,
+          "p_first_category_second": 0.7697514503627687,
+          "p_second_category_first": 0.09365813781197188,
+          "p_second_category_second": 0.10413809765301874,
+          "first_category_second_minus_first": -0.01771607178156398,
+          "second_category_second_minus_first": 0.010479959841046854
+        },
+        "directional_contrast_change": 0.028196031622610862,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      }
+    },
+    "B_minus_A_TV": -0.01950074893663057
+  },
+  {
+    "first": "S01_p03_d1",
+    "second": "S01_p03_d3",
+    "speaker": "S01",
+    "phrase_id": "p03",
+    "intended_categories": [
+      "neutral",
+      "anger"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "anger",
+          "p_first_category_first": 0.7672807806513637,
+          "p_first_category_second": 0.7672807806513637,
+          "p_second_category_first": 0.015961459558964924,
+          "p_second_category_second": 0.015961459558964924,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.2741461686304812,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "anger",
+          "p_first_category_first": 0.6555554489244909,
+          "p_first_category_second": 0.38290070913120805,
+          "p_second_category_first": 0.05913316189742327,
+          "p_second_category_second": 0.2502231253630802,
+          "first_category_second_minus_first": -0.27265473979328286,
+          "second_category_second_minus_first": 0.19108996346565696
+        },
+        "directional_contrast_change": 0.46374470325893985,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "A": {
+        "posterior_tv": 0.046118883762626434,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "anger",
+          "p_first_category_first": 0.8566694576813663,
+          "p_first_category_second": 0.81055057391874,
+          "p_second_category_first": 0.011195873341340716,
+          "p_second_category_second": 0.022250650923321735,
+          "first_category_second_minus_first": -0.046118883762626295,
+          "second_category_second_minus_first": 0.011054777581981019
+        },
+        "directional_contrast_change": 0.05717366134460733,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "B": {
+        "posterior_tv": 0.007051760775266066,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "anger",
+          "p_first_category_first": 0.7874675221443327,
+          "p_first_category_second": 0.7827161424887259,
+          "p_second_category_first": 0.01992187829371048,
+          "p_second_category_second": 0.02122797713349479,
+          "first_category_second_minus_first": -0.004751379655606791,
+          "second_category_second_minus_first": 0.0013060988397843101
+        },
+        "directional_contrast_change": 0.0060574784953910665,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      }
+    },
+    "B_minus_A_TV": -0.03906712298736037
+  },
+  {
+    "first": "S01_p03_d2",
+    "second": "S01_p03_d3",
+    "speaker": "S01",
+    "phrase_id": "p03",
+    "intended_categories": [
+      "sadness",
+      "anger"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "sadness",
+          "second_category": "anger",
+          "p_first_category_first": 0.10294106948766225,
+          "p_first_category_second": 0.10294106948766225,
+          "p_second_category_first": 0.015961459558964924,
+          "p_second_category_second": 0.015961459558964924,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.20863073021204825,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "sadness",
+          "second_category": "anger",
+          "p_first_category_first": 0.14789053221985968,
+          "p_first_category_second": 0.10703592940085999,
+          "p_second_category_first": 0.08977229721442448,
+          "p_second_category_second": 0.2502231253630802,
+          "first_category_second_minus_first": -0.04085460281899969,
+          "second_category_second_minus_first": 0.16045082814865574
+        },
+        "directional_contrast_change": 0.20130543096765544,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "A": {
+        "posterior_tv": 0.015800874568342647,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "sadness",
+          "second_category": "anger",
+          "p_first_category_first": 0.08790129420140903,
+          "p_first_category_second": 0.08459426806716452,
+          "p_second_category_first": 0.013948501810436813,
+          "p_second_category_second": 0.022250650923321735,
+          "first_category_second_minus_first": -0.003307026134244509,
+          "second_category_second_minus_first": 0.008302149112884922
+        },
+        "directional_contrast_change": 0.011609175247129427,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "B": {
+        "posterior_tv": 0.013665231675780862,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "sadness",
+          "second_category": "anger",
+          "p_first_category_first": 0.10413809765301874,
+          "p_first_category_second": 0.09651619967370184,
+          "p_second_category_first": 0.020527437583671003,
+          "p_second_category_second": 0.02122797713349479,
+          "first_category_second_minus_first": -0.007621897979316894,
+          "second_category_second_minus_first": 0.0007005395498237872
+        },
+        "directional_contrast_change": 0.008322437529140678,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      }
+    },
+    "B_minus_A_TV": -0.002135642892561785
+  },
+  {
+    "first": "S01_p04_d1",
+    "second": "S01_p04_d2",
+    "speaker": "S01",
+    "phrase_id": "p04",
+    "intended_categories": [
+      "surprise",
+      "anger"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "anger",
+          "p_first_category_first": 0.909501442338897,
+          "p_first_category_second": 0.909501442338897,
+          "p_second_category_first": 0.016875579422291353,
+          "p_second_category_second": 0.016875579422291353,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.18914757342071165,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "anger",
+          "p_first_category_first": 0.22526208106494683,
+          "p_first_category_second": 0.21950133653368142,
+          "p_second_category_first": 0.13644849651586952,
+          "p_second_category_second": 0.09356232036488805,
+          "first_category_second_minus_first": -0.005760744531265405,
+          "second_category_second_minus_first": -0.04288617615098146
+        },
+        "directional_contrast_change": -0.03712543161971607,
+        "direction": "opposite",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "A": {
+        "posterior_tv": 0.011056927486972044,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "anger",
+          "p_first_category_first": 0.8881337848743502,
+          "p_first_category_second": 0.890332106464952,
+          "p_second_category_first": 0.021410471825645587,
+          "p_second_category_second": 0.018814912265419936,
+          "first_category_second_minus_first": 0.0021983215906017373,
+          "second_category_second_minus_first": -0.0025955595602256513
+        },
+        "directional_contrast_change": -0.0047938811508273504,
+        "direction": "opposite",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "B": {
+        "posterior_tv": 0.00028335159558826994,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "anger",
+          "p_first_category_first": 0.8822604807556446,
+          "p_first_category_second": 0.881999950282089,
+          "p_second_category_first": 0.022131080594687116,
+          "p_second_category_second": 0.022177112494198636,
+          "first_category_second_minus_first": -0.0002605304735555647,
+          "second_category_second_minus_first": 4.6031899511519286e-05
+        },
+        "directional_contrast_change": 0.00030656237306703193,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      }
+    },
+    "B_minus_A_TV": -0.010773575891383773
+  },
+  {
+    "first": "S01_p04_d1",
+    "second": "S01_p04_d3",
+    "speaker": "S01",
+    "phrase_id": "p04",
+    "intended_categories": [
+      "surprise",
+      "fear"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "fear",
+          "p_first_category_first": 0.909501442338897,
+          "p_first_category_second": 0.909501442338897,
+          "p_second_category_first": 0.011367145922470265,
+          "p_second_category_second": 0.011367145922470265,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.15556352380418248,
+        "argmaxes": [
+          "neutral",
+          "surprise"
+        ],
+        "argmax_changed": true,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "fear",
+          "p_first_category_first": 0.22526208106494683,
+          "p_first_category_second": 0.33560476767702496,
+          "p_second_category_first": 0.019600796466037494,
+          "p_second_category_second": 0.009058550333752661,
+          "first_category_second_minus_first": 0.11034268661207813,
+          "second_category_second_minus_first": -0.010542246132284832
+        },
+        "directional_contrast_change": -0.12088493274436299,
+        "direction": "opposite",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "A": {
+        "posterior_tv": 0.022162793973621944,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "fear",
+          "p_first_category_first": 0.8881337848743502,
+          "p_first_category_second": 0.9102965788479722,
+          "p_second_category_first": 0.007286993541248031,
+          "p_second_category_second": 0.004816502440426757,
+          "first_category_second_minus_first": 0.022162793973621975,
+          "second_category_second_minus_first": -0.002470491100821274
+        },
+        "directional_contrast_change": -0.02463328507444329,
+        "direction": "opposite",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "B": {
+        "posterior_tv": 0.00019382943792104184,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "fear",
+          "p_first_category_first": 0.8822604807556446,
+          "p_first_category_second": 0.8821796780704158,
+          "p_second_category_first": 0.014945250059216991,
+          "p_second_category_second": 0.014905362008156618,
+          "first_category_second_minus_first": -8.080268522880907e-05,
+          "second_category_second_minus_first": -3.988805106037302e-05
+        },
+        "directional_contrast_change": 4.091463416844299e-05,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": false
+      }
+    },
+    "B_minus_A_TV": -0.0219689645357009
+  },
+  {
+    "first": "S01_p04_d2",
+    "second": "S01_p04_d3",
+    "speaker": "S01",
+    "phrase_id": "p04",
+    "intended_categories": [
+      "anger",
+      "fear"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "fear",
+          "p_first_category_first": 0.016875579422291353,
+          "p_first_category_second": 0.016875579422291353,
+          "p_second_category_first": 0.011367145922470265,
+          "p_second_category_second": 0.011367145922470265,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.2857116316957296,
+        "argmaxes": [
+          "neutral",
+          "surprise"
+        ],
+        "argmax_changed": true,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "fear",
+          "p_first_category_first": 0.09356232036488805,
+          "p_first_category_second": 0.04687330388118823,
+          "p_second_category_first": 0.009831948103329423,
+          "p_second_category_second": 0.009058550333752661,
+          "first_category_second_minus_first": -0.04668901648369982,
+          "second_category_second_minus_first": -0.000773397769576762
+        },
+        "directional_contrast_change": 0.045915618714123065,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "A": {
+        "posterior_tv": 0.023170226282152023,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "fear",
+          "p_first_category_first": 0.018814912265419936,
+          "p_first_category_second": 0.0126627327902717,
+          "p_second_category_first": 0.00569563173233797,
+          "p_second_category_second": 0.004816502440426757,
+          "first_category_second_minus_first": -0.006152179475148236,
+          "second_category_second_minus_first": -0.0008791292919112133
+        },
+        "directional_contrast_change": 0.005273050183237021,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "B": {
+        "posterior_tv": 0.0002856232108131417,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "fear",
+          "p_first_category_first": 0.022177112494198636,
+          "p_first_category_second": 0.022153743488977508,
+          "p_second_category_first": 0.014922428937184165,
+          "p_second_category_second": 0.014905362008156618,
+          "first_category_second_minus_first": -2.3369005221127864e-05,
+          "second_category_second_minus_first": -1.706692902754721e-05
+        },
+        "directional_contrast_change": 6.302076193580655e-06,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": false
+      }
+    },
+    "B_minus_A_TV": -0.022884603071338883
+  },
+  {
+    "first": "S01_p05_d1",
+    "second": "S01_p05_d2",
+    "speaker": "S01",
+    "phrase_id": "p05",
+    "intended_categories": [
+      "joy",
+      "sadness"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "sadness",
+          "p_first_category_first": 0.027380230526682234,
+          "p_first_category_second": 0.027380230526682234,
+          "p_second_category_first": 0.028413245863907487,
+          "p_second_category_second": 0.028413245863907487,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.14454295498393935,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "sadness",
+          "p_first_category_first": 0.13501271803014003,
+          "p_first_category_second": 0.19905306064324058,
+          "p_second_category_first": 0.06531392895548907,
+          "p_second_category_second": 0.1414048022948027,
+          "first_category_second_minus_first": 0.06404034261310054,
+          "second_category_second_minus_first": 0.07609087333931364
+        },
+        "directional_contrast_change": 0.012050530726213093,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "A": {
+        "posterior_tv": 0.0151468520827347,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "sadness",
+          "p_first_category_first": 0.02548779110939355,
+          "p_first_category_second": 0.02952850171090782,
+          "p_second_category_first": 0.020063564934368807,
+          "p_second_category_second": 0.02684445707934519,
+          "first_category_second_minus_first": 0.004040710601514272,
+          "second_category_second_minus_first": 0.006780892144976382
+        },
+        "directional_contrast_change": 0.00274018154346211,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "B": {
+        "posterior_tv": 0.0064943666580758765,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "sadness",
+          "p_first_category_first": 0.022198304544613877,
+          "p_first_category_second": 0.021486118623918287,
+          "p_second_category_first": 0.02926226248412095,
+          "p_second_category_second": 0.02900072973636208,
+          "first_category_second_minus_first": -0.0007121859206955898,
+          "second_category_second_minus_first": -0.00026153274775887053
+        },
+        "directional_contrast_change": 0.0004506531729367193,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": false
+      }
+    },
+    "B_minus_A_TV": -0.008652485424658823
+  },
+  {
+    "first": "S01_p05_d1",
+    "second": "S01_p05_d3",
+    "speaker": "S01",
+    "phrase_id": "p05",
+    "intended_categories": [
+      "joy",
+      "anger"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "anger",
+          "p_first_category_first": 0.027380230526682234,
+          "p_first_category_second": 0.027380230526682234,
+          "p_second_category_first": 0.031015049980546106,
+          "p_second_category_second": 0.031015049980546106,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.13524724448920908,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "anger",
+          "p_first_category_first": 0.13501271803014003,
+          "p_first_category_second": 0.19633031182485997,
+          "p_second_category_first": 0.10099995264937843,
+          "p_second_category_second": 0.07184879604544547,
+          "first_category_second_minus_first": 0.06131759379471993,
+          "second_category_second_minus_first": -0.029151156603932957
+        },
+        "directional_contrast_change": -0.09046875039865289,
+        "direction": "opposite",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "A": {
+        "posterior_tv": 0.014036072919724333,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "anger",
+          "p_first_category_first": 0.02548779110939355,
+          "p_first_category_second": 0.030607042823748012,
+          "p_second_category_first": 0.025534050770550685,
+          "p_second_category_second": 0.02345494399956691,
+          "first_category_second_minus_first": 0.005119251714354463,
+          "second_category_second_minus_first": -0.002079106770983774
+        },
+        "directional_contrast_change": -0.007198358485338237,
+        "direction": "opposite",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "B": {
+        "posterior_tv": 0.008772592335124367,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "anger",
+          "p_first_category_first": 0.022198304544613877,
+          "p_first_category_second": 0.026389666309451346,
+          "p_second_category_first": 0.04120189911901328,
+          "p_second_category_second": 0.04427709956632074,
+          "first_category_second_minus_first": 0.004191361764837469,
+          "second_category_second_minus_first": 0.003075200447307462
+        },
+        "directional_contrast_change": -0.0011161613175300067,
+        "direction": "opposite",
+        "both_targets_increase_for_their_own_delivery": false
+      }
+    },
+    "B_minus_A_TV": -0.005263480584599967
+  },
+  {
+    "first": "S01_p05_d2",
+    "second": "S01_p05_d3",
+    "speaker": "S01",
+    "phrase_id": "p05",
+    "intended_categories": [
+      "sadness",
+      "anger"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "sadness",
+          "second_category": "anger",
+          "p_first_category_first": 0.028413245863907487,
+          "p_first_category_second": 0.028413245863907487,
+          "p_second_category_first": 0.031015049980546106,
+          "p_second_category_second": 0.031015049980546106,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.11446486479222881,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "sadness",
+          "second_category": "anger",
+          "p_first_category_first": 0.1414048022948027,
+          "p_first_category_second": 0.1358688985196536,
+          "p_second_category_first": 0.025335763919710756,
+          "p_second_category_second": 0.07184879604544547,
+          "first_category_second_minus_first": -0.0055359037751490925,
+          "second_category_second_minus_first": 0.04651303212573472
+        },
+        "directional_contrast_change": 0.0520489359008838,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "A": {
+        "posterior_tv": 0.015934871336497843,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "sadness",
+          "second_category": "anger",
+          "p_first_category_first": 0.02684445707934519,
+          "p_first_category_second": 0.027553458147082346,
+          "p_second_category_first": 0.015231944189626496,
+          "p_second_category_second": 0.02345494399956691,
+          "first_category_second_minus_first": 0.0007090010677371569,
+          "second_category_second_minus_first": 0.008222999809940415
+        },
+        "directional_contrast_change": 0.007513998742203258,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "B": {
+        "posterior_tv": 0.01499555594591228,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "sadness",
+          "second_category": "anger",
+          "p_first_category_first": 0.02900072973636208,
+          "p_first_category_second": 0.029338991219590372,
+          "p_second_category_first": 0.037958345002452175,
+          "p_second_category_second": 0.04427709956632074,
+          "first_category_second_minus_first": 0.0003382614832282936,
+          "second_category_second_minus_first": 0.006318754563868566
+        },
+        "directional_contrast_change": 0.005980493080640272,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": false
+      }
+    },
+    "B_minus_A_TV": -0.0009393153905855635
+  },
+  {
+    "first": "S01_p06_d1",
+    "second": "S01_p06_d2",
+    "speaker": "S01",
+    "phrase_id": "p06",
+    "intended_categories": [
+      "surprise",
+      "anger"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "anger",
+          "p_first_category_first": 0.5938428261866278,
+          "p_first_category_second": 0.5938428261866278,
+          "p_second_category_first": 0.08420155088631272,
+          "p_second_category_second": 0.08420155088631272,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.22633396102365586,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "anger",
+          "p_first_category_first": 0.0991720595788323,
+          "p_first_category_second": 0.06579603431783287,
+          "p_second_category_first": 0.210616866576322,
+          "p_second_category_second": 0.03766172207780325,
+          "first_category_second_minus_first": -0.03337602526099942,
+          "second_category_second_minus_first": -0.17295514449851876
+        },
+        "directional_contrast_change": -0.13957911923751934,
+        "direction": "opposite",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "A": {
+        "posterior_tv": 0.08824911405386271,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "anger",
+          "p_first_category_first": 0.5452771198419505,
+          "p_first_category_second": 0.5128817729545759,
+          "p_second_category_first": 0.1278019797959326,
+          "p_second_category_second": 0.07354222231885243,
+          "first_category_second_minus_first": -0.032395346887374554,
+          "second_category_second_minus_first": -0.05425975747708017
+        },
+        "directional_contrast_change": -0.02186441058970562,
+        "direction": "opposite",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "B": {
+        "posterior_tv": 0.001028402013228213,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "anger",
+          "p_first_category_first": 0.5462058529503164,
+          "p_first_category_second": 0.5464520427912026,
+          "p_second_category_first": 0.09625741104948118,
+          "p_second_category_second": 0.09534102822628449,
+          "first_category_second_minus_first": 0.00024618984088620177,
+          "second_category_second_minus_first": -0.0009163828231966986
+        },
+        "directional_contrast_change": -0.0011625726640828726,
+        "direction": "opposite",
+        "both_targets_increase_for_their_own_delivery": false
+      }
+    },
+    "B_minus_A_TV": -0.0872207120406345
+  },
+  {
+    "first": "S01_p06_d1",
+    "second": "S01_p06_d3",
+    "speaker": "S01",
+    "phrase_id": "p06",
+    "intended_categories": [
+      "surprise",
+      "sadness"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "sadness",
+          "p_first_category_first": 0.5938428261866278,
+          "p_first_category_second": 0.5938428261866278,
+          "p_second_category_first": 0.08801576118115258,
+          "p_second_category_second": 0.08801576118115258,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.19170793462260965,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "sadness",
+          "p_first_category_first": 0.0991720595788323,
+          "p_first_category_second": 0.07733084789191684,
+          "p_second_category_first": 0.12119071071497611,
+          "p_second_category_second": 0.19433590264892991,
+          "first_category_second_minus_first": -0.021841211686915454,
+          "second_category_second_minus_first": 0.0731451919339538
+        },
+        "directional_contrast_change": 0.09498640362086926,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "A": {
+        "posterior_tv": 0.050965853892154786,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "sadness",
+          "p_first_category_first": 0.5452771198419505,
+          "p_first_category_second": 0.5334912973688433,
+          "p_second_category_first": 0.10805674610838811,
+          "p_second_category_second": 0.1385201944424314,
+          "first_category_second_minus_first": -0.011785822473107221,
+          "second_category_second_minus_first": 0.030463448334043297
+        },
+        "directional_contrast_change": 0.04224927080715052,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "B": {
+        "posterior_tv": 0.001307936525568168,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "sadness",
+          "p_first_category_first": 0.5462058529503164,
+          "p_first_category_second": 0.545521338954746,
+          "p_second_category_first": 0.09475719540558865,
+          "p_second_category_second": 0.09561130571113101,
+          "first_category_second_minus_first": -0.0006845139955704571,
+          "second_category_second_minus_first": 0.0008541103055423604
+        },
+        "directional_contrast_change": 0.0015386243011128453,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      }
+    },
+    "B_minus_A_TV": -0.04965791736658662
+  },
+  {
+    "first": "S01_p06_d2",
+    "second": "S01_p06_d3",
+    "speaker": "S01",
+    "phrase_id": "p06",
+    "intended_categories": [
+      "anger",
+      "sadness"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "sadness",
+          "p_first_category_first": 0.08420155088631272,
+          "p_first_category_second": 0.08420155088631272,
+          "p_second_category_first": 0.08801576118115258,
+          "p_second_category_second": 0.08801576118115258,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.15377101307474328,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "sadness",
+          "p_first_category_first": 0.03766172207780325,
+          "p_first_category_second": 0.06554485741493345,
+          "p_second_category_first": 0.26973117559354454,
+          "p_second_category_second": 0.19433590264892991,
+          "first_category_second_minus_first": 0.027883135337130195,
+          "second_category_second_minus_first": -0.07539527294461462
+        },
+        "directional_contrast_change": -0.10327840828174481,
+        "direction": "opposite",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "A": {
+        "posterior_tv": 0.044561356610107294,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "sadness",
+          "p_first_category_first": 0.07354222231885243,
+          "p_first_category_second": 0.08862194837688503,
+          "p_second_category_first": 0.15997620591453907,
+          "p_second_category_second": 0.1385201944424314,
+          "first_category_second_minus_first": 0.015079726058032594,
+          "second_category_second_minus_first": -0.021456011472107656
+        },
+        "directional_contrast_change": -0.03653573753014025,
+        "direction": "opposite",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "B": {
+        "posterior_tv": 0.0013751876509418715,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "sadness",
+          "p_first_category_first": 0.09534102822628449,
+          "p_first_category_second": 0.09604092820207603,
+          "p_second_category_first": 0.09509144427960307,
+          "p_second_category_second": 0.09561130571113101,
+          "first_category_second_minus_first": 0.0006998999757915486,
+          "second_category_second_minus_first": 0.0005198614315279348
+        },
+        "directional_contrast_change": -0.00018003854426361376,
+        "direction": "opposite",
+        "both_targets_increase_for_their_own_delivery": false
+      }
+    },
+    "B_minus_A_TV": -0.043186168959165425
+  },
+  {
+    "first": "S01_p07_d1",
+    "second": "S01_p07_d2",
+    "speaker": "S01",
+    "phrase_id": "p07",
+    "intended_categories": [
+      null,
+      "sadness"
+    ],
+    "stable_control": false,
+    "direction_evaluable": false,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "audio": {
+        "posterior_tv": 0.2503735156669183,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "A": {
+        "posterior_tv": 0.027790566620027952,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "B": {
+        "posterior_tv": 0.006864672878196732,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      }
+    },
+    "B_minus_A_TV": -0.02092589374183122
+  },
+  {
+    "first": "S01_p07_d1",
+    "second": "S01_p07_d3",
+    "speaker": "S01",
+    "phrase_id": "p07",
+    "intended_categories": [
+      null,
+      "anger"
+    ],
+    "stable_control": false,
+    "direction_evaluable": false,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "audio": {
+        "posterior_tv": 0.29336337102282556,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "A": {
+        "posterior_tv": 0.019677016347227086,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "B": {
+        "posterior_tv": 0.005457193736026878,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      }
+    },
+    "B_minus_A_TV": -0.014219822611200209
+  },
+  {
+    "first": "S01_p07_d2",
+    "second": "S01_p07_d3",
+    "speaker": "S01",
+    "phrase_id": "p07",
+    "intended_categories": [
+      "sadness",
+      "anger"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "sadness",
+          "second_category": "anger",
+          "p_first_category_first": 0.023589790592746785,
+          "p_first_category_second": 0.023589790592746785,
+          "p_second_category_first": 0.009842511332745897,
+          "p_second_category_second": 0.009842511332745897,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.2717472030187395,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "sadness",
+          "second_category": "anger",
+          "p_first_category_first": 0.2062985477863239,
+          "p_first_category_second": 0.049852184301932896,
+          "p_second_category_first": 0.03285021883172809,
+          "p_second_category_second": 0.16863700743303453,
+          "first_category_second_minus_first": -0.156446363484391,
+          "second_category_second_minus_first": 0.13578678860130644
+        },
+        "directional_contrast_change": 0.29223315208569745,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "A": {
+        "posterior_tv": 0.01868139830774593,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "sadness",
+          "second_category": "anger",
+          "p_first_category_first": 0.02758992848603883,
+          "p_first_category_second": 0.016418741942199038,
+          "p_second_category_first": 0.00638099756647082,
+          "p_second_category_second": 0.01193700785255982,
+          "first_category_second_minus_first": -0.011171186543839792,
+          "second_category_second_minus_first": 0.005556010286089001
+        },
+        "directional_contrast_change": 0.016727196829928792,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "B": {
+        "posterior_tv": 0.002776017093055526,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "sadness",
+          "second_category": "anger",
+          "p_first_category_first": 0.021998962504680676,
+          "p_first_category_second": 0.019408265998567743,
+          "p_second_category_first": 0.012719753770353125,
+          "p_second_category_second": 0.014625452952682324,
+          "first_category_second_minus_first": -0.002590696506112933,
+          "second_category_second_minus_first": 0.001905699182329199
+        },
+        "directional_contrast_change": 0.004496395688442132,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      }
+    },
+    "B_minus_A_TV": -0.015905381214690404
+  },
+  {
+    "first": "S01_p08_d1",
+    "second": "S01_p08_d2",
+    "speaker": "S01",
+    "phrase_id": "p08",
+    "intended_categories": [
+      null,
+      "anger"
+    ],
+    "stable_control": false,
+    "direction_evaluable": false,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "audio": {
+        "posterior_tv": 0.17433366416180537,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "A": {
+        "posterior_tv": 0.025961497721314276,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "B": {
+        "posterior_tv": 0.0044148395808135356,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      }
+    },
+    "B_minus_A_TV": -0.02154665814050074
+  },
+  {
+    "first": "S01_p08_d1",
+    "second": "S01_p08_d3",
+    "speaker": "S01",
+    "phrase_id": "p08",
+    "intended_categories": [
+      null,
+      "sadness"
+    ],
+    "stable_control": false,
+    "direction_evaluable": false,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "audio": {
+        "posterior_tv": 0.13468125777740408,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "A": {
+        "posterior_tv": 0.019885802428852923,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "B": {
+        "posterior_tv": 0.008912300323317805,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      }
+    },
+    "B_minus_A_TV": -0.010973502105535118
+  },
+  {
+    "first": "S01_p08_d2",
+    "second": "S01_p08_d3",
+    "speaker": "S01",
+    "phrase_id": "p08",
+    "intended_categories": [
+      "anger",
+      "sadness"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "sadness",
+          "p_first_category_first": 0.028531116677112514,
+          "p_first_category_second": 0.028531116677112514,
+          "p_second_category_first": 0.036911913154969424,
+          "p_second_category_second": 0.036911913154969424,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.24617280166057756,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "sadness",
+          "p_first_category_first": 0.06804845176333035,
+          "p_first_category_second": 0.03024372556294754,
+          "p_second_category_first": 0.036648160767027343,
+          "p_second_category_second": 0.10926838222393467,
+          "first_category_second_minus_first": -0.03780472620038282,
+          "second_category_second_minus_first": 0.07262022145690733
+        },
+        "directional_contrast_change": 0.11042494765729015,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "A": {
+        "posterior_tv": 0.01670666715218084,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "sadness",
+          "p_first_category_first": 0.02195519978400763,
+          "p_first_category_second": 0.01455383373965161,
+          "p_second_category_first": 0.02187975894765284,
+          "p_second_category_second": 0.029599539040717392,
+          "first_category_second_minus_first": -0.007401366044356022,
+          "second_category_second_minus_first": 0.007719780093064552
+        },
+        "directional_contrast_change": 0.015121146137420573,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "B": {
+        "posterior_tv": 0.006319720153954986,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "sadness",
+          "p_first_category_first": 0.038673611289538376,
+          "p_first_category_second": 0.03751196830760184,
+          "p_second_category_first": 0.034350554684269466,
+          "p_second_category_second": 0.03995098519513292,
+          "first_category_second_minus_first": -0.0011616429819365365,
+          "second_category_second_minus_first": 0.005600430510863452
+        },
+        "directional_contrast_change": 0.006762073492799989,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      }
+    },
+    "B_minus_A_TV": -0.010386946998225854
+  },
+  {
+    "first": "S01_p09_d1",
+    "second": "S01_p09_d2",
+    "speaker": "S01",
+    "phrase_id": "p09",
+    "intended_categories": [
+      "neutral",
+      "neutral"
+    ],
+    "stable_control": true,
+    "direction_evaluable": false,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.9223699115699496,
+          "p_first_category_second": 0.9223699115699496,
+          "p_second_category_first": 0.9223699115699496,
+          "p_second_category_second": 0.9223699115699496,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "audio": {
+        "posterior_tv": 0.12516337952738502,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.5767315199261308,
+          "p_first_category_second": 0.7018948994535158,
+          "p_second_category_first": 0.5767315199261308,
+          "p_second_category_second": 0.7018948994535158,
+          "first_category_second_minus_first": 0.125163379527385,
+          "second_category_second_minus_first": 0.125163379527385
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "A": {
+        "posterior_tv": 0.011039322493754354,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.9460266049469737,
+          "p_first_category_second": 0.957065927440728,
+          "p_second_category_first": 0.9460266049469737,
+          "p_second_category_second": 0.957065927440728,
+          "first_category_second_minus_first": 0.011039322493754389,
+          "second_category_second_minus_first": 0.011039322493754389
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "B": {
+        "posterior_tv": 0.003110206523331647,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.9245144200156366,
+          "p_first_category_second": 0.9276246265389682,
+          "p_second_category_first": 0.9245144200156366,
+          "p_second_category_second": 0.9276246265389682,
+          "first_category_second_minus_first": 0.0031102065233316045,
+          "second_category_second_minus_first": 0.0031102065233316045
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      }
+    },
+    "B_minus_A_TV": -0.007929115970422708
+  },
+  {
+    "first": "S01_p09_d1",
+    "second": "S01_p09_d3",
+    "speaker": "S01",
+    "phrase_id": "p09",
+    "intended_categories": [
+      "neutral",
+      "neutral"
+    ],
+    "stable_control": true,
+    "direction_evaluable": false,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.9223699115699496,
+          "p_first_category_second": 0.9223699115699496,
+          "p_second_category_first": 0.9223699115699496,
+          "p_second_category_second": 0.9223699115699496,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "audio": {
+        "posterior_tv": 0.07788331110958974,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.5767315199261308,
+          "p_first_category_second": 0.6035578834896591,
+          "p_second_category_first": 0.5767315199261308,
+          "p_second_category_second": 0.6035578834896591,
+          "first_category_second_minus_first": 0.0268263635635283,
+          "second_category_second_minus_first": 0.0268263635635283
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "A": {
+        "posterior_tv": 0.008138883309023822,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.9460266049469737,
+          "p_first_category_second": 0.9524337850652722,
+          "p_second_category_first": 0.9460266049469737,
+          "p_second_category_second": 0.9524337850652722,
+          "first_category_second_minus_first": 0.00640718011829855,
+          "second_category_second_minus_first": 0.00640718011829855
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "B": {
+        "posterior_tv": 0.004911812538876071,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.9245144200156366,
+          "p_first_category_second": 0.9294262325545126,
+          "p_second_category_first": 0.9245144200156366,
+          "p_second_category_second": 0.9294262325545126,
+          "first_category_second_minus_first": 0.00491181253887607,
+          "second_category_second_minus_first": 0.00491181253887607
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      }
+    },
+    "B_minus_A_TV": -0.0032270707701477505
+  },
+  {
+    "first": "S01_p09_d2",
+    "second": "S01_p09_d3",
+    "speaker": "S01",
+    "phrase_id": "p09",
+    "intended_categories": [
+      "neutral",
+      "neutral"
+    ],
+    "stable_control": true,
+    "direction_evaluable": false,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.9223699115699496,
+          "p_first_category_second": 0.9223699115699496,
+          "p_second_category_first": 0.9223699115699496,
+          "p_second_category_second": 0.9223699115699496,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "audio": {
+        "posterior_tv": 0.11511273997603254,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.7018948994535158,
+          "p_first_category_second": 0.6035578834896591,
+          "p_second_category_first": 0.7018948994535158,
+          "p_second_category_second": 0.6035578834896591,
+          "first_category_second_minus_first": -0.09833701596385669,
+          "second_category_second_minus_first": -0.09833701596385669
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "A": {
+        "posterior_tv": 0.005891685698607365,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.957065927440728,
+          "p_first_category_second": 0.9524337850652722,
+          "p_second_category_first": 0.957065927440728,
+          "p_second_category_second": 0.9524337850652722,
+          "first_category_second_minus_first": -0.004632142375455839,
+          "second_category_second_minus_first": -0.004632142375455839
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "B": {
+        "posterior_tv": 0.0018904053991006292,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.9276246265389682,
+          "p_first_category_second": 0.9294262325545126,
+          "p_second_category_first": 0.9276246265389682,
+          "p_second_category_second": 0.9294262325545126,
+          "first_category_second_minus_first": 0.0018016060155444658,
+          "second_category_second_minus_first": 0.0018016060155444658
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      }
+    },
+    "B_minus_A_TV": -0.0040012802995067365
+  },
+  {
+    "first": "S01_p10_d1",
+    "second": "S01_p10_d2",
+    "speaker": "S01",
+    "phrase_id": "p10",
+    "intended_categories": [
+      "neutral",
+      "neutral"
+    ],
+    "stable_control": true,
+    "direction_evaluable": false,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.8762740566941728,
+          "p_first_category_second": 0.8762740566941728,
+          "p_second_category_first": 0.8762740566941728,
+          "p_second_category_second": 0.8762740566941728,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "audio": {
+        "posterior_tv": 0.10803477528953839,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.49449061453964577,
+          "p_first_category_second": 0.5885948351836204,
+          "p_second_category_first": 0.49449061453964577,
+          "p_second_category_second": 0.5885948351836204,
+          "first_category_second_minus_first": 0.09410422064397467,
+          "second_category_second_minus_first": 0.09410422064397467
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "A": {
+        "posterior_tv": 0.014154591509115622,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.899808649785446,
+          "p_first_category_second": 0.9139360511478775,
+          "p_second_category_first": 0.899808649785446,
+          "p_second_category_second": 0.9139360511478775,
+          "first_category_second_minus_first": 0.014127401362431513,
+          "second_category_second_minus_first": 0.014127401362431513
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "B": {
+        "posterior_tv": 0.010674009436718652,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.8864494064505627,
+          "p_first_category_second": 0.8971219915594425,
+          "p_second_category_first": 0.8864494064505627,
+          "p_second_category_second": 0.8971219915594425,
+          "first_category_second_minus_first": 0.010672585108879806,
+          "second_category_second_minus_first": 0.010672585108879806
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      }
+    },
+    "B_minus_A_TV": -0.00348058207239697
+  },
+  {
+    "first": "S01_p10_d1",
+    "second": "S01_p10_d3",
+    "speaker": "S01",
+    "phrase_id": "p10",
+    "intended_categories": [
+      "neutral",
+      "neutral"
+    ],
+    "stable_control": true,
+    "direction_evaluable": false,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.8762740566941728,
+          "p_first_category_second": 0.8762740566941728,
+          "p_second_category_first": 0.8762740566941728,
+          "p_second_category_second": 0.8762740566941728,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "audio": {
+        "posterior_tv": 0.046559995102083127,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.49449061453964577,
+          "p_first_category_second": 0.5211592361640858,
+          "p_second_category_first": 0.49449061453964577,
+          "p_second_category_second": 0.5211592361640858,
+          "first_category_second_minus_first": 0.026668621624440003,
+          "second_category_second_minus_first": 0.026668621624440003
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "A": {
+        "posterior_tv": 0.004482550347596145,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.899808649785446,
+          "p_first_category_second": 0.9034377840908774,
+          "p_second_category_first": 0.899808649785446,
+          "p_second_category_second": 0.9034377840908774,
+          "first_category_second_minus_first": 0.0036291343054314362,
+          "second_category_second_minus_first": 0.0036291343054314362
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "B": {
+        "posterior_tv": 0.014077760513114535,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.8864494064505627,
+          "p_first_category_second": 0.9005271669636773,
+          "p_second_category_first": 0.8864494064505627,
+          "p_second_category_second": 0.9005271669636773,
+          "first_category_second_minus_first": 0.014077760513114601,
+          "second_category_second_minus_first": 0.014077760513114601
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      }
+    },
+    "B_minus_A_TV": 0.00959521016551839
+  },
+  {
+    "first": "S01_p10_d2",
+    "second": "S01_p10_d3",
+    "speaker": "S01",
+    "phrase_id": "p10",
+    "intended_categories": [
+      "neutral",
+      "neutral"
+    ],
+    "stable_control": true,
+    "direction_evaluable": false,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.8762740566941728,
+          "p_first_category_second": 0.8762740566941728,
+          "p_second_category_first": 0.8762740566941728,
+          "p_second_category_second": 0.8762740566941728,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "audio": {
+        "posterior_tv": 0.1250094911784232,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.5885948351836204,
+          "p_first_category_second": 0.5211592361640858,
+          "p_second_category_first": 0.5885948351836204,
+          "p_second_category_second": 0.5211592361640858,
+          "first_category_second_minus_first": -0.06743559901953466,
+          "second_category_second_minus_first": -0.06743559901953466
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "A": {
+        "posterior_tv": 0.01300329377320968,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.9139360511478775,
+          "p_first_category_second": 0.9034377840908774,
+          "p_second_category_first": 0.9139360511478775,
+          "p_second_category_second": 0.9034377840908774,
+          "first_category_second_minus_first": -0.010498267057000077,
+          "second_category_second_minus_first": -0.010498267057000077
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "B": {
+        "posterior_tv": 0.0038299487156631838,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.8971219915594425,
+          "p_first_category_second": 0.9005271669636773,
+          "p_second_category_first": 0.8971219915594425,
+          "p_second_category_second": 0.9005271669636773,
+          "first_category_second_minus_first": 0.003405175404234795,
+          "second_category_second_minus_first": 0.003405175404234795
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      }
+    },
+    "B_minus_A_TV": -0.009173345057546495
+  },
+  {
+    "first": "S02_p01_d1",
+    "second": "S02_p01_d2",
+    "speaker": "S02",
+    "phrase_id": "p01",
+    "intended_categories": [
+      "joy",
+      "anger"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "joy",
+          "joy"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "anger",
+          "p_first_category_first": 0.8180374602463871,
+          "p_first_category_second": 0.8180374602463871,
+          "p_second_category_first": 0.01826220966132017,
+          "p_second_category_second": 0.01826220966132017,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.4223665243888077,
+        "argmaxes": [
+          "joy",
+          "neutral"
+        ],
+        "argmax_changed": true,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "anger",
+          "p_first_category_first": 0.557229583373774,
+          "p_first_category_second": 0.2196336004954999,
+          "p_second_category_first": 0.03461023393328228,
+          "p_second_category_second": 0.06944448546790372,
+          "first_category_second_minus_first": -0.33759598287827414,
+          "second_category_second_minus_first": 0.034834251534621434
+        },
+        "directional_contrast_change": 0.3724302344128955,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "A": {
+        "posterior_tv": 0.08165345930357489,
+        "argmaxes": [
+          "joy",
+          "joy"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "anger",
+          "p_first_category_first": 0.8595579084129328,
+          "p_first_category_second": 0.7814678372980823,
+          "p_second_category_first": 0.010398963134305083,
+          "p_second_category_second": 0.017398371963654867,
+          "first_category_second_minus_first": -0.07809007111485045,
+          "second_category_second_minus_first": 0.006999408829349784
+        },
+        "directional_contrast_change": 0.08508947994420024,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "B": {
+        "posterior_tv": 0.007628832955862759,
+        "argmaxes": [
+          "joy",
+          "joy"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "anger",
+          "p_first_category_first": 0.7896055092139853,
+          "p_first_category_second": 0.7819766762581226,
+          "p_second_category_first": 0.02321173426016823,
+          "p_second_category_second": 0.023940749019785993,
+          "first_category_second_minus_first": -0.007628832955862697,
+          "second_category_second_minus_first": 0.0007290147596177646
+        },
+        "directional_contrast_change": 0.008357847715480538,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      }
+    },
+    "B_minus_A_TV": -0.07402462634771212
+  },
+  {
+    "first": "S02_p01_d1",
+    "second": "S02_p01_d3",
+    "speaker": "S02",
+    "phrase_id": "p01",
+    "intended_categories": [
+      "joy",
+      "sadness"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "joy",
+          "joy"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "sadness",
+          "p_first_category_first": 0.8180374602463871,
+          "p_first_category_second": 0.8180374602463871,
+          "p_second_category_first": 0.027034807126163053,
+          "p_second_category_second": 0.027034807126163053,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.3517024242575783,
+        "argmaxes": [
+          "joy",
+          "neutral"
+        ],
+        "argmax_changed": true,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "sadness",
+          "p_first_category_first": 0.557229583373774,
+          "p_first_category_second": 0.21498959576427643,
+          "p_second_category_first": 0.09024326774159572,
+          "p_second_category_second": 0.22491469226820124,
+          "first_category_second_minus_first": -0.3422399876094976,
+          "second_category_second_minus_first": 0.13467142452660552
+        },
+        "directional_contrast_change": 0.4769114121361031,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "A": {
+        "posterior_tv": 0.0797208101713085,
+        "argmaxes": [
+          "joy",
+          "joy"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "sadness",
+          "p_first_category_first": 0.8595579084129328,
+          "p_first_category_second": 0.7798370982416242,
+          "p_second_category_first": 0.02109270597988238,
+          "p_second_category_second": 0.03850480859854264,
+          "first_category_second_minus_first": -0.07972081017130861,
+          "second_category_second_minus_first": 0.01741210261866026
+        },
+        "directional_contrast_change": 0.09713291278996894,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "B": {
+        "posterior_tv": 0.0032583671531099586,
+        "argmaxes": [
+          "joy",
+          "joy"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "sadness",
+          "p_first_category_first": 0.7896055092139853,
+          "p_first_category_second": 0.7864147028261048,
+          "p_second_category_first": 0.03166913981696935,
+          "p_second_category_second": 0.03260867971376005,
+          "first_category_second_minus_first": -0.003190806387880496,
+          "second_category_second_minus_first": 0.0009395398967907004
+        },
+        "directional_contrast_change": 0.004130346284671127,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      }
+    },
+    "B_minus_A_TV": -0.07646244301819854
+  },
+  {
+    "first": "S02_p01_d2",
+    "second": "S02_p01_d3",
+    "speaker": "S02",
+    "phrase_id": "p01",
+    "intended_categories": [
+      "anger",
+      "sadness"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "joy",
+          "joy"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "sadness",
+          "p_first_category_first": 0.01826220966132017,
+          "p_first_category_second": 0.01826220966132017,
+          "p_second_category_first": 0.027034807126163053,
+          "p_second_category_second": 0.027034807126163053,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.30358950474702256,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "sadness",
+          "p_first_category_first": 0.06944448546790372,
+          "p_first_category_second": 0.025977827312726555,
+          "p_second_category_first": 0.02999479431073935,
+          "p_second_category_second": 0.22491469226820124,
+          "first_category_second_minus_first": -0.04346665815517716,
+          "second_category_second_minus_first": 0.1949198979574619
+        },
+        "directional_contrast_change": 0.23838655611263906,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "A": {
+        "posterior_tv": 0.033578307668908604,
+        "argmaxes": [
+          "joy",
+          "joy"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "sadness",
+          "p_first_category_first": 0.017398371963654867,
+          "p_first_category_second": 0.012106977600478344,
+          "p_second_category_first": 0.017989621767777093,
+          "p_second_category_second": 0.03850480859854264,
+          "first_category_second_minus_first": -0.005291394363176523,
+          "second_category_second_minus_first": 0.020515186830765548
+        },
+        "directional_contrast_change": 0.02580658119394207,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "B": {
+        "posterior_tv": 0.004514823188802636,
+        "argmaxes": [
+          "joy",
+          "joy"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "sadness",
+          "p_first_category_first": 0.023940749019785993,
+          "p_first_category_second": 0.023144173494938816,
+          "p_second_category_first": 0.0336701451423281,
+          "p_second_category_second": 0.03260867971376005,
+          "first_category_second_minus_first": -0.0007965755248471769,
+          "second_category_second_minus_first": -0.0010614654285680467
+        },
+        "directional_contrast_change": -0.00026488990372086976,
+        "direction": "opposite",
+        "both_targets_increase_for_their_own_delivery": false
+      }
+    },
+    "B_minus_A_TV": -0.02906348448010597
+  },
+  {
+    "first": "S02_p02_d1",
+    "second": "S02_p02_d2",
+    "speaker": "S02",
+    "phrase_id": "p02",
+    "intended_categories": [
+      null,
+      "anger"
+    ],
+    "stable_control": false,
+    "direction_evaluable": false,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "audio": {
+        "posterior_tv": 0.1851903087478185,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "A": {
+        "posterior_tv": 0.031089968973456963,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "B": {
+        "posterior_tv": 0.0234192916004905,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      }
+    },
+    "B_minus_A_TV": -0.007670677372966464
+  },
+  {
+    "first": "S02_p02_d1",
+    "second": "S02_p02_d3",
+    "speaker": "S02",
+    "phrase_id": "p02",
+    "intended_categories": [
+      null,
+      "fear"
+    ],
+    "stable_control": false,
+    "direction_evaluable": false,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "audio": {
+        "posterior_tv": 0.1252757945498921,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "A": {
+        "posterior_tv": 0.020415009985638142,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "B": {
+        "posterior_tv": 0.02534574372966979,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      }
+    },
+    "B_minus_A_TV": 0.0049307337440316484
+  },
+  {
+    "first": "S02_p02_d2",
+    "second": "S02_p02_d3",
+    "speaker": "S02",
+    "phrase_id": "p02",
+    "intended_categories": [
+      "anger",
+      "fear"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "fear",
+          "p_first_category_first": 0.04300647783810957,
+          "p_first_category_second": 0.04300647783810957,
+          "p_second_category_first": 0.050578820037308576,
+          "p_second_category_second": 0.050578820037308576,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.10853085035843348,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "fear",
+          "p_first_category_first": 0.1049318161258239,
+          "p_first_category_second": 0.0818518421382323,
+          "p_second_category_first": 0.0793296247258068,
+          "p_second_category_second": 0.0715203054435088,
+          "first_category_second_minus_first": -0.02307997398759161,
+          "second_category_second_minus_first": -0.0078093192822979995
+        },
+        "directional_contrast_change": 0.01527065470529361,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "A": {
+        "posterior_tv": 0.01523557907041471,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "fear",
+          "p_first_category_first": 0.03600565892503871,
+          "p_first_category_second": 0.03319526332200853,
+          "p_second_category_first": 0.03744006009750553,
+          "p_second_category_second": 0.03644226143040912,
+          "first_category_second_minus_first": -0.0028103956030301816,
+          "second_category_second_minus_first": -0.000997798667096407
+        },
+        "directional_contrast_change": 0.0018125969359337746,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "B": {
+        "posterior_tv": 0.008059659254284823,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "fear",
+          "p_first_category_first": 0.04985750530103511,
+          "p_first_category_second": 0.052242567462845474,
+          "p_second_category_first": 0.044354131350789104,
+          "p_second_category_second": 0.04304140064190056,
+          "first_category_second_minus_first": 0.002385062161810364,
+          "second_category_second_minus_first": -0.0013127307088885432
+        },
+        "directional_contrast_change": -0.003697792870698907,
+        "direction": "opposite",
+        "both_targets_increase_for_their_own_delivery": false
+      }
+    },
+    "B_minus_A_TV": -0.007175919816129887
+  },
+  {
+    "first": "S02_p03_d1",
+    "second": "S02_p03_d2",
+    "speaker": "S02",
+    "phrase_id": "p03",
+    "intended_categories": [
+      "neutral",
+      "sadness"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "sadness",
+          "p_first_category_first": 0.7672807806513637,
+          "p_first_category_second": 0.7672807806513637,
+          "p_second_category_first": 0.10294106948766225,
+          "p_second_category_second": 0.10294106948766225,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.08716690065259708,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "sadness",
+          "p_first_category_first": 0.5734036737765073,
+          "p_first_category_second": 0.5891493592907469,
+          "p_second_category_first": 0.1514078821048504,
+          "p_second_category_second": 0.10377817920788845,
+          "first_category_second_minus_first": 0.015745685514239605,
+          "second_category_second_minus_first": -0.047629702896961945
+        },
+        "directional_contrast_change": -0.06337538841120155,
+        "direction": "opposite",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "A": {
+        "posterior_tv": 0.017819171457297826,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "sadness",
+          "p_first_category_first": 0.8376106052719112,
+          "p_first_category_second": 0.8480953790698443,
+          "p_second_category_first": 0.085570705434117,
+          "p_second_category_second": 0.07444553259345627,
+          "first_category_second_minus_first": 0.010484773797933111,
+          "second_category_second_minus_first": -0.011125172840660738
+        },
+        "directional_contrast_change": -0.021609946638593946,
+        "direction": "opposite",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "B": {
+        "posterior_tv": 0.010935267811825775,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "sadness",
+          "p_first_category_first": 0.7884666016336028,
+          "p_first_category_second": 0.777531333821777,
+          "p_second_category_first": 0.09337392584715933,
+          "p_second_category_second": 0.09847276421608495,
+          "first_category_second_minus_first": -0.010935267811825855,
+          "second_category_second_minus_first": 0.005098838368925621
+        },
+        "directional_contrast_change": 0.016034106180751517,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      }
+    },
+    "B_minus_A_TV": -0.006883903645472051
+  },
+  {
+    "first": "S02_p03_d1",
+    "second": "S02_p03_d3",
+    "speaker": "S02",
+    "phrase_id": "p03",
+    "intended_categories": [
+      "neutral",
+      "anger"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "anger",
+          "p_first_category_first": 0.7672807806513637,
+          "p_first_category_second": 0.7672807806513637,
+          "p_second_category_first": 0.015961459558964924,
+          "p_second_category_second": 0.015961459558964924,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.0974229859029528,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "anger",
+          "p_first_category_first": 0.5734036737765073,
+          "p_first_category_second": 0.48472435850159906,
+          "p_second_category_first": 0.049760853079345684,
+          "p_second_category_second": 0.11039482532087533,
+          "first_category_second_minus_first": -0.08867931527490819,
+          "second_category_second_minus_first": 0.060633972241529645
+        },
+        "directional_contrast_change": 0.1493132875164379,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "A": {
+        "posterior_tv": 0.016954334286564763,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "anger",
+          "p_first_category_first": 0.8376106052719112,
+          "p_first_category_second": 0.8206562709853464,
+          "p_second_category_first": 0.010789284034533223,
+          "p_second_category_second": 0.015175899310927382,
+          "first_category_second_minus_first": -0.016954334286564787,
+          "second_category_second_minus_first": 0.004386615276394159
+        },
+        "directional_contrast_change": 0.021340949562958844,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "B": {
+        "posterior_tv": 0.006952673276463366,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "anger",
+          "p_first_category_first": 0.7884666016336028,
+          "p_first_category_second": 0.7915079651956641,
+          "p_second_category_first": 0.01998870160967379,
+          "p_second_category_second": 0.02018715145918798,
+          "first_category_second_minus_first": 0.0030413635620613055,
+          "second_category_second_minus_first": 0.000198449849514188
+        },
+        "directional_contrast_change": -0.0028429137125471904,
+        "direction": "opposite",
+        "both_targets_increase_for_their_own_delivery": false
+      }
+    },
+    "B_minus_A_TV": -0.010001661010101397
+  },
+  {
+    "first": "S02_p03_d2",
+    "second": "S02_p03_d3",
+    "speaker": "S02",
+    "phrase_id": "p03",
+    "intended_categories": [
+      "sadness",
+      "anger"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "sadness",
+          "second_category": "anger",
+          "p_first_category_first": 0.10294106948766225,
+          "p_first_category_second": 0.10294106948766225,
+          "p_second_category_first": 0.015961459558964924,
+          "p_second_category_second": 0.015961459558964924,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.15156523258546423,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "sadness",
+          "second_category": "anger",
+          "p_first_category_first": 0.10377817920788845,
+          "p_first_category_second": 0.14999885493476145,
+          "p_second_category_first": 0.03253451051703062,
+          "p_second_category_second": 0.11039482532087533,
+          "first_category_second_minus_first": 0.046220675726872995,
+          "second_category_second_minus_first": 0.0778603148038447
+        },
+        "directional_contrast_change": 0.031639639076971704,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "A": {
+        "posterior_tv": 0.030500883179703946,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "sadness",
+          "second_category": "anger",
+          "p_first_category_first": 0.07444553259345627,
+          "p_first_category_second": 0.08897510801736024,
+          "p_second_category_first": 0.009221949227044269,
+          "p_second_category_second": 0.015175899310927382,
+          "first_category_second_minus_first": 0.01452957542390397,
+          "second_category_second_minus_first": 0.0059539500838831135
+        },
+        "directional_contrast_change": -0.008575625340020848,
+        "direction": "opposite",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "B": {
+        "posterior_tv": 0.0145376900298111,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "sadness",
+          "second_category": "anger",
+          "p_first_category_first": 0.09847276421608495,
+          "p_first_category_second": 0.08642125257069593,
+          "p_second_category_first": 0.021135755835370994,
+          "p_second_category_second": 0.02018715145918798,
+          "first_category_second_minus_first": -0.01205151164538902,
+          "second_category_second_minus_first": -0.000948604376183014
+        },
+        "directional_contrast_change": 0.011102907269206,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": false
+      }
+    },
+    "B_minus_A_TV": -0.015963193149892845
+  },
+  {
+    "first": "S02_p04_d1",
+    "second": "S02_p04_d2",
+    "speaker": "S02",
+    "phrase_id": "p04",
+    "intended_categories": [
+      "surprise",
+      "anger"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "anger",
+          "p_first_category_first": 0.909501442338897,
+          "p_first_category_second": 0.909501442338897,
+          "p_second_category_first": 0.016875579422291353,
+          "p_second_category_second": 0.016875579422291353,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.12451310161639054,
+        "argmaxes": [
+          "surprise",
+          "neutral"
+        ],
+        "argmax_changed": true,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "anger",
+          "p_first_category_first": 0.4487263861254585,
+          "p_first_category_second": 0.33645719270773655,
+          "p_second_category_first": 0.05173724126931525,
+          "p_second_category_second": 0.06784540091805723,
+          "first_category_second_minus_first": -0.11226919341772196,
+          "second_category_second_minus_first": 0.01610815964874198
+        },
+        "directional_contrast_change": 0.12837735306646397,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "A": {
+        "posterior_tv": 0.015204680596572134,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "anger",
+          "p_first_category_first": 0.9244486181389834,
+          "p_first_category_second": 0.9092439375424114,
+          "p_second_category_first": 0.01196787758289207,
+          "p_second_category_second": 0.014514421699411934,
+          "first_category_second_minus_first": -0.015204680596571984,
+          "second_category_second_minus_first": 0.0025465441165198645
+        },
+        "directional_contrast_change": 0.017751224713091873,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "B": {
+        "posterior_tv": 7.39791285634013e-05,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "anger",
+          "p_first_category_first": 0.882186961292639,
+          "p_first_category_second": 0.882210641589646,
+          "p_second_category_first": 0.022149024235524707,
+          "p_second_category_second": 0.02213446583822234,
+          "first_category_second_minus_first": 2.3680297007055984e-05,
+          "second_category_second_minus_first": -1.4558397302365939e-05
+        },
+        "directional_contrast_change": -3.8238694309411514e-05,
+        "direction": "opposite",
+        "both_targets_increase_for_their_own_delivery": false
+      }
+    },
+    "B_minus_A_TV": -0.015130701468008732
+  },
+  {
+    "first": "S02_p04_d1",
+    "second": "S02_p04_d3",
+    "speaker": "S02",
+    "phrase_id": "p04",
+    "intended_categories": [
+      "surprise",
+      "fear"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "fear",
+          "p_first_category_first": 0.909501442338897,
+          "p_first_category_second": 0.909501442338897,
+          "p_second_category_first": 0.011367145922470265,
+          "p_second_category_second": 0.011367145922470265,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.16974321051544444,
+        "argmaxes": [
+          "surprise",
+          "neutral"
+        ],
+        "argmax_changed": true,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "fear",
+          "p_first_category_first": 0.4487263861254585,
+          "p_first_category_second": 0.3050916892186999,
+          "p_second_category_first": 0.011285455413458895,
+          "p_second_category_second": 0.034069297244125385,
+          "first_category_second_minus_first": -0.14363469690675862,
+          "second_category_second_minus_first": 0.02278384183066649
+        },
+        "directional_contrast_change": 0.16641853873742513,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "A": {
+        "posterior_tv": 0.020638399557573874,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "fear",
+          "p_first_category_first": 0.9244486181389834,
+          "p_first_category_second": 0.905368869783551,
+          "p_second_category_first": 0.004763524312641161,
+          "p_second_category_second": 0.008156464689146006,
+          "first_category_second_minus_first": -0.019079748355432358,
+          "second_category_second_minus_first": 0.003392940376504845
+        },
+        "directional_contrast_change": 0.022472688731937196,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "B": {
+        "posterior_tv": 0.0003363439805406333,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "fear",
+          "p_first_category_first": 0.882186961292639,
+          "p_first_category_second": 0.8824952233629216,
+          "p_second_category_first": 0.01493065115540132,
+          "p_second_category_second": 0.014895273898109015,
+          "first_category_second_minus_first": 0.00030826207028267216,
+          "second_category_second_minus_first": -3.537725729230515e-05
+        },
+        "directional_contrast_change": -0.00034363932757497384,
+        "direction": "opposite",
+        "both_targets_increase_for_their_own_delivery": false
+      }
+    },
+    "B_minus_A_TV": -0.02030205557703324
+  },
+  {
+    "first": "S02_p04_d2",
+    "second": "S02_p04_d3",
+    "speaker": "S02",
+    "phrase_id": "p04",
+    "intended_categories": [
+      "anger",
+      "fear"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "fear",
+          "p_first_category_first": 0.016875579422291353,
+          "p_first_category_second": 0.016875579422291353,
+          "p_second_category_first": 0.011367145922470265,
+          "p_second_category_second": 0.011367145922470265,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.08791468166757771,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "fear",
+          "p_first_category_first": 0.06784540091805723,
+          "p_first_category_second": 0.025628727660629336,
+          "p_second_category_first": 0.016162932761099126,
+          "p_second_category_second": 0.034069297244125385,
+          "first_category_second_minus_first": -0.042216673257427895,
+          "second_category_second_minus_first": 0.01790636448302626
+        },
+        "directional_contrast_change": 0.06012303774045415,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "A": {
+        "posterior_tv": 0.008010320806237436,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "fear",
+          "p_first_category_first": 0.014514421699411934,
+          "p_first_category_second": 0.010409226380750654,
+          "p_second_category_first": 0.005971164631058832,
+          "p_second_category_second": 0.008156464689146006,
+          "first_category_second_minus_first": -0.00410519531866128,
+          "second_category_second_minus_first": 0.0021853000580871742
+        },
+        "directional_contrast_change": 0.0062904953767484555,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "B": {
+        "posterior_tv": 0.00036036367308577965,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "fear",
+          "p_first_category_first": 0.02213446583822234,
+          "p_first_category_second": 0.022030674541224548,
+          "p_second_category_first": 0.014928512167017634,
+          "p_second_category_second": 0.014895273898109015,
+          "first_category_second_minus_first": -0.00010379129699779333,
+          "second_category_second_minus_first": -3.3238268908619e-05
+        },
+        "directional_contrast_change": 7.055302808917432e-05,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": false
+      }
+    },
+    "B_minus_A_TV": -0.007649957133151656
+  },
+  {
+    "first": "S02_p05_d1",
+    "second": "S02_p05_d2",
+    "speaker": "S02",
+    "phrase_id": "p05",
+    "intended_categories": [
+      "joy",
+      "sadness"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "sadness",
+          "p_first_category_first": 0.027380230526682234,
+          "p_first_category_second": 0.027380230526682234,
+          "p_second_category_first": 0.028413245863907487,
+          "p_second_category_second": 0.028413245863907487,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.14743317131684613,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "sadness",
+          "p_first_category_first": 0.15591972294359152,
+          "p_first_category_second": 0.058157007516169035,
+          "p_second_category_first": 0.08191657754909988,
+          "p_second_category_second": 0.1276275505618481,
+          "first_category_second_minus_first": -0.09776271542742249,
+          "second_category_second_minus_first": 0.04571097301274822
+        },
+        "directional_contrast_change": 0.14347368844017072,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "A": {
+        "posterior_tv": 0.01346095952111678,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "sadness",
+          "p_first_category_first": 0.026863444974425936,
+          "p_first_category_second": 0.017925723563929432,
+          "p_second_category_first": 0.021810698292212317,
+          "p_second_category_second": 0.024869936924990708,
+          "first_category_second_minus_first": -0.008937721410496504,
+          "second_category_second_minus_first": 0.003059238632778391
+        },
+        "directional_contrast_change": 0.011996960043274895,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "B": {
+        "posterior_tv": 0.011046540630161422,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "sadness",
+          "p_first_category_first": 0.02403438682895093,
+          "p_first_category_second": 0.02315611465457715,
+          "p_second_category_first": 0.029404510879768152,
+          "p_second_category_second": 0.027154748430758914,
+          "first_category_second_minus_first": -0.0008782721743737787,
+          "second_category_second_minus_first": -0.0022497624490092384
+        },
+        "directional_contrast_change": -0.0013714902746354597,
+        "direction": "opposite",
+        "both_targets_increase_for_their_own_delivery": false
+      }
+    },
+    "B_minus_A_TV": -0.002414418890955358
+  },
+  {
+    "first": "S02_p05_d1",
+    "second": "S02_p05_d3",
+    "speaker": "S02",
+    "phrase_id": "p05",
+    "intended_categories": [
+      "joy",
+      "anger"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "anger",
+          "p_first_category_first": 0.027380230526682234,
+          "p_first_category_second": 0.027380230526682234,
+          "p_second_category_first": 0.031015049980546106,
+          "p_second_category_second": 0.031015049980546106,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.1927151758840035,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "anger",
+          "p_first_category_first": 0.15591972294359152,
+          "p_first_category_second": 0.09620061326704488,
+          "p_second_category_first": 0.05387018730931542,
+          "p_second_category_second": 0.08271046686576167,
+          "first_category_second_minus_first": -0.059719109676546644,
+          "second_category_second_minus_first": 0.028840279556446247
+        },
+        "directional_contrast_change": 0.08855938923299289,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "A": {
+        "posterior_tv": 0.020217697346569072,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "anger",
+          "p_first_category_first": 0.026863444974425936,
+          "p_first_category_second": 0.023373148310753187,
+          "p_second_category_first": 0.020147026942545075,
+          "p_second_category_second": 0.024669193908015186,
+          "first_category_second_minus_first": -0.003490296663672749,
+          "second_category_second_minus_first": 0.004522166965470111
+        },
+        "directional_contrast_change": 0.00801246362914286,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "B": {
+        "posterior_tv": 0.0074232880267875384,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "joy",
+          "second_category": "anger",
+          "p_first_category_first": 0.02403438682895093,
+          "p_first_category_second": 0.02339952865371442,
+          "p_second_category_first": 0.04291066159347377,
+          "p_second_category_second": 0.03690939729454394,
+          "first_category_second_minus_first": -0.0006348581752365114,
+          "second_category_second_minus_first": -0.0060012642989298315
+        },
+        "directional_contrast_change": -0.00536640612369332,
+        "direction": "opposite",
+        "both_targets_increase_for_their_own_delivery": false
+      }
+    },
+    "B_minus_A_TV": -0.012794409319781534
+  },
+  {
+    "first": "S02_p05_d2",
+    "second": "S02_p05_d3",
+    "speaker": "S02",
+    "phrase_id": "p05",
+    "intended_categories": [
+      "sadness",
+      "anger"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "sadness",
+          "second_category": "anger",
+          "p_first_category_first": 0.028413245863907487,
+          "p_first_category_second": 0.028413245863907487,
+          "p_second_category_first": 0.031015049980546106,
+          "p_second_category_second": 0.031015049980546106,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.15555936114653005,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "sadness",
+          "second_category": "anger",
+          "p_first_category_first": 0.1276275505618481,
+          "p_first_category_second": 0.15223136831068754,
+          "p_second_category_first": 0.04736731835095671,
+          "p_second_category_second": 0.08271046686576167,
+          "first_category_second_minus_first": 0.024603817748839435,
+          "second_category_second_minus_first": 0.03534314851480496
+        },
+        "directional_contrast_change": 0.010739330765965532,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "A": {
+        "posterior_tv": 0.022175487697787034,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "sadness",
+          "second_category": "anger",
+          "p_first_category_first": 0.024869936924990708,
+          "p_first_category_second": 0.028687350735822875,
+          "p_second_category_first": 0.018539795950373594,
+          "p_second_category_second": 0.024669193908015186,
+          "first_category_second_minus_first": 0.0038174138108321674,
+          "second_category_second_minus_first": 0.006129397957641593
+        },
+        "directional_contrast_change": 0.0023119841468094253,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "B": {
+        "posterior_tv": 0.00476956094347308,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "sadness",
+          "second_category": "anger",
+          "p_first_category_first": 0.027154748430758914,
+          "p_first_category_second": 0.029579167094435217,
+          "p_second_category_first": 0.037493091094446124,
+          "p_second_category_second": 0.03690939729454394,
+          "first_category_second_minus_first": 0.0024244186636763025,
+          "second_category_second_minus_first": -0.0005836937999021824
+        },
+        "directional_contrast_change": -0.003008112463578485,
+        "direction": "opposite",
+        "both_targets_increase_for_their_own_delivery": false
+      }
+    },
+    "B_minus_A_TV": -0.017405926754313954
+  },
+  {
+    "first": "S02_p06_d1",
+    "second": "S02_p06_d2",
+    "speaker": "S02",
+    "phrase_id": "p06",
+    "intended_categories": [
+      "surprise",
+      "anger"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "anger",
+          "p_first_category_first": 0.5938428261866278,
+          "p_first_category_second": 0.5938428261866278,
+          "p_second_category_first": 0.08420155088631272,
+          "p_second_category_second": 0.08420155088631272,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.21354394329272944,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "anger",
+          "p_first_category_first": 0.12355152712957589,
+          "p_first_category_second": 0.08967342247384877,
+          "p_second_category_first": 0.18914968635489185,
+          "p_second_category_second": 0.18057624254425683,
+          "first_category_second_minus_first": -0.03387810465572712,
+          "second_category_second_minus_first": -0.008573443810635017
+        },
+        "directional_contrast_change": 0.0253046608450921,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "A": {
+        "posterior_tv": 0.07060049363395003,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "anger",
+          "p_first_category_first": 0.5646109575543391,
+          "p_first_category_second": 0.5302157247952077,
+          "p_second_category_first": 0.1170566456524643,
+          "p_second_category_second": 0.12181840300907794,
+          "first_category_second_minus_first": -0.03439523275913137,
+          "second_category_second_minus_first": 0.004761757356613633
+        },
+        "directional_contrast_change": 0.03915699011574497,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "B": {
+        "posterior_tv": 0.001643953553297682,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "anger",
+          "p_first_category_first": 0.5452601295738047,
+          "p_first_category_second": 0.5467904956971423,
+          "p_second_category_first": 0.09636548961409928,
+          "p_second_category_second": 0.09610753371488726,
+          "first_category_second_minus_first": 0.0015303661233376786,
+          "second_category_second_minus_first": -0.00025795589921202844
+        },
+        "directional_contrast_change": -0.0017883220225497487,
+        "direction": "opposite",
+        "both_targets_increase_for_their_own_delivery": false
+      }
+    },
+    "B_minus_A_TV": -0.06895654008065236
+  },
+  {
+    "first": "S02_p06_d1",
+    "second": "S02_p06_d3",
+    "speaker": "S02",
+    "phrase_id": "p06",
+    "intended_categories": [
+      "surprise",
+      "sadness"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "sadness",
+          "p_first_category_first": 0.5938428261866278,
+          "p_first_category_second": 0.5938428261866278,
+          "p_second_category_first": 0.08801576118115258,
+          "p_second_category_second": 0.08801576118115258,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.2310201897242895,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "sadness",
+          "p_first_category_first": 0.12355152712957589,
+          "p_first_category_second": 0.07930272749254888,
+          "p_second_category_first": 0.09997875166281274,
+          "p_second_category_second": 0.2563002187939272,
+          "first_category_second_minus_first": -0.044248799637027006,
+          "second_category_second_minus_first": 0.1563214671311145
+        },
+        "directional_contrast_change": 0.2005702667681415,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "A": {
+        "posterior_tv": 0.08021672528982729,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "sadness",
+          "p_first_category_first": 0.5646109575543391,
+          "p_first_category_second": 0.5338053207223897,
+          "p_second_category_first": 0.09587176351930793,
+          "p_second_category_second": 0.1523061086177964,
+          "first_category_second_minus_first": -0.030805636831949368,
+          "second_category_second_minus_first": 0.056434345098488464
+        },
+        "directional_contrast_change": 0.0872399819304378,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "B": {
+        "posterior_tv": 0.0019987104650265493,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "surprise",
+          "second_category": "sadness",
+          "p_first_category_first": 0.5452601295738047,
+          "p_first_category_second": 0.5463278626688335,
+          "p_second_category_first": 0.0946811285568447,
+          "p_second_category_second": 0.09545706596638845,
+          "first_category_second_minus_first": 0.0010677330950288333,
+          "second_category_second_minus_first": 0.0007759374095437505
+        },
+        "directional_contrast_change": -0.0002917956854850412,
+        "direction": "opposite",
+        "both_targets_increase_for_their_own_delivery": false
+      }
+    },
+    "B_minus_A_TV": -0.07821801482480074
+  },
+  {
+    "first": "S02_p06_d2",
+    "second": "S02_p06_d3",
+    "speaker": "S02",
+    "phrase_id": "p06",
+    "intended_categories": [
+      "anger",
+      "sadness"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "sadness",
+          "p_first_category_first": 0.08420155088631272,
+          "p_first_category_second": 0.08420155088631272,
+          "p_second_category_first": 0.08801576118115258,
+          "p_second_category_second": 0.08801576118115258,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.16602857934498724,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "sadness",
+          "p_first_category_first": 0.18057624254425683,
+          "p_first_category_second": 0.060259096255429107,
+          "p_second_category_first": 0.23897724095242745,
+          "p_second_category_second": 0.2563002187939272,
+          "first_category_second_minus_first": -0.12031714628882773,
+          "second_category_second_minus_first": 0.017322977841499776
+        },
+        "directional_contrast_change": 0.1376401241303275,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "A": {
+        "posterior_tv": 0.040858022980980235,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "sadness",
+          "p_first_category_first": 0.12181840300907794,
+          "p_first_category_second": 0.08511636406659853,
+          "p_second_category_first": 0.14073186535222948,
+          "p_second_category_second": 0.1523061086177964,
+          "first_category_second_minus_first": -0.036702038942479406,
+          "second_category_second_minus_first": 0.011574243265566914
+        },
+        "directional_contrast_change": 0.04827628220804632,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      },
+      "B": {
+        "posterior_tv": 0.0017346917769591567,
+        "argmaxes": [
+          "surprise",
+          "surprise"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "sadness",
+          "p_first_category_first": 0.09610753371488726,
+          "p_first_category_second": 0.09573577967649648,
+          "p_second_category_first": 0.09411512807552788,
+          "p_second_category_second": 0.09545706596638845,
+          "first_category_second_minus_first": -0.0003717540383907786,
+          "second_category_second_minus_first": 0.0013419378908605673
+        },
+        "directional_contrast_change": 0.0017136919292513458,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      }
+    },
+    "B_minus_A_TV": -0.039123331204021075
+  },
+  {
+    "first": "S02_p07_d1",
+    "second": "S02_p07_d2",
+    "speaker": "S02",
+    "phrase_id": "p07",
+    "intended_categories": [
+      null,
+      "sadness"
+    ],
+    "stable_control": false,
+    "direction_evaluable": false,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "audio": {
+        "posterior_tv": 0.0763760179415284,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "A": {
+        "posterior_tv": 0.00943010681039438,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "B": {
+        "posterior_tv": 0.009479154619738705,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      }
+    },
+    "B_minus_A_TV": 4.904780934432418e-05
+  },
+  {
+    "first": "S02_p07_d1",
+    "second": "S02_p07_d3",
+    "speaker": "S02",
+    "phrase_id": "p07",
+    "intended_categories": [
+      null,
+      "anger"
+    ],
+    "stable_control": false,
+    "direction_evaluable": false,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "audio": {
+        "posterior_tv": 0.07628765767547403,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "A": {
+        "posterior_tv": 0.003724702063439239,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "B": {
+        "posterior_tv": 0.0036635811955443567,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      }
+    },
+    "B_minus_A_TV": -6.112086789488227e-05
+  },
+  {
+    "first": "S02_p07_d2",
+    "second": "S02_p07_d3",
+    "speaker": "S02",
+    "phrase_id": "p07",
+    "intended_categories": [
+      "sadness",
+      "anger"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "sadness",
+          "second_category": "anger",
+          "p_first_category_first": 0.023589790592746785,
+          "p_first_category_second": 0.023589790592746785,
+          "p_second_category_first": 0.009842511332745897,
+          "p_second_category_second": 0.009842511332745897,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.08610813402361246,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "sadness",
+          "second_category": "anger",
+          "p_first_category_first": 0.0815018074644565,
+          "p_first_category_second": 0.022149327840562075,
+          "p_second_category_first": 0.028910419194666092,
+          "p_second_category_second": 0.026145515721733,
+          "first_category_second_minus_first": -0.05935247962389442,
+          "second_category_second_minus_first": -0.002764903472933091
+        },
+        "directional_contrast_change": 0.05658757615096133,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "A": {
+        "posterior_tv": 0.01036764171000338,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "sadness",
+          "second_category": "anger",
+          "p_first_category_first": 0.018505507946400206,
+          "p_first_category_second": 0.01115329184396363,
+          "p_second_category_first": 0.005778355655296218,
+          "p_second_category_second": 0.005465090963173418,
+          "first_category_second_minus_first": -0.007352216102436575,
+          "second_category_second_minus_first": -0.0003132646921227998
+        },
+        "directional_contrast_change": 0.007038951410313774,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "B": {
+        "posterior_tv": 0.007753983429876689,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "sadness",
+          "second_category": "anger",
+          "p_first_category_first": 0.024017397119204604,
+          "p_first_category_second": 0.018575621701452022,
+          "p_second_category_first": 0.012895603587244644,
+          "p_second_category_second": 0.014118609411700666,
+          "first_category_second_minus_first": -0.005441775417752582,
+          "second_category_second_minus_first": 0.0012230058244560218
+        },
+        "directional_contrast_change": 0.006664781242208604,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": true
+      }
+    },
+    "B_minus_A_TV": -0.0026136582801266905
+  },
+  {
+    "first": "S02_p08_d1",
+    "second": "S02_p08_d2",
+    "speaker": "S02",
+    "phrase_id": "p08",
+    "intended_categories": [
+      null,
+      "anger"
+    ],
+    "stable_control": false,
+    "direction_evaluable": false,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "audio": {
+        "posterior_tv": 0.16501749261219031,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "A": {
+        "posterior_tv": 0.020652185867482485,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "B": {
+        "posterior_tv": 0.012044736193675238,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      }
+    },
+    "B_minus_A_TV": -0.008607449673807248
+  },
+  {
+    "first": "S02_p08_d1",
+    "second": "S02_p08_d3",
+    "speaker": "S02",
+    "phrase_id": "p08",
+    "intended_categories": [
+      null,
+      "sadness"
+    ],
+    "stable_control": false,
+    "direction_evaluable": false,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "audio": {
+        "posterior_tv": 0.06413032707388445,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "A": {
+        "posterior_tv": 0.011396654122495235,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "B": {
+        "posterior_tv": 0.005302288571874842,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": null,
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      }
+    },
+    "B_minus_A_TV": -0.006094365550620393
+  },
+  {
+    "first": "S02_p08_d2",
+    "second": "S02_p08_d3",
+    "speaker": "S02",
+    "phrase_id": "p08",
+    "intended_categories": [
+      "anger",
+      "sadness"
+    ],
+    "stable_control": false,
+    "direction_evaluable": true,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "sadness",
+          "p_first_category_first": 0.028531116677112514,
+          "p_first_category_second": 0.028531116677112514,
+          "p_second_category_first": 0.036911913154969424,
+          "p_second_category_second": 0.036911913154969424,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": 0.0,
+        "direction": "zero",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "audio": {
+        "posterior_tv": 0.14033004021176493,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "sadness",
+          "p_first_category_first": 0.006897278407879283,
+          "p_first_category_second": 0.027535714817056304,
+          "p_second_category_first": 0.07689891023832508,
+          "p_second_category_second": 0.03070072938252787,
+          "first_category_second_minus_first": 0.02063843640917702,
+          "second_category_second_minus_first": -0.046198180855797216
+        },
+        "directional_contrast_change": -0.06683661726497424,
+        "direction": "opposite",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "A": {
+        "posterior_tv": 0.010376949582204606,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "sadness",
+          "p_first_category_first": 0.00836392407422816,
+          "p_first_category_second": 0.014464231277217625,
+          "p_second_category_first": 0.02594947309637258,
+          "p_second_category_second": 0.018933799626716884,
+          "first_category_second_minus_first": 0.006100307202989465,
+          "second_category_second_minus_first": -0.007015673469655696
+        },
+        "directional_contrast_change": -0.013115980672645161,
+        "direction": "opposite",
+        "both_targets_increase_for_their_own_delivery": false
+      },
+      "B": {
+        "posterior_tv": 0.015342495700164934,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "anger",
+          "second_category": "sadness",
+          "p_first_category_first": 0.030487212888557172,
+          "p_first_category_second": 0.036128255275056684,
+          "p_second_category_first": 0.030546555695729193,
+          "p_second_category_second": 0.03653141353715528,
+          "first_category_second_minus_first": 0.005641042386499512,
+          "second_category_second_minus_first": 0.005984857841426085
+        },
+        "directional_contrast_change": 0.0003438154549265729,
+        "direction": "aligned",
+        "both_targets_increase_for_their_own_delivery": false
+      }
+    },
+    "B_minus_A_TV": 0.0049655461179603285
+  },
+  {
+    "first": "S02_p09_d1",
+    "second": "S02_p09_d2",
+    "speaker": "S02",
+    "phrase_id": "p09",
+    "intended_categories": [
+      "neutral",
+      "neutral"
+    ],
+    "stable_control": true,
+    "direction_evaluable": false,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.9223699115699496,
+          "p_first_category_second": 0.9223699115699496,
+          "p_second_category_first": 0.9223699115699496,
+          "p_second_category_second": 0.9223699115699496,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "audio": {
+        "posterior_tv": 0.07065107621764988,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.5689030692071612,
+          "p_first_category_second": 0.6171949384399911,
+          "p_second_category_first": 0.5689030692071612,
+          "p_second_category_second": 0.6171949384399911,
+          "first_category_second_minus_first": 0.04829186923282991,
+          "second_category_second_minus_first": 0.04829186923282991
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "A": {
+        "posterior_tv": 0.0036628758795288316,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.9487108639259069,
+          "p_first_category_second": 0.9505847599148454,
+          "p_second_category_first": 0.9487108639259069,
+          "p_second_category_second": 0.9505847599148454,
+          "first_category_second_minus_first": 0.001873895988938501,
+          "second_category_second_minus_first": 0.001873895988938501
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "B": {
+        "posterior_tv": 0.00224936065306237,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.9283366245178166,
+          "p_first_category_second": 0.9290624429708298,
+          "p_second_category_first": 0.9283366245178166,
+          "p_second_category_second": 0.9290624429708298,
+          "first_category_second_minus_first": 0.0007258184530132272,
+          "second_category_second_minus_first": 0.0007258184530132272
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      }
+    },
+    "B_minus_A_TV": -0.0014135152264664616
+  },
+  {
+    "first": "S02_p09_d1",
+    "second": "S02_p09_d3",
+    "speaker": "S02",
+    "phrase_id": "p09",
+    "intended_categories": [
+      "neutral",
+      "neutral"
+    ],
+    "stable_control": true,
+    "direction_evaluable": false,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.9223699115699496,
+          "p_first_category_second": 0.9223699115699496,
+          "p_second_category_first": 0.9223699115699496,
+          "p_second_category_second": 0.9223699115699496,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "audio": {
+        "posterior_tv": 0.1543574674108569,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.5689030692071612,
+          "p_first_category_second": 0.4381883014131879,
+          "p_second_category_first": 0.5689030692071612,
+          "p_second_category_second": 0.4381883014131879,
+          "first_category_second_minus_first": -0.13071476779397329,
+          "second_category_second_minus_first": -0.13071476779397329
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "A": {
+        "posterior_tv": 0.007987394326306949,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.9487108639259069,
+          "p_first_category_second": 0.9418527385284502,
+          "p_second_category_first": 0.9487108639259069,
+          "p_second_category_second": 0.9418527385284502,
+          "first_category_second_minus_first": -0.006858125397456671,
+          "second_category_second_minus_first": -0.006858125397456671
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "B": {
+        "posterior_tv": 0.005141300286353853,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.9283366245178166,
+          "p_first_category_second": 0.9334291422678707,
+          "p_second_category_first": 0.9283366245178166,
+          "p_second_category_second": 0.9334291422678707,
+          "first_category_second_minus_first": 0.0050925177500540375,
+          "second_category_second_minus_first": 0.0050925177500540375
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      }
+    },
+    "B_minus_A_TV": -0.002846094039953096
+  },
+  {
+    "first": "S02_p09_d2",
+    "second": "S02_p09_d3",
+    "speaker": "S02",
+    "phrase_id": "p09",
+    "intended_categories": [
+      "neutral",
+      "neutral"
+    ],
+    "stable_control": true,
+    "direction_evaluable": false,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.9223699115699496,
+          "p_first_category_second": 0.9223699115699496,
+          "p_second_category_first": 0.9223699115699496,
+          "p_second_category_second": 0.9223699115699496,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "audio": {
+        "posterior_tv": 0.22164522661540267,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.6171949384399911,
+          "p_first_category_second": 0.4381883014131879,
+          "p_second_category_first": 0.6171949384399911,
+          "p_second_category_second": 0.4381883014131879,
+          "first_category_second_minus_first": -0.1790066370268032,
+          "second_category_second_minus_first": -0.1790066370268032
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "A": {
+        "posterior_tv": 0.011330665825564013,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.9505847599148454,
+          "p_first_category_second": 0.9418527385284502,
+          "p_second_category_first": 0.9505847599148454,
+          "p_second_category_second": 0.9418527385284502,
+          "first_category_second_minus_first": -0.008732021386395172,
+          "second_category_second_minus_first": -0.008732021386395172
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "B": {
+        "posterior_tv": 0.004896445266182276,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.9290624429708298,
+          "p_first_category_second": 0.9334291422678707,
+          "p_second_category_first": 0.9290624429708298,
+          "p_second_category_second": 0.9334291422678707,
+          "first_category_second_minus_first": 0.00436669929704081,
+          "second_category_second_minus_first": 0.00436669929704081
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      }
+    },
+    "B_minus_A_TV": -0.006434220559381737
+  },
+  {
+    "first": "S02_p10_d1",
+    "second": "S02_p10_d2",
+    "speaker": "S02",
+    "phrase_id": "p10",
+    "intended_categories": [
+      "neutral",
+      "neutral"
+    ],
+    "stable_control": true,
+    "direction_evaluable": false,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.8762740566941728,
+          "p_first_category_second": 0.8762740566941728,
+          "p_second_category_first": 0.8762740566941728,
+          "p_second_category_second": 0.8762740566941728,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "audio": {
+        "posterior_tv": 0.29994031036790136,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.8396604502579761,
+          "p_first_category_second": 0.5418495666819726,
+          "p_second_category_first": 0.8396604502579761,
+          "p_second_category_second": 0.5418495666819726,
+          "first_category_second_minus_first": -0.2978108835760035,
+          "second_category_second_minus_first": -0.2978108835760035
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "A": {
+        "posterior_tv": 0.03905455278532538,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.9463954734470273,
+          "p_first_category_second": 0.9073409206617019,
+          "p_second_category_first": 0.9463954734470273,
+          "p_second_category_second": 0.9073409206617019,
+          "first_category_second_minus_first": -0.039054552785325436,
+          "second_category_second_minus_first": -0.039054552785325436
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "B": {
+        "posterior_tv": 0.012434285922492292,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.9092002211825538,
+          "p_first_category_second": 0.8974861622891661,
+          "p_second_category_first": 0.9092002211825538,
+          "p_second_category_second": 0.8974861622891661,
+          "first_category_second_minus_first": -0.011714058893387724,
+          "second_category_second_minus_first": -0.011714058893387724
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      }
+    },
+    "B_minus_A_TV": -0.026620266862833086
+  },
+  {
+    "first": "S02_p10_d1",
+    "second": "S02_p10_d3",
+    "speaker": "S02",
+    "phrase_id": "p10",
+    "intended_categories": [
+      "neutral",
+      "neutral"
+    ],
+    "stable_control": true,
+    "direction_evaluable": false,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.8762740566941728,
+          "p_first_category_second": 0.8762740566941728,
+          "p_second_category_first": 0.8762740566941728,
+          "p_second_category_second": 0.8762740566941728,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "audio": {
+        "posterior_tv": 0.14702609092286775,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.8396604502579761,
+          "p_first_category_second": 0.6926343593351082,
+          "p_second_category_first": 0.8396604502579761,
+          "p_second_category_second": 0.6926343593351082,
+          "first_category_second_minus_first": -0.1470260909228679,
+          "second_category_second_minus_first": -0.1470260909228679
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "A": {
+        "posterior_tv": 0.01734074725520918,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.9463954734470273,
+          "p_first_category_second": 0.9290547261918182,
+          "p_second_category_first": 0.9463954734470273,
+          "p_second_category_second": 0.9290547261918182,
+          "first_category_second_minus_first": -0.017340747255209177,
+          "second_category_second_minus_first": -0.017340747255209177
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "B": {
+        "posterior_tv": 0.003086252950956192,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.9092002211825538,
+          "p_first_category_second": 0.9092553861784024,
+          "p_second_category_first": 0.9092002211825538,
+          "p_second_category_second": 0.9092553861784024,
+          "first_category_second_minus_first": 5.516499584856671e-05,
+          "second_category_second_minus_first": 5.516499584856671e-05
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      }
+    },
+    "B_minus_A_TV": -0.014254494304252989
+  },
+  {
+    "first": "S02_p10_d2",
+    "second": "S02_p10_d3",
+    "speaker": "S02",
+    "phrase_id": "p10",
+    "intended_categories": [
+      "neutral",
+      "neutral"
+    ],
+    "stable_control": true,
+    "direction_evaluable": false,
+    "models": {
+      "text": {
+        "posterior_tv": 0.0,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.8762740566941728,
+          "p_first_category_second": 0.8762740566941728,
+          "p_second_category_first": 0.8762740566941728,
+          "p_second_category_second": 0.8762740566941728,
+          "first_category_second_minus_first": 0.0,
+          "second_category_second_minus_first": 0.0
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "audio": {
+        "posterior_tv": 0.19672099793935496,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.5418495666819726,
+          "p_first_category_second": 0.6926343593351082,
+          "p_second_category_first": 0.5418495666819726,
+          "p_second_category_second": 0.6926343593351082,
+          "first_category_second_minus_first": 0.1507847926531356,
+          "second_category_second_minus_first": 0.1507847926531356
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "A": {
+        "posterior_tv": 0.023954021944575004,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.9073409206617019,
+          "p_first_category_second": 0.9290547261918182,
+          "p_second_category_first": 0.9073409206617019,
+          "p_second_category_second": 0.9290547261918182,
+          "first_category_second_minus_first": 0.02171380553011626,
+          "second_category_second_minus_first": 0.02171380553011626
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      },
+      "B": {
+        "posterior_tv": 0.011769223889236426,
+        "argmaxes": [
+          "neutral",
+          "neutral"
+        ],
+        "argmax_changed": false,
+        "intended_category_changes": {
+          "first_category": "neutral",
+          "second_category": "neutral",
+          "p_first_category_first": 0.8974861622891661,
+          "p_first_category_second": 0.9092553861784024,
+          "p_second_category_first": 0.8974861622891661,
+          "p_second_category_second": 0.9092553861784024,
+          "first_category_second_minus_first": 0.011769223889236291,
+          "second_category_second_minus_first": 0.011769223889236291
+        },
+        "directional_contrast_change": null,
+        "direction": "unmapped_or_same_category",
+        "both_targets_increase_for_their_own_delivery": null
+      }
+    },
+    "B_minus_A_TV": -0.012184798055338578
+  }
+]

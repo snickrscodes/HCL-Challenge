@@ -1,0 +1,1 @@
+Slice membership comes from fixed pre-B raw text probabilities, not labels or B outcomes. Seven-class macro F1 is retained even when a small slice lacks a class; supports are shown.

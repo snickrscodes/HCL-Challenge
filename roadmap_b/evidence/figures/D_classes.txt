@@ -1,0 +1,1 @@
+A canonical vs predeclared B seed 1337, dev_model. Regressions and improvements use the same scale and annotation. Fear true positives do not improve; sadness detections decline.

@@ -1,0 +1,26 @@
+{
+  "git_commit": null,
+  "git_dirty": null,
+  "python": "3.12.14",
+  "pytorch": "2.8.0+cu128",
+  "transformers": "4.56.2",
+  "cuda_runtime": "12.8",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "gpu_memory_bytes": 25252724736,
+  "cpu": "AMD EPYC 75F3 32-Core Processor",
+  "cpu_count": 128,
+  "ram_bytes": 540844646400,
+  "process_rss_bytes": 2192060416,
+  "seed": 1337,
+  "peak_gpu_memory_bytes": 35917312,
+  "elapsed_s": 53.79900110102608,
+  "preprocessing_manifest_sha256": "e35b991b0a904b2c0f21d06f567b0a7c1e2ed473111b5e3e9f98d3cb2ec2d17d",
+  "parameters": {
+    "total": 198663,
+    "trainable": 198663
+  },
+  "best_epoch": 19,
+  "best_checkpoint": "checkpoints/audio",
+  "training_examples": 9988,
+  "evaluation_examples": 838
+}

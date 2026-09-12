@@ -1,0 +1,6 @@
+{
+  "official_test_evaluated": false,
+  "official_test_prediction_files_found": 0,
+  "all_B_prediction_keys_checked": true,
+  "scope": "Train/dev only; existing audited test metadata retained in A"
+}

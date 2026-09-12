@@ -1,0 +1,362 @@
+[
+  {
+    "variant": "bias",
+    "seed": 1337,
+    "best_epoch": 4,
+    "elapsed_s": 0.4718075210112147,
+    "parameters": {
+      "total": 7,
+      "trainable": 7
+    },
+    "eligible_training_rows": 9988,
+    "training_keys_sha256": "10d9801aa9294fd1ed659528981a60c9b5397b56cc0478825af0f0b8d824b37e",
+    "training_mean_gate": 1.0,
+    "environment": {
+      "git_commit": null,
+      "git_dirty": null,
+      "python": "3.12.14",
+      "pytorch": "2.8.0+cu128",
+      "transformers": "4.56.2",
+      "cuda_runtime": "12.8",
+      "gpu": "NVIDIA GeForce RTX 4090",
+      "gpu_memory_bytes": 25252724736,
+      "cpu": "AMD EPYC 75F3 32-Core Processor",
+      "cpu_count": 128,
+      "ram_bytes": 540844646400,
+      "process_rss_bytes": 907526144,
+      "seed": 1337,
+      "peak_gpu_memory_bytes": 0
+    },
+    "training_device": "cpu; cached frozen representations"
+  },
+  {
+    "variant": "bias",
+    "seed": 1338,
+    "best_epoch": 11,
+    "elapsed_s": 1.0110602650092915,
+    "parameters": {
+      "total": 7,
+      "trainable": 7
+    },
+    "eligible_training_rows": 9988,
+    "training_keys_sha256": "10d9801aa9294fd1ed659528981a60c9b5397b56cc0478825af0f0b8d824b37e",
+    "training_mean_gate": 1.0,
+    "environment": {
+      "git_commit": null,
+      "git_dirty": null,
+      "python": "3.12.14",
+      "pytorch": "2.8.0+cu128",
+      "transformers": "4.56.2",
+      "cuda_runtime": "12.8",
+      "gpu": "NVIDIA GeForce RTX 4090",
+      "gpu_memory_bytes": 25252724736,
+      "cpu": "AMD EPYC 75F3 32-Core Processor",
+      "cpu_count": 128,
+      "ram_bytes": 540844646400,
+      "process_rss_bytes": 907649024,
+      "seed": 1338,
+      "peak_gpu_memory_bytes": 0
+    },
+    "training_device": "cpu; cached frozen representations"
+  },
+  {
+    "variant": "bias",
+    "seed": 1339,
+    "best_epoch": 4,
+    "elapsed_s": 0.5708307849999983,
+    "parameters": {
+      "total": 7,
+      "trainable": 7
+    },
+    "eligible_training_rows": 9988,
+    "training_keys_sha256": "10d9801aa9294fd1ed659528981a60c9b5397b56cc0478825af0f0b8d824b37e",
+    "training_mean_gate": 1.0,
+    "environment": {
+      "git_commit": null,
+      "git_dirty": null,
+      "python": "3.12.14",
+      "pytorch": "2.8.0+cu128",
+      "transformers": "4.56.2",
+      "cuda_runtime": "12.8",
+      "gpu": "NVIDIA GeForce RTX 4090",
+      "gpu_memory_bytes": 25252724736,
+      "cpu": "AMD EPYC 75F3 32-Core Processor",
+      "cpu_count": 128,
+      "ram_bytes": 540844646400,
+      "process_rss_bytes": 907649024,
+      "seed": 1339,
+      "peak_gpu_memory_bytes": 0
+    },
+    "training_device": "cpu; cached frozen representations"
+  },
+  {
+    "variant": "constant",
+    "seed": 1337,
+    "best_epoch": 8,
+    "elapsed_s": 1.091762474999996,
+    "parameters": {
+      "total": 5384,
+      "trainable": 5384
+    },
+    "eligible_training_rows": 9988,
+    "training_keys_sha256": "10d9801aa9294fd1ed659528981a60c9b5397b56cc0478825af0f0b8d824b37e",
+    "training_mean_gate": 0.15877337753772736,
+    "environment": {
+      "git_commit": null,
+      "git_dirty": null,
+      "python": "3.12.14",
+      "pytorch": "2.8.0+cu128",
+      "transformers": "4.56.2",
+      "cuda_runtime": "12.8",
+      "gpu": "NVIDIA GeForce RTX 4090",
+      "gpu_memory_bytes": 25252724736,
+      "cpu": "AMD EPYC 75F3 32-Core Processor",
+      "cpu_count": 128,
+      "ram_bytes": 540844646400,
+      "process_rss_bytes": 908210176,
+      "seed": 1337,
+      "peak_gpu_memory_bytes": 0
+    },
+    "training_device": "cpu; cached frozen representations"
+  },
+  {
+    "variant": "constant",
+    "seed": 1338,
+    "best_epoch": 7,
+    "elapsed_s": 1.2455546100100037,
+    "parameters": {
+      "total": 5384,
+      "trainable": 5384
+    },
+    "eligible_training_rows": 9988,
+    "training_keys_sha256": "10d9801aa9294fd1ed659528981a60c9b5397b56cc0478825af0f0b8d824b37e",
+    "training_mean_gate": 0.16109703481197357,
+    "environment": {
+      "git_commit": null,
+      "git_dirty": null,
+      "python": "3.12.14",
+      "pytorch": "2.8.0+cu128",
+      "transformers": "4.56.2",
+      "cuda_runtime": "12.8",
+      "gpu": "NVIDIA GeForce RTX 4090",
+      "gpu_memory_bytes": 25252724736,
+      "cpu": "AMD EPYC 75F3 32-Core Processor",
+      "cpu_count": 128,
+      "ram_bytes": 540844646400,
+      "process_rss_bytes": 908247040,
+      "seed": 1338,
+      "peak_gpu_memory_bytes": 0
+    },
+    "training_device": "cpu; cached frozen representations"
+  },
+  {
+    "variant": "constant",
+    "seed": 1339,
+    "best_epoch": 6,
+    "elapsed_s": 1.2159337629855145,
+    "parameters": {
+      "total": 5384,
+      "trainable": 5384
+    },
+    "eligible_training_rows": 9988,
+    "training_keys_sha256": "10d9801aa9294fd1ed659528981a60c9b5397b56cc0478825af0f0b8d824b37e",
+    "training_mean_gate": 0.152703195810318,
+    "environment": {
+      "git_commit": null,
+      "git_dirty": null,
+      "python": "3.12.14",
+      "pytorch": "2.8.0+cu128",
+      "transformers": "4.56.2",
+      "cuda_runtime": "12.8",
+      "gpu": "NVIDIA GeForce RTX 4090",
+      "gpu_memory_bytes": 25252724736,
+      "cpu": "AMD EPYC 75F3 32-Core Processor",
+      "cpu_count": 128,
+      "ram_bytes": 540844646400,
+      "process_rss_bytes": 908267520,
+      "seed": 1339,
+      "peak_gpu_memory_bytes": 0
+    },
+    "training_device": "cpu; cached frozen representations"
+  },
+  {
+    "variant": "adaptive",
+    "seed": 1337,
+    "best_epoch": 4,
+    "elapsed_s": 1.7009675900044385,
+    "parameters": {
+      "total": 54728,
+      "trainable": 54728
+    },
+    "eligible_training_rows": 9988,
+    "training_keys_sha256": "10d9801aa9294fd1ed659528981a60c9b5397b56cc0478825af0f0b8d824b37e",
+    "training_mean_gate": 0.5721995234489441,
+    "environment": {
+      "git_commit": null,
+      "git_dirty": null,
+      "python": "3.12.14",
+      "pytorch": "2.8.0+cu128",
+      "transformers": "4.56.2",
+      "cuda_runtime": "12.8",
+      "gpu": "NVIDIA GeForce RTX 4090",
+      "gpu_memory_bytes": 25252724736,
+      "cpu": "AMD EPYC 75F3 32-Core Processor",
+      "cpu_count": 128,
+      "ram_bytes": 540844646400,
+      "process_rss_bytes": 908910592,
+      "seed": 1337,
+      "peak_gpu_memory_bytes": 0
+    },
+    "training_device": "cpu; cached frozen representations"
+  },
+  {
+    "variant": "adaptive",
+    "seed": 1338,
+    "best_epoch": 4,
+    "elapsed_s": 1.6548121229861863,
+    "parameters": {
+      "total": 54728,
+      "trainable": 54728
+    },
+    "eligible_training_rows": 9988,
+    "training_keys_sha256": "10d9801aa9294fd1ed659528981a60c9b5397b56cc0478825af0f0b8d824b37e",
+    "training_mean_gate": 0.7037685513496399,
+    "environment": {
+      "git_commit": null,
+      "git_dirty": null,
+      "python": "3.12.14",
+      "pytorch": "2.8.0+cu128",
+      "transformers": "4.56.2",
+      "cuda_runtime": "12.8",
+      "gpu": "NVIDIA GeForce RTX 4090",
+      "gpu_memory_bytes": 25252724736,
+      "cpu": "AMD EPYC 75F3 32-Core Processor",
+      "cpu_count": 128,
+      "ram_bytes": 540844646400,
+      "process_rss_bytes": 908943360,
+      "seed": 1338,
+      "peak_gpu_memory_bytes": 0
+    },
+    "training_device": "cpu; cached frozen representations"
+  },
+  {
+    "variant": "adaptive",
+    "seed": 1339,
+    "best_epoch": 5,
+    "elapsed_s": 1.8232094539853279,
+    "parameters": {
+      "total": 54728,
+      "trainable": 54728
+    },
+    "eligible_training_rows": 9988,
+    "training_keys_sha256": "10d9801aa9294fd1ed659528981a60c9b5397b56cc0478825af0f0b8d824b37e",
+    "training_mean_gate": 0.6754503846168518,
+    "environment": {
+      "git_commit": null,
+      "git_dirty": null,
+      "python": "3.12.14",
+      "pytorch": "2.8.0+cu128",
+      "transformers": "4.56.2",
+      "cuda_runtime": "12.8",
+      "gpu": "NVIDIA GeForce RTX 4090",
+      "gpu_memory_bytes": 25252724736,
+      "cpu": "AMD EPYC 75F3 32-Core Processor",
+      "cpu_count": 128,
+      "ram_bytes": 540844646400,
+      "process_rss_bytes": 908988416,
+      "seed": 1339,
+      "peak_gpu_memory_bytes": 0
+    },
+    "training_device": "cpu; cached frozen representations"
+  },
+  {
+    "variant": "text_only",
+    "seed": 1337,
+    "best_epoch": 2,
+    "elapsed_s": 1.3292354010045528,
+    "parameters": {
+      "total": 54728,
+      "trainable": 54728
+    },
+    "eligible_training_rows": 9988,
+    "training_keys_sha256": "10d9801aa9294fd1ed659528981a60c9b5397b56cc0478825af0f0b8d824b37e",
+    "training_mean_gate": 0.322976291179657,
+    "environment": {
+      "git_commit": null,
+      "git_dirty": null,
+      "python": "3.12.14",
+      "pytorch": "2.8.0+cu128",
+      "transformers": "4.56.2",
+      "cuda_runtime": "12.8",
+      "gpu": "NVIDIA GeForce RTX 4090",
+      "gpu_memory_bytes": 25252724736,
+      "cpu": "AMD EPYC 75F3 32-Core Processor",
+      "cpu_count": 128,
+      "ram_bytes": 540844646400,
+      "process_rss_bytes": 908992512,
+      "seed": 1337,
+      "peak_gpu_memory_bytes": 0
+    },
+    "training_device": "cpu; cached frozen representations"
+  },
+  {
+    "variant": "text_only",
+    "seed": 1338,
+    "best_epoch": 2,
+    "elapsed_s": 1.1365641729789786,
+    "parameters": {
+      "total": 54728,
+      "trainable": 54728
+    },
+    "eligible_training_rows": 9988,
+    "training_keys_sha256": "10d9801aa9294fd1ed659528981a60c9b5397b56cc0478825af0f0b8d824b37e",
+    "training_mean_gate": 0.4077005982398987,
+    "environment": {
+      "git_commit": null,
+      "git_dirty": null,
+      "python": "3.12.14",
+      "pytorch": "2.8.0+cu128",
+      "transformers": "4.56.2",
+      "cuda_runtime": "12.8",
+      "gpu": "NVIDIA GeForce RTX 4090",
+      "gpu_memory_bytes": 25252724736,
+      "cpu": "AMD EPYC 75F3 32-Core Processor",
+      "cpu_count": 128,
+      "ram_bytes": 540844646400,
+      "process_rss_bytes": 908992512,
+      "seed": 1338,
+      "peak_gpu_memory_bytes": 0
+    },
+    "training_device": "cpu; cached frozen representations"
+  },
+  {
+    "variant": "text_only",
+    "seed": 1339,
+    "best_epoch": 1,
+    "elapsed_s": 0.9315228819905315,
+    "parameters": {
+      "total": 54728,
+      "trainable": 54728
+    },
+    "eligible_training_rows": 9988,
+    "training_keys_sha256": "10d9801aa9294fd1ed659528981a60c9b5397b56cc0478825af0f0b8d824b37e",
+    "training_mean_gate": 0.28965049982070923,
+    "environment": {
+      "git_commit": null,
+      "git_dirty": null,
+      "python": "3.12.14",
+      "pytorch": "2.8.0+cu128",
+      "transformers": "4.56.2",
+      "cuda_runtime": "12.8",
+      "gpu": "NVIDIA GeForce RTX 4090",
+      "gpu_memory_bytes": 25252724736,
+      "cpu": "AMD EPYC 75F3 32-Core Processor",
+      "cpu_count": 128,
+      "ram_bytes": 540844646400,
+      "process_rss_bytes": 909021184,
+      "seed": 1339,
+      "peak_gpu_memory_bytes": 0
+    },
+    "training_device": "cpu; cached frozen representations"
+  }
+]

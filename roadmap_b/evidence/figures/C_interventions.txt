@@ -1,0 +1,1 @@
+Three head-seed means ±1 sample SD. Each shuffled value first averages the 10 predeclared derangements. Matched h_a and z_a always move together. These interventions do not isolate prosody.

@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "scope": "Unit/synthetic integration plus official pretrained weights; no MELD test predictions",
+  "runs": [
+    {
+      "command": [
+        "<COMPUTE_WORKSPACE>/roadmap_a_source/.venv/bin/python",
+        "-m",
+        "ruff",
+        "check",
+        "src",
+        "tests",
+        "scripts/validate_b.py"
+      ],
+      "returncode": 0,
+      "output": "All checks passed!\n"
+    },
+    {
+      "command": [
+        "<COMPUTE_WORKSPACE>/roadmap_a_source/.venv/bin/python",
+        "-m",
+        "ruff",
+        "format",
+        "--check",
+        "src",
+        "tests",
+        "scripts/validate_b.py"
+      ],
+      "returncode": 0,
+      "output": "40 files already formatted\n"
+    },
+    {
+      "command": [
+        "<COMPUTE_WORKSPACE>/roadmap_a_source/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "--junitxml=<COMPUTE_WORKSPACE>/roadmap_b/artifacts/roadmap_b/pytest.xml"
+      ],
+      "returncode": 0,
+      "output": "...............................................                          [100%]\n=============================== warnings summary ===============================\ntests/test_audio.py::test_padding_and_frozen_eval\ntests/test_audio.py::test_official_wavlm_padding_invariance\ntests/test_audio.py::test_official_bf16_stability\ntests/test_b_pretrained.py::test_real_checkpoint_counts_and_singleton_repeat\ntests/test_inference.py::test_full_32_example_pipeline_raw_inference_and_session\ntests/test_inference.py::test_full_32_example_pipeline_raw_inference_and_session\ntests/test_inference.py::test_full_32_example_pipeline_raw_inference_and_session\ntests/test_inference.py::test_full_32_example_pipeline_raw_inference_and_session\n  <COMPUTE_WORKSPACE>/roadmap_a_source/.venv/lib/python3.12/site-packages/torch/nn/functional.py:6041: UserWarning: Support for mismatched key_padding_mask and attn_mask is deprecated. Use same type for both instead.\n    warnings.warn(\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n--- generated xml file: <COMPUTE_WORKSPACE>/roadmap_b/artifacts/roadmap_b/pytest.xml ----\n47 passed, 8 warnings in 27.29s\n"
+    }
+  ]
+}

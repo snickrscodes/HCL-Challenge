@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "max_audio_seconds": 60.0,
+  "embedding_atol": 0.0002,
+  "embedding_rtol": 0.0002,
+  "probability_atol": 0.005,
+  "encoding": "singleton",
+  "dtype": "bfloat16",
+  "real_4090_replay_complete": true,
+  "baseline_lock_sha256": "fcfddbe1d9413b6ba9bb77d60eb5948e07ee476d1a735744474346b07fe0652f",
+  "replay_sha256": "7dc313baac3878e935d472d4eb1048785b2c33aea4d9f0de7dad53c7e925429c",
+  "unavailable_behavior": "preserved calibrated T1 fallback",
+  "audio_valid_semantics": "decode validity, separate from acoustic eligibility"
+}

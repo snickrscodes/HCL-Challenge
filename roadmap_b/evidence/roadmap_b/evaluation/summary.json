@@ -1,0 +1,73 @@
+{
+  "variants": {
+    "bias": {
+      "accuracy": {
+        "mean": 0.6201827572506953,
+        "std": 0.0049622550642816
+      },
+      "weighted_f1": {
+        "mean": 0.6067148853069754,
+        "std": 0.0034737419808675467
+      },
+      "macro_f1": {
+        "mean": 0.4845762217987372,
+        "std": 0.0012029028795927017
+      }
+    },
+    "constant": {
+      "accuracy": {
+        "mean": 0.6237584425903853,
+        "std": 0.0006881409644691601
+      },
+      "weighted_f1": {
+        "mean": 0.6088564073928202,
+        "std": 0.0006570994692934913
+      },
+      "macro_f1": {
+        "mean": 0.4846378759735761,
+        "std": 0.0004702576776936665
+      }
+    },
+    "adaptive": {
+      "accuracy": {
+        "mean": 0.6360746920937624,
+        "std": 0.0036412997178830644
+      },
+      "weighted_f1": {
+        "mean": 0.6194092904902281,
+        "std": 0.0018662849725112115
+      },
+      "macro_f1": {
+        "mean": 0.499908922109851,
+        "std": 0.0008890718492042384
+      }
+    },
+    "text_only": {
+      "accuracy": {
+        "mean": 0.6189908621374651,
+        "std": 0.004185798074236286
+      },
+      "weighted_f1": {
+        "mean": 0.6054464848657575,
+        "std": 0.004161525413823211
+      },
+      "macro_f1": {
+        "mean": 0.4845028541866971,
+        "std": 0.0011754379455764911
+      }
+    }
+  },
+  "reference": "A_replay_canonical",
+  "A_replay_true_positives": {
+    "neutral": 304,
+    "joy": 62,
+    "sadness": 25,
+    "anger": 56,
+    "surprise": 78,
+    "fear": 7,
+    "disgust": 3,
+    "fear_plus_disgust": 10,
+    "non_neutral": 231
+  },
+  "encoder_seed_variability": "not measured; frozen A encoders are one realization"
+}

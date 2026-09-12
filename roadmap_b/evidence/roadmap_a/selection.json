@@ -1,0 +1,8 @@
+{
+  "text": "text_context",
+  "alpha": 0.4,
+  "selected_on": "dev_model",
+  "metric": "macro_f1",
+  "tie_break": "current text; smallest alpha",
+  "logit_policy": "raw, independently trained"
+}

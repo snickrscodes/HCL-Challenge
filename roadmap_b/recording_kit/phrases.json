@@ -1,0 +1,217 @@
+{
+  "version": 1,
+  "purpose": "Post-selection diagnostic only; never training, calibration or model selection",
+  "speakers": [
+    "S01",
+    "S02"
+  ],
+  "required_independent_listeners": 1,
+  "listener_seed": 20260912,
+  "selection": "Fixed before any controlled recordings or model outputs",
+  "context_policy": "Empty preceding context for every recording; exact transcript fixed within each phrase",
+  "delivery_is_not_ground_truth": true,
+  "directional_change_definition": "For listener-distinct categories c1/c2, (p2[c2]-p2[c1])-(p1[c2]-p1[c1]) > 0; report magnitudes and argmax separately",
+  "stable_control_definition": "Listener same category and pair rated not meaningfully different; report label stability and posterior TV, without a benchmark accuracy claim",
+  "phrases": [
+    {
+      "phrase_id": "p01",
+      "text": "That's great.",
+      "history": [],
+      "stable_control": false,
+      "deliveries": [
+        {
+          "delivery_id": "d1",
+          "intended_delivery": "warmly pleased"
+        },
+        {
+          "delivery_id": "d2",
+          "intended_delivery": "irritated or annoyed"
+        },
+        {
+          "delivery_id": "d3",
+          "intended_delivery": "disappointed and subdued"
+        }
+      ]
+    },
+    {
+      "phrase_id": "p02",
+      "text": "Sure.",
+      "history": [],
+      "stable_control": false,
+      "deliveries": [
+        {
+          "delivery_id": "d1",
+          "intended_delivery": "willing and friendly"
+        },
+        {
+          "delivery_id": "d2",
+          "intended_delivery": "reluctant and irritated"
+        },
+        {
+          "delivery_id": "d3",
+          "intended_delivery": "hesitant or apprehensive"
+        }
+      ]
+    },
+    {
+      "phrase_id": "p03",
+      "text": "I'm fine.",
+      "history": [],
+      "stable_control": false,
+      "deliveries": [
+        {
+          "delivery_id": "d1",
+          "intended_delivery": "calm and matter-of-fact"
+        },
+        {
+          "delivery_id": "d2",
+          "intended_delivery": "hurt or sad"
+        },
+        {
+          "delivery_id": "d3",
+          "intended_delivery": "defensive and irritated"
+        }
+      ]
+    },
+    {
+      "phrase_id": "p04",
+      "text": "Really?",
+      "history": [],
+      "stable_control": false,
+      "deliveries": [
+        {
+          "delivery_id": "d1",
+          "intended_delivery": "pleasantly surprised"
+        },
+        {
+          "delivery_id": "d2",
+          "intended_delivery": "skeptical and annoyed"
+        },
+        {
+          "delivery_id": "d3",
+          "intended_delivery": "worried or apprehensive"
+        }
+      ]
+    },
+    {
+      "phrase_id": "p05",
+      "text": "Okay.",
+      "history": [],
+      "stable_control": false,
+      "deliveries": [
+        {
+          "delivery_id": "d1",
+          "intended_delivery": "pleased acceptance"
+        },
+        {
+          "delivery_id": "d2",
+          "intended_delivery": "sad resignation"
+        },
+        {
+          "delivery_id": "d3",
+          "intended_delivery": "irritated acceptance"
+        }
+      ]
+    },
+    {
+      "phrase_id": "p06",
+      "text": "I can't believe that.",
+      "history": [],
+      "stable_control": false,
+      "deliveries": [
+        {
+          "delivery_id": "d1",
+          "intended_delivery": "pleasantly surprised"
+        },
+        {
+          "delivery_id": "d2",
+          "intended_delivery": "angry disbelief"
+        },
+        {
+          "delivery_id": "d3",
+          "intended_delivery": "sad disbelief"
+        }
+      ]
+    },
+    {
+      "phrase_id": "p07",
+      "text": "Thanks.",
+      "history": [],
+      "stable_control": false,
+      "deliveries": [
+        {
+          "delivery_id": "d1",
+          "intended_delivery": "warm appreciation"
+        },
+        {
+          "delivery_id": "d2",
+          "intended_delivery": "hurt or disappointed"
+        },
+        {
+          "delivery_id": "d3",
+          "intended_delivery": "irritated or resentful"
+        }
+      ]
+    },
+    {
+      "phrase_id": "p08",
+      "text": "Whatever.",
+      "history": [],
+      "stable_control": false,
+      "deliveries": [
+        {
+          "delivery_id": "d1",
+          "intended_delivery": "relaxed acceptance"
+        },
+        {
+          "delivery_id": "d2",
+          "intended_delivery": "irritated dismissal"
+        },
+        {
+          "delivery_id": "d3",
+          "intended_delivery": "sad resignation"
+        }
+      ]
+    },
+    {
+      "phrase_id": "p09",
+      "text": "All right.",
+      "history": [],
+      "stable_control": true,
+      "deliveries": [
+        {
+          "delivery_id": "d1",
+          "intended_delivery": "neutral, ordinary volume"
+        },
+        {
+          "delivery_id": "d2",
+          "intended_delivery": "neutral, slightly softer"
+        },
+        {
+          "delivery_id": "d3",
+          "intended_delivery": "neutral, slightly slower"
+        }
+      ]
+    },
+    {
+      "phrase_id": "p10",
+      "text": "I understand.",
+      "history": [],
+      "stable_control": true,
+      "deliveries": [
+        {
+          "delivery_id": "d1",
+          "intended_delivery": "neutral, ordinary volume"
+        },
+        {
+          "delivery_id": "d2",
+          "intended_delivery": "neutral, slightly softer"
+        },
+        {
+          "delivery_id": "d3",
+          "intended_delivery": "neutral, slightly slower"
+        }
+      ]
+    }
+  ]
+}

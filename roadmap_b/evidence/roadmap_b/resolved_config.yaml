@@ -1,0 +1,54 @@
+seed: 1337
+seeds:
+- 1337
+- 1338
+- 1339
+reference_seed: 1337
+baseline_root: <COMPUTE_WORKSPACE>/roadmap_a_source
+baseline_lock: <COMPUTE_WORKSPACE>/roadmap_b/baseline_lock.json
+output_root: <COMPUTE_WORKSPACE>/roadmap_b/artifacts/roadmap_b
+audio_root: null
+runtime:
+  device: cuda
+  dtype: bfloat16
+  cpu_threads: 4
+fusion:
+  width: 32
+  bound: 2.0
+  dropout: 0.1
+training:
+  learning_rate: 0.001
+  weight_decay: 0.01
+  batch_size: 128
+  epochs: 20
+  patience: 3
+policy:
+  version: 1
+  max_audio_seconds: 60.0
+  embedding_atol: 0.0002
+  embedding_rtol: 0.0002
+  probability_atol: 0.005
+evaluation:
+  bootstrap_replicates: 1000
+  bootstrap_seed: 20260911
+  shuffle_seeds:
+  - 4100
+  - 4101
+  - 4102
+  - 4103
+  - 4104
+  - 4105
+  - 4106
+  - 4107
+  - 4108
+  - 4109
+  noise_snr_db: 10.0
+  probe_count: 12
+  benchmark_repeats: 3
+advancement:
+  macro_gain: 0.005
+  max_weighted_loss: 0.005
+  minimum_positive_seeds: 2
+  intervention_macro_margin: 0.005
+  minimum_gate_std: 0.01
+  minimum_gate_p90_p10: 0.02

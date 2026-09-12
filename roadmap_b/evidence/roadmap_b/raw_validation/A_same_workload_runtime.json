@@ -1,0 +1,521 @@
+{
+  "model_load_s": 0.5692362929985393,
+  "samples": [
+    {
+      "key": "dev/108/5",
+      "repeat": 0,
+      "latency_ms": {
+        "text": 5.87896301294677,
+        "audio": 20.15032697818242,
+        "fusion_response": 0.29690199880860746,
+        "total": 26.326191989937797
+      },
+      "duration_s": 0.064
+    },
+    {
+      "key": "dev/108/5",
+      "repeat": 1,
+      "latency_ms": {
+        "text": 5.894883011933416,
+        "audio": 12.485640996601433,
+        "fusion_response": 0.19820098532363772,
+        "total": 18.578724993858486
+      },
+      "duration_s": 0.064
+    },
+    {
+      "key": "dev/108/5",
+      "repeat": 2,
+      "latency_ms": {
+        "text": 4.940625978633761,
+        "audio": 14.057543012313545,
+        "fusion_response": 0.22542200167663395,
+        "total": 19.22359099262394
+      },
+      "duration_s": 0.064
+    },
+    {
+      "key": "dev/48/5",
+      "repeat": 0,
+      "latency_ms": {
+        "text": 6.143795006209984,
+        "audio": 22.136232000775635,
+        "fusion_response": 0.20269097876735032,
+        "total": 28.48271798575297
+      },
+      "duration_s": 1.0026875
+    },
+    {
+      "key": "dev/48/5",
+      "repeat": 1,
+      "latency_ms": {
+        "text": 4.935756005579606,
+        "audio": 12.157449004007503,
+        "fusion_response": 0.20043199765495956,
+        "total": 17.29363700724207
+      },
+      "duration_s": 1.0026875
+    },
+    {
+      "key": "dev/48/5",
+      "repeat": 2,
+      "latency_ms": {
+        "text": 4.912456002784893,
+        "audio": 12.139489001128823,
+        "fusion_response": 0.1987309951800853,
+        "total": 17.2506759990938
+      },
+      "duration_s": 1.0026875
+    },
+    {
+      "key": "dev/15/5",
+      "repeat": 0,
+      "latency_ms": {
+        "text": 5.289159016683698,
+        "audio": 23.038287996314466,
+        "fusion_response": 0.20202199812047184,
+        "total": 28.529469011118636
+      },
+      "duration_s": 1.3866875
+    },
+    {
+      "key": "dev/15/5",
+      "repeat": 1,
+      "latency_ms": {
+        "text": 4.991905996575952,
+        "audio": 12.194360024295747,
+        "fusion_response": 0.20040100207552314,
+        "total": 17.386667022947222
+      },
+      "duration_s": 1.3866875
+    },
+    {
+      "key": "dev/15/5",
+      "repeat": 2,
+      "latency_ms": {
+        "text": 5.385958997067064,
+        "audio": 13.435428991215304,
+        "fusion_response": 0.20071101607754827,
+        "total": 19.022099004359916
+      },
+      "duration_s": 1.3866875
+    },
+    {
+      "key": "dev/23/0",
+      "repeat": 0,
+      "latency_ms": {
+        "text": 4.9541270127519965,
+        "audio": 19.99799598706886,
+        "fusion_response": 0.19751102081499994,
+        "total": 25.149634020635858
+      },
+      "duration_s": 1.6853125
+    },
+    {
+      "key": "dev/23/0",
+      "repeat": 1,
+      "latency_ms": {
+        "text": 4.657124984078109,
+        "audio": 11.929456988582388,
+        "fusion_response": 0.19801102462224662,
+        "total": 16.784592997282743
+      },
+      "duration_s": 1.6853125
+    },
+    {
+      "key": "dev/23/0",
+      "repeat": 2,
+      "latency_ms": {
+        "text": 4.608354007359594,
+        "audio": 12.644391972571611,
+        "fusion_response": 0.22093200823292136,
+        "total": 17.473677988164127
+      },
+      "duration_s": 1.6853125
+    },
+    {
+      "key": "dev/108/8",
+      "repeat": 0,
+      "latency_ms": {
+        "text": 4.935455974191427,
+        "audio": 16.99605502653867,
+        "fusion_response": 0.19866100046783686,
+        "total": 22.130172001197934
+      },
+      "duration_s": 2.0053125
+    },
+    {
+      "key": "dev/108/8",
+      "repeat": 1,
+      "latency_ms": {
+        "text": 4.803224990610033,
+        "audio": 13.64860002649948,
+        "fusion_response": 0.19907098612748086,
+        "total": 18.650896003236994
+      },
+      "duration_s": 2.0053125
+    },
+    {
+      "key": "dev/108/8",
+      "repeat": 2,
+      "latency_ms": {
+        "text": 4.801684990525246,
+        "audio": 13.473967992467806,
+        "fusion_response": 0.2051020273938775,
+        "total": 18.48075501038693
+      },
+      "duration_s": 2.0053125
+    },
+    {
+      "key": "dev/54/8",
+      "repeat": 0,
+      "latency_ms": {
+        "text": 5.288768996251747,
+        "audio": 23.92447498277761,
+        "fusion_response": 0.19783101743087173,
+        "total": 29.41107499646023
+      },
+      "duration_s": 2.304
+    },
+    {
+      "key": "dev/54/8",
+      "repeat": 1,
+      "latency_ms": {
+        "text": 4.920016013784334,
+        "audio": 12.927704985486344,
+        "fusion_response": 0.19732100190594792,
+        "total": 18.045042001176625
+      },
+      "duration_s": 2.304
+    },
+    {
+      "key": "dev/54/8",
+      "repeat": 2,
+      "latency_ms": {
+        "text": 4.923625994706526,
+        "audio": 11.932447028812021,
+        "fusion_response": 0.2065319858957082,
+        "total": 17.062605009414256
+      },
+      "duration_s": 2.304
+    },
+    {
+      "key": "dev/99/6",
+      "repeat": 0,
+      "latency_ms": {
+        "text": 5.390058999182656,
+        "audio": 21.6037179925479,
+        "fusion_response": 0.1991119934245944,
+        "total": 27.19288898515515
+      },
+      "duration_s": 2.7306875
+    },
+    {
+      "key": "dev/99/6",
+      "repeat": 1,
+      "latency_ms": {
+        "text": 5.000575998565182,
+        "audio": 12.330410012509674,
+        "fusion_response": 0.20199199207127094,
+        "total": 17.532978003146127
+      },
+      "duration_s": 2.7306875
+    },
+    {
+      "key": "dev/99/6",
+      "repeat": 2,
+      "latency_ms": {
+        "text": 4.894095996860415,
+        "audio": 12.708343012491241,
+        "fusion_response": 0.19830098608508706,
+        "total": 17.800739995436743
+      },
+      "duration_s": 2.7306875
+    },
+    {
+      "key": "dev/82/10",
+      "repeat": 0,
+      "latency_ms": {
+        "text": 5.100737995235249,
+        "audio": 20.825562009122223,
+        "fusion_response": 0.1971309829968959,
+        "total": 26.123430987354368
+      },
+      "duration_s": 3.3066875
+    },
+    {
+      "key": "dev/82/10",
+      "repeat": 1,
+      "latency_ms": {
+        "text": 4.961956990882754,
+        "audio": 13.438347988994792,
+        "fusion_response": 0.2250520046800375,
+        "total": 18.625356984557584
+      },
+      "duration_s": 3.3066875
+    },
+    {
+      "key": "dev/82/10",
+      "repeat": 2,
+      "latency_ms": {
+        "text": 5.280398007016629,
+        "audio": 12.54888199036941,
+        "fusion_response": 0.20618201233446598,
+        "total": 18.035462009720504
+      },
+      "duration_s": 3.3066875
+    },
+    {
+      "key": "dev/95/7",
+      "repeat": 0,
+      "latency_ms": {
+        "text": 5.072607018519193,
+        "audio": 20.5363399873022,
+        "fusion_response": 0.20752099226228893,
+        "total": 25.81646799808368
+      },
+      "duration_s": 3.84
+    },
+    {
+      "key": "dev/95/7",
+      "repeat": 1,
+      "latency_ms": {
+        "text": 4.933936026645824,
+        "audio": 13.57972898404114,
+        "fusion_response": 0.2421220124233514,
+        "total": 18.755787023110315
+      },
+      "duration_s": 3.84
+    },
+    {
+      "key": "dev/95/7",
+      "repeat": 2,
+      "latency_ms": {
+        "text": 5.346088990336284,
+        "audio": 13.572469004429877,
+        "fusion_response": 0.1958219800144434,
+        "total": 19.114379974780604
+      },
+      "duration_s": 3.84
+    },
+    {
+      "key": "dev/40/2",
+      "repeat": 0,
+      "latency_ms": {
+        "text": 5.011367000406608,
+        "audio": 23.391740018269047,
+        "fusion_response": 0.19883198547177017,
+        "total": 28.601939004147425
+      },
+      "duration_s": 4.7573125
+    },
+    {
+      "key": "dev/40/2",
+      "repeat": 1,
+      "latency_ms": {
+        "text": 4.911836003884673,
+        "audio": 12.846464000176638,
+        "fusion_response": 0.1983709807973355,
+        "total": 17.956670984858647
+      },
+      "duration_s": 4.7573125
+    },
+    {
+      "key": "dev/40/2",
+      "repeat": 2,
+      "latency_ms": {
+        "text": 4.906796006252989,
+        "audio": 12.870283972006291,
+        "fusion_response": 0.196542008779943,
+        "total": 17.973621987039223
+      },
+      "duration_s": 4.7573125
+    },
+    {
+      "key": "dev/11/10",
+      "repeat": 0,
+      "latency_ms": {
+        "text": 5.076517001725733,
+        "audio": 21.862100024009123,
+        "fusion_response": 0.20507199224084616,
+        "total": 27.143689017975703
+      },
+      "duration_s": 6.272
+    },
+    {
+      "key": "dev/11/10",
+      "repeat": 1,
+      "latency_ms": {
+        "text": 5.352039006538689,
+        "audio": 13.157676003174856,
+        "fusion_response": 0.19661200349219143,
+        "total": 18.706327013205737
+      },
+      "duration_s": 6.272
+    },
+    {
+      "key": "dev/11/10",
+      "repeat": 2,
+      "latency_ms": {
+        "text": 4.924527020193636,
+        "audio": 13.079504977213219,
+        "fusion_response": 0.20203200983814895,
+        "total": 18.206064007245004
+      },
+      "duration_s": 6.272
+    },
+    {
+      "key": "dev/74/19",
+      "repeat": 0,
+      "latency_ms": {
+        "text": 5.260937992716208,
+        "audio": 69.4587180041708,
+        "fusion_response": 0.29860198264941573,
+        "total": 75.01825797953643
+      },
+      "duration_s": 28.544
+    },
+    {
+      "key": "dev/74/19",
+      "repeat": 1,
+      "latency_ms": {
+        "text": 5.589341017184779,
+        "audio": 66.56307697994635,
+        "fusion_response": 0.28268201276659966,
+        "total": 72.43510000989772
+      },
+      "duration_s": 28.544
+    },
+    {
+      "key": "dev/74/19",
+      "repeat": 2,
+      "latency_ms": {
+        "text": 5.480471008922905,
+        "audio": 57.16068798210472,
+        "fusion_response": 0.27791201137006283,
+        "total": 62.919071002397686
+      },
+      "duration_s": 28.544
+    },
+    {
+      "key": "dev/99/3",
+      "repeat": 0,
+      "latency_ms": {
+        "text": 5.194017983740196,
+        "audio": 12.26917002350092,
+        "fusion_response": 0.1984309928957373,
+        "total": 17.661619000136852
+      },
+      "duration_s": 0.064
+    },
+    {
+      "key": "dev/99/3",
+      "repeat": 1,
+      "latency_ms": {
+        "text": 4.880046006292105,
+        "audio": 12.110198003938422,
+        "fusion_response": 0.2142020093742758,
+        "total": 17.204446019604802
+      },
+      "duration_s": 0.064
+    },
+    {
+      "key": "dev/99/3",
+      "repeat": 2,
+      "latency_ms": {
+        "text": 5.1104979938827455,
+        "audio": 12.272790016140789,
+        "fusion_response": 0.21376099903136492,
+        "total": 17.5970490090549
+      },
+      "duration_s": 0.064
+    },
+    {
+      "key": "dev/62/4",
+      "repeat": 0,
+      "latency_ms": {
+        "text": 5.472199991345406,
+        "audio": 23.768733022734523,
+        "fusion_response": 0.20354200387373567,
+        "total": 29.444475017953664
+      },
+      "duration_s": 7.8506875
+    },
+    {
+      "key": "dev/62/4",
+      "repeat": 1,
+      "latency_ms": {
+        "text": 5.113157996675,
+        "audio": 13.605279003968462,
+        "fusion_response": 0.20175200188532472,
+        "total": 18.920189002528787
+      },
+      "duration_s": 7.8506875
+    },
+    {
+      "key": "dev/62/4",
+      "repeat": 2,
+      "latency_ms": {
+        "text": 5.062277021352202,
+        "audio": 13.483078975696117,
+        "fusion_response": 0.20579100237227976,
+        "total": 18.751146999420598
+      },
+      "duration_s": 7.8506875
+    },
+    {
+      "key": "dev/72/0",
+      "repeat": 0,
+      "latency_ms": {
+        "text": 4.901916021481156,
+        "audio": 13.51178900222294,
+        "fusion_response": 0.22438197629526258,
+        "total": 18.63808699999936
+      },
+      "duration_s": 7.8506875
+    },
+    {
+      "key": "dev/72/0",
+      "repeat": 1,
+      "latency_ms": {
+        "text": 4.75720499525778,
+        "audio": 13.364836981054395,
+        "fusion_response": 0.19665202125906944,
+        "total": 18.318693997571245
+      },
+      "duration_s": 7.8506875
+    },
+    {
+      "key": "dev/72/0",
+      "repeat": 2,
+      "latency_ms": {
+        "text": 4.707174026407301,
+        "audio": 13.48642900120467,
+        "fusion_response": 0.21683098748326302,
+        "total": 18.410434015095234
+      },
+      "duration_s": 7.8506875
+    }
+  ],
+  "scope": "A-replay canonical FP32 text/BF16 singleton audio on exactly the B probe workload; no A retuning",
+  "peak_gpu_allocated_bytes": 1363198464,
+  "peak_sampled_process_rss_bytes": 1755676672,
+  "summary_ms": {
+    "text": {
+      "p50": 5.000575998565182,
+      "p95": 5.821038613794371
+    },
+    "audio": {
+      "p50": 13.483078975696117,
+      "p95": 50.513445382239205
+    },
+    "fusion_response": {
+      "p50": 0.20199199207127094,
+      "p95": 0.2817280124872923
+    },
+    "total": {
+      "p50": 18.650896003236994,
+      "p95": 56.22415180550879
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "scope": "read-only numerical diagnostic; original text cache unchanged",
+  "fp32_singleton_vs_batch16_probability_max": 6.287836705864969e-06,
+  "fp32_vs_original_raw_probability_max": 0.045540953484971114,
+  "fp32_vs_original_raw_probability_p95": 0.012386477873995954,
+  "above_0_005": 198,
+  "argmax_changes_vs_original": 6,
+  "cases": [
+    {
+      "key": "dev/7/3",
+      "max_probability_difference": 0.045540953484971114
+    },
+    {
+      "key": "dev/92/7",
+      "max_probability_difference": 0.031299834037464114
+    },
+    {
+      "key": "dev/49/6",
+      "max_probability_difference": 0.02515672502175831
+    },
+    {
+      "key": "dev/47/8",
+      "max_probability_difference": 0.0225319704616202
+    },
+    {
+      "key": "dev/77/7",
+      "max_probability_difference": 0.021264183849350027
+    },
+    {
+      "key": "dev/11/7",
+      "max_probability_difference": 0.02111011116228448
+    },
+    {
+      "key": "dev/79/0",
+      "max_probability_difference": 0.02072588971255629
+    },
+    {
+      "key": "dev/53/3",
+      "max_probability_difference": 0.019573457633373148
+    },
+    {
+      "key": "dev/9/7",
+      "max_probability_difference": 0.018799294086739526
+    },
+    {
+      "key": "dev/51/4",
+      "max_probability_difference": 0.018737366880739015
+    },
+    {
+      "key": "dev/95/10",
+      "max_probability_difference": 0.01851403195566581
+    },
+    {
+      "key": "dev/63/18",
+      "max_probability_difference": 0.018144725932288996
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "text": 1.6053059396751617,
+  "audio": 1.0171745325238999,
+  "fusion": 1.085623850192602,
+  "fitted_on": "dev_calib",
+  "alpha_frozen": 0.4,
+  "audio_and_fusion_fit_subset": "valid audio",
+  "log_temperature_bounds": [
+    -5,
+    5
+  ]
+}

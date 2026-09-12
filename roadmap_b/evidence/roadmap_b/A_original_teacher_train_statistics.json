@@ -1,0 +1,295 @@
+{
+  "scope": "In-sample outputs of the frozen teacher; not out-of-fold stacking features",
+  "metrics": {
+    "n": 9989,
+    "accuracy": 0.8657523275603164,
+    "macro_f1": 0.7715952976742316,
+    "weighted_f1": 0.8641037709372141,
+    "per_class": {
+      "neutral": {
+        "precision": 0.9299094927383709,
+        "recall": 0.9380042462845011,
+        "f1": 0.9339393298805623,
+        "support": 4710
+      },
+      "joy": {
+        "precision": 0.8621096051856216,
+        "recall": 0.8393574297188755,
+        "f1": 0.8505813953488373,
+        "support": 1743
+      },
+      "sadness": {
+        "precision": 0.7002840909090909,
+        "recall": 0.7218155197657394,
+        "f1": 0.7108868060562364,
+        "support": 683
+      },
+      "anger": {
+        "precision": 0.8130841121495327,
+        "recall": 0.7844905320108205,
+        "f1": 0.7985314364387334,
+        "support": 1109
+      },
+      "surprise": {
+        "precision": 0.8201332346410066,
+        "recall": 0.9195020746887966,
+        "f1": 0.86697965571205,
+        "support": 1205
+      },
+      "fear": {
+        "precision": 0.6759259259259259,
+        "recall": 0.5447761194029851,
+        "f1": 0.6033057851239669,
+        "support": 268
+      },
+      "disgust": {
+        "precision": 0.75,
+        "recall": 0.5535055350553506,
+        "f1": 0.6369426751592356,
+        "support": 271
+      }
+    },
+    "confusion_matrix": [
+      [
+        4418,
+        113,
+        42,
+        27,
+        85,
+        13,
+        12
+      ],
+      [
+        143,
+        1463,
+        34,
+        35,
+        52,
+        11,
+        5
+      ],
+      [
+        58,
+        17,
+        493,
+        54,
+        32,
+        18,
+        11
+      ],
+      [
+        58,
+        48,
+        55,
+        870,
+        43,
+        16,
+        19
+      ],
+      [
+        28,
+        36,
+        11,
+        17,
+        1108,
+        4,
+        1
+      ],
+      [
+        33,
+        16,
+        40,
+        15,
+        16,
+        146,
+        2
+      ],
+      [
+        13,
+        4,
+        29,
+        52,
+        15,
+        8,
+        150
+      ]
+    ],
+    "nll": 0.42143657269249013,
+    "ece_15": 0.03400195326140046,
+    "reliability_bins": [
+      {
+        "lower": 0.0,
+        "upper": 0.06666666666666667,
+        "count": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "lower": 0.06666666666666667,
+        "upper": 0.13333333333333333,
+        "count": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "lower": 0.13333333333333333,
+        "upper": 0.2,
+        "count": 2,
+        "accuracy": 1.0,
+        "confidence": 0.19542232820350836
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.26666666666666666,
+        "count": 23,
+        "accuracy": 0.30434782608695654,
+        "confidence": 0.24458079720492285
+      },
+      {
+        "lower": 0.26666666666666666,
+        "upper": 0.3333333333333333,
+        "count": 111,
+        "accuracy": 0.23423423423423423,
+        "confidence": 0.3059654262210668
+      },
+      {
+        "lower": 0.3333333333333333,
+        "upper": 0.4,
+        "count": 246,
+        "accuracy": 0.34146341463414637,
+        "confidence": 0.36519717485486425
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.4666666666666667,
+        "count": 333,
+        "accuracy": 0.45045045045045046,
+        "confidence": 0.4373175494977105
+      },
+      {
+        "lower": 0.4666666666666667,
+        "upper": 0.5333333333333333,
+        "count": 377,
+        "accuracy": 0.519893899204244,
+        "confidence": 0.5040420852787507
+      },
+      {
+        "lower": 0.5333333333333333,
+        "upper": 0.6,
+        "count": 449,
+        "accuracy": 0.6057906458797327,
+        "confidence": 0.5666921001087102
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.6666666666666666,
+        "count": 424,
+        "accuracy": 0.6721698113207547,
+        "confidence": 0.6330737288809786
+      },
+      {
+        "lower": 0.6666666666666666,
+        "upper": 0.7333333333333333,
+        "count": 469,
+        "accuracy": 0.7739872068230277,
+        "confidence": 0.7006526762591814
+      },
+      {
+        "lower": 0.7333333333333333,
+        "upper": 0.8,
+        "count": 606,
+        "accuracy": 0.8316831683168316,
+        "confidence": 0.7690665078887181
+      },
+      {
+        "lower": 0.8,
+        "upper": 0.8666666666666667,
+        "count": 823,
+        "accuracy": 0.8967193195625759,
+        "confidence": 0.8354510175210095
+      },
+      {
+        "lower": 0.8666666666666667,
+        "upper": 0.9333333333333333,
+        "count": 1446,
+        "accuracy": 0.9633471645919779,
+        "confidence": 0.9042697587181919
+      },
+      {
+        "lower": 0.9333333333333333,
+        "upper": 1.0,
+        "count": 4680,
+        "accuracy": 0.9888888888888889,
+        "confidence": 0.9738909533344012
+      }
+    ],
+    "labels": [
+      "neutral",
+      "joy",
+      "sadness",
+      "anger",
+      "surprise",
+      "fear",
+      "disgust"
+    ]
+  },
+  "errors": 1341,
+  "per_class": {
+    "neutral": {
+      "support": 4710,
+      "correct": 4418,
+      "incorrect": 292,
+      "accuracy": 0.9380042462845011,
+      "mean_max_probability": 0.8842292132261468,
+      "mean_true_label_probability": 0.862317118323176
+    },
+    "joy": {
+      "support": 1743,
+      "correct": 1463,
+      "incorrect": 280,
+      "accuracy": 0.8393574297188755,
+      "mean_max_probability": 0.8429173623452086,
+      "mean_true_label_probability": 0.7735544829250093
+    },
+    "sadness": {
+      "support": 683,
+      "correct": 493,
+      "incorrect": 190,
+      "accuracy": 0.7218155197657394,
+      "mean_max_probability": 0.7209382863285717,
+      "mean_true_label_probability": 0.6081836465364057
+    },
+    "anger": {
+      "support": 1109,
+      "correct": 870,
+      "incorrect": 239,
+      "accuracy": 0.7844905320108205,
+      "mean_max_probability": 0.7407621743885748,
+      "mean_true_label_probability": 0.6517741860574501
+    },
+    "surprise": {
+      "support": 1205,
+      "correct": 1108,
+      "incorrect": 97,
+      "accuracy": 0.9195020746887966,
+      "mean_max_probability": 0.8741458775186107,
+      "mean_true_label_probability": 0.8412643409213926
+    },
+    "fear": {
+      "support": 268,
+      "correct": 146,
+      "incorrect": 122,
+      "accuracy": 0.5447761194029851,
+      "mean_max_probability": 0.6125096735420091,
+      "mean_true_label_probability": 0.43708066593525613
+    },
+    "disgust": {
+      "support": 271,
+      "correct": 150,
+      "incorrect": 121,
+      "accuracy": 0.5535055350553506,
+      "mean_max_probability": 0.629619154170343,
+      "mean_true_label_probability": 0.43947156687786854
+    }
+  }
+}

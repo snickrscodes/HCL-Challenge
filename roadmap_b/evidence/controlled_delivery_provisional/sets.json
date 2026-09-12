@@ -1,0 +1,482 @@
+[
+  {
+    "speaker": "S01",
+    "phrase_id": "p01",
+    "text": "That's great.",
+    "recordings": [
+      "S01_p01_d1",
+      "S01_p01_d2",
+      "S01_p01_d3"
+    ],
+    "stable_control": false,
+    "text_max_abs_difference": 0.0,
+    "text_invariant": true,
+    "mean_pairwise_tv": {
+      "text": 0.0,
+      "audio": 0.24060907637544585,
+      "A": 0.04701439806772643,
+      "B": 0.003343306603439783
+    },
+    "pairs": [
+      "S01_p01_d1/S01_p01_d2",
+      "S01_p01_d1/S01_p01_d3",
+      "S01_p01_d2/S01_p01_d3"
+    ]
+  },
+  {
+    "speaker": "S01",
+    "phrase_id": "p02",
+    "text": "Sure.",
+    "recordings": [
+      "S01_p02_d1",
+      "S01_p02_d2",
+      "S01_p02_d3"
+    ],
+    "stable_control": false,
+    "text_max_abs_difference": 0.0,
+    "text_invariant": true,
+    "mean_pairwise_tv": {
+      "text": 0.0,
+      "audio": 0.12449807221641085,
+      "A": 0.02556625258321994,
+      "B": 0.01801443625597425
+    },
+    "pairs": [
+      "S01_p02_d1/S01_p02_d2",
+      "S01_p02_d1/S01_p02_d3",
+      "S01_p02_d2/S01_p02_d3"
+    ]
+  },
+  {
+    "speaker": "S01",
+    "phrase_id": "p03",
+    "text": "I'm fine.",
+    "recordings": [
+      "S01_p03_d1",
+      "S01_p03_d2",
+      "S01_p03_d3"
+    ],
+    "stable_control": false,
+    "text_max_abs_difference": 0.0,
+    "text_invariant": true,
+    "mean_pairwise_tv": {
+      "text": 0.0,
+      "audio": 0.21632077958055584,
+      "A": 0.033045526349721216,
+      "B": 0.01281102141087031
+    },
+    "pairs": [
+      "S01_p03_d1/S01_p03_d2",
+      "S01_p03_d1/S01_p03_d3",
+      "S01_p03_d2/S01_p03_d3"
+    ]
+  },
+  {
+    "speaker": "S01",
+    "phrase_id": "p04",
+    "text": "Really?",
+    "recordings": [
+      "S01_p04_d1",
+      "S01_p04_d2",
+      "S01_p04_d3"
+    ],
+    "stable_control": false,
+    "text_max_abs_difference": 0.0,
+    "text_invariant": true,
+    "mean_pairwise_tv": {
+      "text": 0.0,
+      "audio": 0.2101409096402079,
+      "A": 0.018796649247582006,
+      "B": 0.00025426808144081783
+    },
+    "pairs": [
+      "S01_p04_d1/S01_p04_d2",
+      "S01_p04_d1/S01_p04_d3",
+      "S01_p04_d2/S01_p04_d3"
+    ]
+  },
+  {
+    "speaker": "S01",
+    "phrase_id": "p05",
+    "text": "Okay.",
+    "recordings": [
+      "S01_p05_d1",
+      "S01_p05_d2",
+      "S01_p05_d3"
+    ],
+    "stable_control": false,
+    "text_max_abs_difference": 0.0,
+    "text_invariant": true,
+    "mean_pairwise_tv": {
+      "text": 0.0,
+      "audio": 0.13141835475512575,
+      "A": 0.015039265446318959,
+      "B": 0.010087504979704174
+    },
+    "pairs": [
+      "S01_p05_d1/S01_p05_d2",
+      "S01_p05_d1/S01_p05_d3",
+      "S01_p05_d2/S01_p05_d3"
+    ]
+  },
+  {
+    "speaker": "S01",
+    "phrase_id": "p06",
+    "text": "I can't believe that.",
+    "recordings": [
+      "S01_p06_d1",
+      "S01_p06_d2",
+      "S01_p06_d3"
+    ],
+    "stable_control": false,
+    "text_max_abs_difference": 0.0,
+    "text_invariant": true,
+    "mean_pairwise_tv": {
+      "text": 0.0,
+      "audio": 0.19060430290700292,
+      "A": 0.0612587748520416,
+      "B": 0.0012371753965794176
+    },
+    "pairs": [
+      "S01_p06_d1/S01_p06_d2",
+      "S01_p06_d1/S01_p06_d3",
+      "S01_p06_d2/S01_p06_d3"
+    ]
+  },
+  {
+    "speaker": "S01",
+    "phrase_id": "p07",
+    "text": "Thanks.",
+    "recordings": [
+      "S01_p07_d1",
+      "S01_p07_d2",
+      "S01_p07_d3"
+    ],
+    "stable_control": false,
+    "text_max_abs_difference": 0.0,
+    "text_invariant": true,
+    "mean_pairwise_tv": {
+      "text": 0.0,
+      "audio": 0.2718280299028278,
+      "A": 0.022049660425000322,
+      "B": 0.005032627902426379
+    },
+    "pairs": [
+      "S01_p07_d1/S01_p07_d2",
+      "S01_p07_d1/S01_p07_d3",
+      "S01_p07_d2/S01_p07_d3"
+    ]
+  },
+  {
+    "speaker": "S01",
+    "phrase_id": "p08",
+    "text": "Whatever.",
+    "recordings": [
+      "S01_p08_d1",
+      "S01_p08_d2",
+      "S01_p08_d3"
+    ],
+    "stable_control": false,
+    "text_max_abs_difference": 0.0,
+    "text_invariant": true,
+    "mean_pairwise_tv": {
+      "text": 0.0,
+      "audio": 0.18506257453326233,
+      "A": 0.020851322434116012,
+      "B": 0.006548953352695442
+    },
+    "pairs": [
+      "S01_p08_d1/S01_p08_d2",
+      "S01_p08_d1/S01_p08_d3",
+      "S01_p08_d2/S01_p08_d3"
+    ]
+  },
+  {
+    "speaker": "S01",
+    "phrase_id": "p09",
+    "text": "All right.",
+    "recordings": [
+      "S01_p09_d1",
+      "S01_p09_d2",
+      "S01_p09_d3"
+    ],
+    "stable_control": true,
+    "text_max_abs_difference": 0.0,
+    "text_invariant": true,
+    "mean_pairwise_tv": {
+      "text": 0.0,
+      "audio": 0.10605314353766909,
+      "A": 0.008356630500461848,
+      "B": 0.003304141487102782
+    },
+    "pairs": [
+      "S01_p09_d1/S01_p09_d2",
+      "S01_p09_d1/S01_p09_d3",
+      "S01_p09_d2/S01_p09_d3"
+    ]
+  },
+  {
+    "speaker": "S01",
+    "phrase_id": "p10",
+    "text": "I understand.",
+    "recordings": [
+      "S01_p10_d1",
+      "S01_p10_d2",
+      "S01_p10_d3"
+    ],
+    "stable_control": true,
+    "text_max_abs_difference": 0.0,
+    "text_invariant": true,
+    "mean_pairwise_tv": {
+      "text": 0.0,
+      "audio": 0.09320142052334823,
+      "A": 0.01054681187664048,
+      "B": 0.009527239555165457
+    },
+    "pairs": [
+      "S01_p10_d1/S01_p10_d2",
+      "S01_p10_d1/S01_p10_d3",
+      "S01_p10_d2/S01_p10_d3"
+    ]
+  },
+  {
+    "speaker": "S02",
+    "phrase_id": "p01",
+    "text": "That's great.",
+    "recordings": [
+      "S02_p01_d1",
+      "S02_p01_d2",
+      "S02_p01_d3"
+    ],
+    "stable_control": false,
+    "text_max_abs_difference": 0.0,
+    "text_invariant": true,
+    "mean_pairwise_tv": {
+      "text": 0.0,
+      "audio": 0.35921948446446955,
+      "A": 0.06498419238126399,
+      "B": 0.005134007765925118
+    },
+    "pairs": [
+      "S02_p01_d1/S02_p01_d2",
+      "S02_p01_d1/S02_p01_d3",
+      "S02_p01_d2/S02_p01_d3"
+    ]
+  },
+  {
+    "speaker": "S02",
+    "phrase_id": "p02",
+    "text": "Sure.",
+    "recordings": [
+      "S02_p02_d1",
+      "S02_p02_d2",
+      "S02_p02_d3"
+    ],
+    "stable_control": false,
+    "text_max_abs_difference": 0.0,
+    "text_invariant": true,
+    "mean_pairwise_tv": {
+      "text": 0.0,
+      "audio": 0.1396656512187147,
+      "A": 0.02224685267650327,
+      "B": 0.018941564861481703
+    },
+    "pairs": [
+      "S02_p02_d1/S02_p02_d2",
+      "S02_p02_d1/S02_p02_d3",
+      "S02_p02_d2/S02_p02_d3"
+    ]
+  },
+  {
+    "speaker": "S02",
+    "phrase_id": "p03",
+    "text": "I'm fine.",
+    "recordings": [
+      "S02_p03_d1",
+      "S02_p03_d2",
+      "S02_p03_d3"
+    ],
+    "stable_control": false,
+    "text_max_abs_difference": 0.0,
+    "text_invariant": true,
+    "mean_pairwise_tv": {
+      "text": 0.0,
+      "audio": 0.11205170638033803,
+      "A": 0.02175812964118885,
+      "B": 0.010808543706033414
+    },
+    "pairs": [
+      "S02_p03_d1/S02_p03_d2",
+      "S02_p03_d1/S02_p03_d3",
+      "S02_p03_d2/S02_p03_d3"
+    ]
+  },
+  {
+    "speaker": "S02",
+    "phrase_id": "p04",
+    "text": "Really?",
+    "recordings": [
+      "S02_p04_d1",
+      "S02_p04_d2",
+      "S02_p04_d3"
+    ],
+    "stable_control": false,
+    "text_max_abs_difference": 0.0,
+    "text_invariant": true,
+    "mean_pairwise_tv": {
+      "text": 0.0,
+      "audio": 0.1273903312664709,
+      "A": 0.014617800320127813,
+      "B": 0.00025689559406327143
+    },
+    "pairs": [
+      "S02_p04_d1/S02_p04_d2",
+      "S02_p04_d1/S02_p04_d3",
+      "S02_p04_d2/S02_p04_d3"
+    ]
+  },
+  {
+    "speaker": "S02",
+    "phrase_id": "p05",
+    "text": "Okay.",
+    "recordings": [
+      "S02_p05_d1",
+      "S02_p05_d2",
+      "S02_p05_d3"
+    ],
+    "stable_control": false,
+    "text_max_abs_difference": 0.0,
+    "text_invariant": true,
+    "mean_pairwise_tv": {
+      "text": 0.0,
+      "audio": 0.1652359027824599,
+      "A": 0.01861804818849096,
+      "B": 0.00774646320014068
+    },
+    "pairs": [
+      "S02_p05_d1/S02_p05_d2",
+      "S02_p05_d1/S02_p05_d3",
+      "S02_p05_d2/S02_p05_d3"
+    ]
+  },
+  {
+    "speaker": "S02",
+    "phrase_id": "p06",
+    "text": "I can't believe that.",
+    "recordings": [
+      "S02_p06_d1",
+      "S02_p06_d2",
+      "S02_p06_d3"
+    ],
+    "stable_control": false,
+    "text_max_abs_difference": 0.0,
+    "text_invariant": true,
+    "mean_pairwise_tv": {
+      "text": 0.0,
+      "audio": 0.20353090412066874,
+      "A": 0.06389174730158585,
+      "B": 0.0017924519317611294
+    },
+    "pairs": [
+      "S02_p06_d1/S02_p06_d2",
+      "S02_p06_d1/S02_p06_d3",
+      "S02_p06_d2/S02_p06_d3"
+    ]
+  },
+  {
+    "speaker": "S02",
+    "phrase_id": "p07",
+    "text": "Thanks.",
+    "recordings": [
+      "S02_p07_d1",
+      "S02_p07_d2",
+      "S02_p07_d3"
+    ],
+    "stable_control": false,
+    "text_max_abs_difference": 0.0,
+    "text_invariant": true,
+    "mean_pairwise_tv": {
+      "text": 0.0,
+      "audio": 0.0795906032135383,
+      "A": 0.007840816861279,
+      "B": 0.006965573081719917
+    },
+    "pairs": [
+      "S02_p07_d1/S02_p07_d2",
+      "S02_p07_d1/S02_p07_d3",
+      "S02_p07_d2/S02_p07_d3"
+    ]
+  },
+  {
+    "speaker": "S02",
+    "phrase_id": "p08",
+    "text": "Whatever.",
+    "recordings": [
+      "S02_p08_d1",
+      "S02_p08_d2",
+      "S02_p08_d3"
+    ],
+    "stable_control": false,
+    "text_max_abs_difference": 0.0,
+    "text_invariant": true,
+    "mean_pairwise_tv": {
+      "text": 0.0,
+      "audio": 0.12315928663261323,
+      "A": 0.01414192985739411,
+      "B": 0.010896506821905004
+    },
+    "pairs": [
+      "S02_p08_d1/S02_p08_d2",
+      "S02_p08_d1/S02_p08_d3",
+      "S02_p08_d2/S02_p08_d3"
+    ]
+  },
+  {
+    "speaker": "S02",
+    "phrase_id": "p09",
+    "text": "All right.",
+    "recordings": [
+      "S02_p09_d1",
+      "S02_p09_d2",
+      "S02_p09_d3"
+    ],
+    "stable_control": true,
+    "text_max_abs_difference": 0.0,
+    "text_invariant": true,
+    "mean_pairwise_tv": {
+      "text": 0.0,
+      "audio": 0.14888459008130314,
+      "A": 0.007660312010466598,
+      "B": 0.004095702068532833
+    },
+    "pairs": [
+      "S02_p09_d1/S02_p09_d2",
+      "S02_p09_d1/S02_p09_d3",
+      "S02_p09_d2/S02_p09_d3"
+    ]
+  },
+  {
+    "speaker": "S02",
+    "phrase_id": "p10",
+    "text": "I understand.",
+    "recordings": [
+      "S02_p10_d1",
+      "S02_p10_d2",
+      "S02_p10_d3"
+    ],
+    "stable_control": true,
+    "text_max_abs_difference": 0.0,
+    "text_invariant": true,
+    "mean_pairwise_tv": {
+      "text": 0.0,
+      "audio": 0.21456246641004137,
+      "A": 0.026783107328369856,
+      "B": 0.009096587587561636
+    },
+    "pairs": [
+      "S02_p10_d1/S02_p10_d2",
+      "S02_p10_d1/S02_p10_d3",
+      "S02_p10_d2/S02_p10_d3"
+    ]
+  }
+]

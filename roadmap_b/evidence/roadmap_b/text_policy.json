@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "encoding": "singleton",
+  "dtype": "float32",
+  "baseline_lock_sha256": "fcfddbe1d9413b6ba9bb77d60eb5948e07ee476d1a735744474346b07fe0652f",
+  "evidence_sha256": "4eecb06b1acf4ab227076db27f6fbb48f96a0fdee0f1a16242283ef2b3508b0f",
+  "authorization": "User approved separate FP32 B text caches after real batch diagnostics",
+  "weights": "Exact unchanged selected causal T1; no training or new representation",
+  "embedding_atol": 0.0002,
+  "embedding_rtol": 0.0002,
+  "probability_atol": 2e-05
+}

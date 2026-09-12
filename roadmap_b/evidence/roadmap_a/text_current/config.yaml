@@ -1,0 +1,49 @@
+seed: 1337
+output_root: artifacts
+data_root: data/processed
+feature_root: features
+checkpoint_root: checkpoints
+text:
+  model: FacebookAI/roberta-base
+  revision: e2da8e2f811d1448a5b465c236feacd80ffbac7b
+  max_length: 128
+  history_turns: 3
+  learning_rate: 2.0e-05
+  batch_size: 16
+  accumulation_steps: 2
+  epochs: 5
+  patience: 2
+audio:
+  model: microsoft/wavlm-base-plus
+  revision: 4c66d4806a428f2e922ccfa1a962776e232d487b
+  sample_rate: 16000
+  hidden_size: 768
+  head_hidden: 256
+  batch_size: 8
+fusion:
+  concat_hidden: 256
+  alpha_step: 0.01
+heads:
+  learning_rate: 0.001
+  batch_size: 128
+  epochs: 40
+  patience: 6
+runtime:
+  device: auto
+  dtype: bfloat16
+  workers: 0
+  benchmark_turns: 20
+  synthetic_durations_s:
+  - 1.0
+  - 3.6
+  - 8.0
+  synthetic_repeats: 5
+data:
+  annotation_revision: e8cedf27b5d2877e198332c957127e16eb214afe
+  expected_counts:
+    train: 9989
+    dev: 1109
+    test: 2610
+  calib_fraction: 0.25
+  split_candidates: 256
+  outlier_seconds: 30

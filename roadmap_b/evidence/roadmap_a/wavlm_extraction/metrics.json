@@ -1,0 +1,20 @@
+{
+  "train": {
+    "elapsed_s": 119.46134382797754,
+    "valid_utterances": 9988,
+    "utterances_per_s": 83.608635898007,
+    "audio_seconds_per_s": 262.70869299102975
+  },
+  "dev_model": {
+    "elapsed_s": 17.146714263013564,
+    "valid_utterances": 838,
+    "utterances_per_s": 48.87233712219802,
+    "audio_seconds_per_s": 157.34698255395227
+  },
+  "dev_calib": {
+    "elapsed_s": 7.378654853004264,
+    "valid_utterances": 270,
+    "utterances_per_s": 36.592035456173676,
+    "audio_seconds_per_s": 103.2572352520037
+  }
+}

@@ -1,0 +1,1 @@
+dev_model only. A rows are historical development results; B uses canonical singleton FP32 text/BF16 audio. Audio support is the eligible subset; other rows retain missing audio. The numerical-policy references remain distinct.

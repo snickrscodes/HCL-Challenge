@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "prediction": {
+    "emotion": "disgust",
+    "confidence": 0.5181803901672055,
+    "distribution": {
+      "neutral": 0.043170911121080686,
+      "joy": 0.06811331466015252,
+      "sadness": 0.06237041882154869,
+      "anger": 0.0898715560573686,
+      "surprise": 0.18075908439716165,
+      "fear": 0.03753432477548226,
+      "disgust": 0.5181803901672055
+    },
+    "audio_valid": false,
+    "audio_available": false,
+    "audio_unavailable_reason": "missing_or_invalid",
+    "text_prediction": "disgust",
+    "audio_prediction": null,
+    "gate": 0.0,
+    "audio_influence": 0.0,
+    "response": "That sounds unpleasant. Want to say more about it?",
+    "delta_l2": 0.0,
+    "delta_max_abs": 0.0,
+    "current_truncated": false,
+    "latency_ms": {
+      "text": 4.984326020348817,
+      "audio": 0.03735098289325833,
+      "fusion_response": 0.5772540171165019,
+      "total": 5.598931020358577
+    }
+  }
+}

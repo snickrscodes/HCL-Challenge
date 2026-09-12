@@ -1,0 +1,23 @@
+{
+  "components": {
+    "selected_text": {
+      "total": 124062727,
+      "trainable": 124062727
+    },
+    "frozen_wavlm": {
+      "total": 94381936,
+      "trainable": 0
+    },
+    "audio_head": {
+      "total": 198663,
+      "trainable": 198663
+    }
+  },
+  "learned_scalars": {
+    "alpha": 1,
+    "temperatures": 3
+  },
+  "total_required_parameters": 218643330,
+  "within_6b": true,
+  "note": "Includes frozen parameters and all diagnostic temperatures; unused alternate text/concat are separate experiments."
+}

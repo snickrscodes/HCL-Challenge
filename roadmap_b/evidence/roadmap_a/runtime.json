@@ -1,0 +1,793 @@
+{
+  "model_load_s": 1.6989897089952137,
+  "warmup_turns": 1,
+  "samples": [
+    {
+      "key": "dev/99/3",
+      "duration_s": 0.064,
+      "latency_ms": {
+        "text": 8.141260012052953,
+        "audio": 12.447341985534877,
+        "fusion_response": 0.1188000023830682,
+        "total": 20.70762199582532
+      },
+      "real_time_factor": 0.32355659368477063,
+      "prediction": {
+        "emotion": "surprise",
+        "confidence": 0.6310075505121853,
+        "distribution": {
+          "neutral": 0.044574751189404016,
+          "joy": 0.23917585991866905,
+          "sadness": 0.02528565523677959,
+          "anger": 0.037286449635650816,
+          "surprise": 0.6310075505121853,
+          "fear": 0.01088362672427748,
+          "disgust": 0.01178610678303374
+        },
+        "audio_available": true,
+        "text_prediction": "surprise",
+        "audio_prediction": "neutral",
+        "fusion_alpha": 0.4,
+        "response": "That sounds unexpected. What happened next?",
+        "latency_ms": {
+          "text": 8.141260012052953,
+          "audio": 12.447341985534877,
+          "fusion_response": 0.1188000023830682,
+          "total": 20.70762199582532
+        },
+        "current_truncated": false
+      }
+    },
+    {
+      "key": "dev/22/0",
+      "duration_s": 0.704,
+      "latency_ms": {
+        "text": 6.522257986944169,
+        "audio": 12.888105004094541,
+        "fusion_response": 0.13002101331949234,
+        "total": 19.5405539998319
+      },
+      "real_time_factor": 0.027756468749761225,
+      "prediction": {
+        "emotion": "neutral",
+        "confidence": 0.5678503997863956,
+        "distribution": {
+          "neutral": 0.5678503997863956,
+          "joy": 0.026896286334352506,
+          "sadness": 0.009753466343991364,
+          "anger": 0.025353231489597554,
+          "surprise": 0.3476771219414645,
+          "fear": 0.01851835421341136,
+          "disgust": 0.003951139890787029
+        },
+        "audio_available": true,
+        "text_prediction": "neutral",
+        "audio_prediction": "surprise",
+        "fusion_alpha": 0.4,
+        "response": "Could you tell me a little more about what you'd like help with?",
+        "latency_ms": {
+          "text": 6.522257986944169,
+          "audio": 12.888105004094541,
+          "fusion_response": 0.13002101331949234,
+          "total": 19.5405539998319
+        },
+        "current_truncated": false
+      }
+    },
+    {
+      "key": "dev/5/11",
+      "duration_s": 1.0453125,
+      "latency_ms": {
+        "text": 7.169463002355769,
+        "audio": 14.460626000072807,
+        "fusion_response": 0.12285201228223741,
+        "total": 21.753150009317324
+      },
+      "real_time_factor": 0.020810188349720607,
+      "prediction": {
+        "emotion": "neutral",
+        "confidence": 0.5050383869347731,
+        "distribution": {
+          "neutral": 0.5050383869347731,
+          "joy": 0.15428475445736783,
+          "sadness": 0.04612640186393787,
+          "anger": 0.22529011233806362,
+          "surprise": 0.013317313892352894,
+          "fear": 0.012990114024000183,
+          "disgust": 0.0429529164895046
+        },
+        "audio_available": true,
+        "text_prediction": "anger",
+        "audio_prediction": "joy",
+        "fusion_alpha": 0.4,
+        "response": "I'm listening. What would you like to add?",
+        "latency_ms": {
+          "text": 7.169463002355769,
+          "audio": 14.460626000072807,
+          "fusion_response": 0.12285201228223741,
+          "total": 21.753150009317324
+        },
+        "current_truncated": false
+      }
+    },
+    {
+      "key": "dev/37/7",
+      "duration_s": 1.2586875,
+      "latency_ms": {
+        "text": 7.411904021864757,
+        "audio": 21.412047994090244,
+        "fusion_response": 0.12206099927425385,
+        "total": 28.946243022801355
+      },
+      "real_time_factor": 0.02299716412755458,
+      "prediction": {
+        "emotion": "surprise",
+        "confidence": 0.8756663197061265,
+        "distribution": {
+          "neutral": 0.048963743050064075,
+          "joy": 0.028301575092866665,
+          "sadness": 0.014051485830090553,
+          "anger": 0.016783284433477447,
+          "surprise": 0.8756663197061265,
+          "fear": 0.007592656315004651,
+          "disgust": 0.008640935572370034
+        },
+        "audio_available": true,
+        "text_prediction": "surprise",
+        "audio_prediction": "neutral",
+        "fusion_alpha": 0.4,
+        "response": "That sounds unexpected. What happened next?",
+        "latency_ms": {
+          "text": 7.411904021864757,
+          "audio": 21.412047994090244,
+          "fusion_response": 0.12206099927425385,
+          "total": 28.946243022801355
+        },
+        "current_truncated": false
+      }
+    },
+    {
+      "key": "dev/54/6",
+      "duration_s": 1.472,
+      "latency_ms": {
+        "text": 7.364064018474892,
+        "audio": 55.360277998261154,
+        "fusion_response": 0.15740099479444325,
+        "total": 62.88194301305339
+      },
+      "real_time_factor": 0.042718711286041704,
+      "prediction": {
+        "emotion": "neutral",
+        "confidence": 0.8430646452611835,
+        "distribution": {
+          "neutral": 0.8430646452611835,
+          "joy": 0.11165054210780366,
+          "sadness": 0.010858079391018028,
+          "anger": 0.010521913925796704,
+          "surprise": 0.01518567383176541,
+          "fear": 0.004523526413908573,
+          "disgust": 0.00419561906852416
+        },
+        "audio_available": true,
+        "text_prediction": "neutral",
+        "audio_prediction": "joy",
+        "fusion_alpha": 0.4,
+        "response": "I'm listening. What would you like to add?",
+        "latency_ms": {
+          "text": 7.364064018474892,
+          "audio": 55.360277998261154,
+          "fusion_response": 0.15740099479444325,
+          "total": 62.88194301305339
+        },
+        "current_truncated": false
+      }
+    },
+    {
+      "key": "dev/91/5",
+      "duration_s": 1.6426875,
+      "latency_ms": {
+        "text": 8.430130983470008,
+        "audio": 19.711275992449373,
+        "fusion_response": 0.12602101196534932,
+        "total": 28.26761797768995
+      },
+      "real_time_factor": 0.017208153089184615,
+      "prediction": {
+        "emotion": "surprise",
+        "confidence": 0.8432795931652828,
+        "distribution": {
+          "neutral": 0.03789562949227721,
+          "joy": 0.035706409941941124,
+          "sadness": 0.008608653496239797,
+          "anger": 0.04485321613566495,
+          "surprise": 0.8432795931652828,
+          "fear": 0.007825946108076043,
+          "disgust": 0.021830551660518054
+        },
+        "audio_available": true,
+        "text_prediction": "surprise",
+        "audio_prediction": "neutral",
+        "fusion_alpha": 0.4,
+        "response": "That sounds unexpected. What happened next?",
+        "latency_ms": {
+          "text": 8.430130983470008,
+          "audio": 19.711275992449373,
+          "fusion_response": 0.12602101196534932,
+          "total": 28.26761797768995
+        },
+        "current_truncated": false
+      }
+    },
+    {
+      "key": "dev/23/3",
+      "duration_s": 1.8346875,
+      "latency_ms": {
+        "text": 62.77302201488055,
+        "audio": 14.176414988469332,
+        "fusion_response": 0.12680099462158978,
+        "total": 77.07644801121205
+      },
+      "real_time_factor": 0.042010668307933666,
+      "prediction": {
+        "emotion": "surprise",
+        "confidence": 0.9171554297282288,
+        "distribution": {
+          "neutral": 0.01722747609245787,
+          "joy": 0.01776763622485755,
+          "sadness": 0.020918033779754312,
+          "anger": 0.011429741234855767,
+          "surprise": 0.9171554297282288,
+          "fear": 0.00997053559995143,
+          "disgust": 0.005531147339894199
+        },
+        "audio_available": true,
+        "text_prediction": "surprise",
+        "audio_prediction": "surprise",
+        "fusion_alpha": 0.4,
+        "response": "That sounds unexpected. What happened next?",
+        "latency_ms": {
+          "text": 62.77302201488055,
+          "audio": 14.176414988469332,
+          "fusion_response": 0.12680099462158978,
+          "total": 77.07644801121205
+        },
+        "current_truncated": false
+      }
+    },
+    {
+      "key": "dev/97/4",
+      "duration_s": 2.0053125,
+      "latency_ms": {
+        "text": 7.6234360167291015,
+        "audio": 13.995573011925444,
+        "fusion_response": 0.1301709853578359,
+        "total": 21.749370003817603
+      },
+      "real_time_factor": 0.010845875644727493,
+      "prediction": {
+        "emotion": "joy",
+        "confidence": 0.5180906860266985,
+        "distribution": {
+          "neutral": 0.10365717151918162,
+          "joy": 0.5180906860266985,
+          "sadness": 0.02066435341534863,
+          "anger": 0.058596336094196795,
+          "surprise": 0.27650992850150213,
+          "fear": 0.009549857307147658,
+          "disgust": 0.012931667135924581
+        },
+        "audio_available": true,
+        "text_prediction": "joy",
+        "audio_prediction": "neutral",
+        "fusion_alpha": 0.4,
+        "response": "That sounds encouraging. What was the best part?",
+        "latency_ms": {
+          "text": 7.6234360167291015,
+          "audio": 13.995573011925444,
+          "fusion_response": 0.1301709853578359,
+          "total": 21.749370003817603
+        },
+        "current_truncated": false
+      }
+    },
+    {
+      "key": "dev/7/10",
+      "duration_s": 2.2186875,
+      "latency_ms": {
+        "text": 7.7988270204514265,
+        "audio": 56.33598499116488,
+        "fusion_response": 0.11941100819967687,
+        "total": 64.2544430156704
+      },
+      "real_time_factor": 0.028960564755365684,
+      "prediction": {
+        "emotion": "joy",
+        "confidence": 0.8650649133053688,
+        "distribution": {
+          "neutral": 0.06490951147488702,
+          "joy": 0.8650649133053688,
+          "sadness": 0.007893911868430583,
+          "anger": 0.015180131787396203,
+          "surprise": 0.03940939984963701,
+          "fear": 0.002996651348275316,
+          "disgust": 0.004545480366005016
+        },
+        "audio_available": true,
+        "text_prediction": "joy",
+        "audio_prediction": "neutral",
+        "fusion_alpha": 0.4,
+        "response": "That sounds encouraging. What was the best part?",
+        "latency_ms": {
+          "text": 7.7988270204514265,
+          "audio": 56.33598499116488,
+          "fusion_response": 0.11941100819967687,
+          "total": 64.2544430156704
+        },
+        "current_truncated": false
+      }
+    },
+    {
+      "key": "dev/60/5",
+      "duration_s": 2.3893125,
+      "latency_ms": {
+        "text": 7.996287982678041,
+        "audio": 14.28291600313969,
+        "fusion_response": 0.11891100439243019,
+        "total": 22.398334986064583
+      },
+      "real_time_factor": 0.0093743848852189,
+      "prediction": {
+        "emotion": "neutral",
+        "confidence": 0.8533177888304408,
+        "distribution": {
+          "neutral": 0.8533177888304408,
+          "joy": 0.07505053086755718,
+          "sadness": 0.02410207783344114,
+          "anger": 0.014270974008122892,
+          "surprise": 0.01526283993521064,
+          "fear": 0.006366522927992603,
+          "disgust": 0.011629265597234647
+        },
+        "audio_available": true,
+        "text_prediction": "neutral",
+        "audio_prediction": "neutral",
+        "fusion_alpha": 0.4,
+        "response": "I'm listening. What would you like to add?",
+        "latency_ms": {
+          "text": 7.996287982678041,
+          "audio": 14.28291600313969,
+          "fusion_response": 0.11891100439243019,
+          "total": 22.398334986064583
+        },
+        "current_truncated": false
+      }
+    },
+    {
+      "key": "dev/32/5",
+      "duration_s": 2.6453125,
+      "latency_ms": {
+        "text": 7.454766018781811,
+        "audio": 67.54686697968282,
+        "fusion_response": 0.11894101044163108,
+        "total": 75.12076399871148
+      },
+      "real_time_factor": 0.028397689875472736,
+      "prediction": {
+        "emotion": "neutral",
+        "confidence": 0.8801340990427109,
+        "distribution": {
+          "neutral": 0.8801340990427109,
+          "joy": 0.0399104119253905,
+          "sadness": 0.026534803949621575,
+          "anger": 0.01430655931541908,
+          "surprise": 0.00921989943423198,
+          "fear": 0.014134093647753173,
+          "disgust": 0.015760132684872728
+        },
+        "audio_available": true,
+        "text_prediction": "neutral",
+        "audio_prediction": "neutral",
+        "fusion_alpha": 0.4,
+        "response": "I'm listening. What would you like to add?",
+        "latency_ms": {
+          "text": 7.454766018781811,
+          "audio": 67.54686697968282,
+          "fusion_response": 0.11894101044163108,
+          "total": 75.12076399871148
+        },
+        "current_truncated": false
+      }
+    },
+    {
+      "key": "dev/60/6",
+      "duration_s": 2.9226875,
+      "latency_ms": {
+        "text": 8.035820006625727,
+        "audio": 19.41871299641207,
+        "fusion_response": 0.11783099034801126,
+        "total": 27.57258401834406
+      },
+      "real_time_factor": 0.009433982941503005,
+      "prediction": {
+        "emotion": "joy",
+        "confidence": 0.7789983096648346,
+        "distribution": {
+          "neutral": 0.13466834640458214,
+          "joy": 0.7789983096648346,
+          "sadness": 0.03136800647005801,
+          "anger": 0.014132082937691168,
+          "surprise": 0.026279104419053404,
+          "fear": 0.005983356320712644,
+          "disgust": 0.0085707937830679
+        },
+        "audio_available": true,
+        "text_prediction": "joy",
+        "audio_prediction": "neutral",
+        "fusion_alpha": 0.4,
+        "response": "That sounds encouraging. What was the best part?",
+        "latency_ms": {
+          "text": 8.035820006625727,
+          "audio": 19.41871299641207,
+          "fusion_response": 0.11783099034801126,
+          "total": 27.57258401834406
+        },
+        "current_truncated": false
+      }
+    },
+    {
+      "key": "dev/42/2",
+      "duration_s": 3.264,
+      "latency_ms": {
+        "text": 7.331584027269855,
+        "audio": 53.331842995248735,
+        "fusion_response": 0.14544097939506173,
+        "total": 60.809148009866476
+      },
+      "real_time_factor": 0.018630253679493405,
+      "prediction": {
+        "emotion": "surprise",
+        "confidence": 0.38776841324136896,
+        "distribution": {
+          "neutral": 0.1415770863901413,
+          "joy": 0.14327743164470744,
+          "sadness": 0.06939825243497216,
+          "anger": 0.16519169768611403,
+          "surprise": 0.38776841324136896,
+          "fear": 0.0762090679172535,
+          "disgust": 0.016578050685442568
+        },
+        "audio_available": true,
+        "text_prediction": "surprise",
+        "audio_prediction": "neutral",
+        "fusion_alpha": 0.4,
+        "response": "I'm not sure how that felt for you. Would you tell me a little more?",
+        "latency_ms": {
+          "text": 7.331584027269855,
+          "audio": 53.331842995248735,
+          "fusion_response": 0.14544097939506173,
+          "total": 60.809148009866476
+        },
+        "current_truncated": false
+      }
+    },
+    {
+      "key": "dev/77/16",
+      "duration_s": 3.6053125,
+      "latency_ms": {
+        "text": 7.8301379980985075,
+        "audio": 14.779499004362151,
+        "fusion_response": 0.12002099538221955,
+        "total": 22.729857999365777
+      },
+      "real_time_factor": 0.006304545860966498,
+      "prediction": {
+        "emotion": "neutral",
+        "confidence": 0.6960201420310317,
+        "distribution": {
+          "neutral": 0.6960201420310317,
+          "joy": 0.14392399415649706,
+          "sadness": 0.06770321280690585,
+          "anger": 0.030597611944653918,
+          "surprise": 0.00871714505513124,
+          "fear": 0.04711828204826954,
+          "disgust": 0.005919611957510533
+        },
+        "audio_available": true,
+        "text_prediction": "neutral",
+        "audio_prediction": "neutral",
+        "fusion_alpha": 0.4,
+        "response": "I'm listening. What would you like to add?",
+        "latency_ms": {
+          "text": 7.8301379980985075,
+          "audio": 14.779499004362151,
+          "fusion_response": 0.12002099538221955,
+          "total": 22.729857999365777
+        },
+        "current_truncated": false
+      }
+    },
+    {
+      "key": "dev/104/9",
+      "duration_s": 3.9253125,
+      "latency_ms": {
+        "text": 7.3925540200434625,
+        "audio": 65.12975998339243,
+        "fusion_response": 0.12174100265838206,
+        "total": 72.64429502538405
+      },
+      "real_time_factor": 0.01850662718583146,
+      "prediction": {
+        "emotion": "anger",
+        "confidence": 0.42207116844520864,
+        "distribution": {
+          "neutral": 0.04146239132067537,
+          "joy": 0.1767188420173119,
+          "sadness": 0.2158052541290648,
+          "anger": 0.42207116844520864,
+          "surprise": 0.020389438036273806,
+          "fear": 0.09752687338585965,
+          "disgust": 0.02602603266560583
+        },
+        "audio_available": true,
+        "text_prediction": "anger",
+        "audio_prediction": "anger",
+        "fusion_alpha": 0.4,
+        "response": "I'm not sure how that felt for you. Would you tell me a little more?",
+        "latency_ms": {
+          "text": 7.3925540200434625,
+          "audio": 65.12975998339243,
+          "fusion_response": 0.12174100265838206,
+          "total": 72.64429502538405
+        },
+        "current_truncated": false
+      }
+    },
+    {
+      "key": "dev/37/6",
+      "duration_s": 4.4373125,
+      "latency_ms": {
+        "text": 7.433694991050288,
+        "audio": 16.039418027503416,
+        "fusion_response": 0.11981098214164376,
+        "total": 23.593104007886723
+      },
+      "real_time_factor": 0.005316980493910835,
+      "prediction": {
+        "emotion": "neutral",
+        "confidence": 0.853557822662109,
+        "distribution": {
+          "neutral": 0.853557822662109,
+          "joy": 0.04439780349213203,
+          "sadness": 0.014272519765498013,
+          "anger": 0.04902149704589847,
+          "surprise": 0.00809839640830178,
+          "fear": 0.017022808326206205,
+          "disgust": 0.01362915229985448
+        },
+        "audio_available": true,
+        "text_prediction": "neutral",
+        "audio_prediction": "anger",
+        "fusion_alpha": 0.4,
+        "response": "I'm listening. What would you like to add?",
+        "latency_ms": {
+          "text": 7.433694991050288,
+          "audio": 16.039418027503416,
+          "fusion_response": 0.11981098214164376,
+          "total": 23.593104007886723
+        },
+        "current_truncated": false
+      }
+    },
+    {
+      "key": "dev/47/5",
+      "duration_s": 5.1413125,
+      "latency_ms": {
+        "text": 7.481604989152402,
+        "audio": 61.40140301431529,
+        "fusion_response": 0.19012097618542612,
+        "total": 69.07342898193747
+      },
+      "real_time_factor": 0.013434979683094048,
+      "prediction": {
+        "emotion": "sadness",
+        "confidence": 0.7341396199998673,
+        "distribution": {
+          "neutral": 0.042860828195361085,
+          "joy": 0.07463190752693477,
+          "sadness": 0.7341396199998673,
+          "anger": 0.01992070590868452,
+          "surprise": 0.031975984448839215,
+          "fear": 0.0775477430634,
+          "disgust": 0.018923210856913068
+        },
+        "audio_available": true,
+        "text_prediction": "sadness",
+        "audio_prediction": "neutral",
+        "fusion_alpha": 0.4,
+        "response": "That sounds difficult. Want to tell me more?",
+        "latency_ms": {
+          "text": 7.481604989152402,
+          "audio": 61.40140301431529,
+          "fusion_response": 0.19012097618542612,
+          "total": 69.07342898193747
+        },
+        "current_truncated": false
+      }
+    },
+    {
+      "key": "dev/56/13",
+      "duration_s": 5.9733125,
+      "latency_ms": {
+        "text": 7.430133991874754,
+        "audio": 17.04444599454291,
+        "fusion_response": 0.12175101437605917,
+        "total": 24.596470990218222
+      },
+      "real_time_factor": 0.004117727138872815,
+      "prediction": {
+        "emotion": "neutral",
+        "confidence": 0.7884532427535472,
+        "distribution": {
+          "neutral": 0.7884532427535472,
+          "joy": 0.08572247102175569,
+          "sadness": 0.06734691344630683,
+          "anger": 0.019535821681738636,
+          "surprise": 0.010064202255190054,
+          "fear": 0.023125802151094124,
+          "disgust": 0.005751546690367474
+        },
+        "audio_available": true,
+        "text_prediction": "neutral",
+        "audio_prediction": "neutral",
+        "fusion_alpha": 0.4,
+        "response": "I'm listening. What would you like to add?",
+        "latency_ms": {
+          "text": 7.430133991874754,
+          "audio": 17.04444599454291,
+          "fusion_response": 0.12175101437605917,
+          "total": 24.596470990218222
+        },
+        "current_truncated": false
+      }
+    },
+    {
+      "key": "dev/62/4",
+      "duration_s": 7.8506875,
+      "latency_ms": {
+        "text": 7.514305994845927,
+        "audio": 77.52405101200566,
+        "fusion_response": 0.1214509829878807,
+        "total": 85.15996800269932
+      },
+      "real_time_factor": 0.010847453551386336,
+      "prediction": {
+        "emotion": "neutral",
+        "confidence": 0.47215874022410614,
+        "distribution": {
+          "neutral": 0.47215874022410614,
+          "joy": 0.09885643871161788,
+          "sadness": 0.166604614160245,
+          "anger": 0.02938305482383074,
+          "surprise": 0.0170002418354919,
+          "fear": 0.1963945108003937,
+          "disgust": 0.01960239944431458
+        },
+        "audio_available": true,
+        "text_prediction": "neutral",
+        "audio_prediction": "sadness",
+        "fusion_alpha": 0.4,
+        "response": "I'm not sure how that felt for you. Would you tell me a little more?",
+        "latency_ms": {
+          "text": 7.514305994845927,
+          "audio": 77.52405101200566,
+          "fusion_response": 0.1214509829878807,
+          "total": 85.15996800269932
+        },
+        "current_truncated": false
+      }
+    },
+    {
+      "key": "dev/74/19",
+      "duration_s": 28.544,
+      "latency_ms": {
+        "text": 7.463165005901828,
+        "audio": 105.07928501465358,
+        "fusion_response": 0.16163100372068584,
+        "total": 112.70432101446204
+      },
+      "real_time_factor": 0.003948441739576165,
+      "prediction": {
+        "emotion": "neutral",
+        "confidence": 0.6416781643722286,
+        "distribution": {
+          "neutral": 0.6416781643722286,
+          "joy": 0.24505080570632304,
+          "sadness": 0.03383882142390138,
+          "anger": 0.023313506589530762,
+          "surprise": 0.026819683327959132,
+          "fear": 0.02192997954818965,
+          "disgust": 0.00736903903186745
+        },
+        "audio_available": true,
+        "text_prediction": "neutral",
+        "audio_prediction": "neutral",
+        "fusion_alpha": 0.4,
+        "response": "Could you tell me a little more about what you'd like help with?",
+        "latency_ms": {
+          "text": 7.463165005901828,
+          "audio": 105.07928501465358,
+          "fusion_response": 0.16163100372068584,
+          "total": 112.70432101446204
+        },
+        "current_truncated": false
+      }
+    }
+  ],
+  "definition": "Utterance-final causal inference, timed from explicit end_turn; PCM buffered incrementally.",
+  "excluded": [
+    "recording time",
+    "WAV disk read",
+    "automatic endpoint detection",
+    "ASR"
+  ],
+  "environment": {
+    "git_commit": null,
+    "git_dirty": null,
+    "python": "3.12.14",
+    "pytorch": "2.8.0+cu128",
+    "transformers": "4.56.2",
+    "cuda_runtime": "12.8",
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "gpu_memory_bytes": 25252724736,
+    "cpu": "AMD EPYC 75F3 32-Core Processor",
+    "cpu_count": 128,
+    "ram_bytes": 540844646400,
+    "process_rss_bytes": 2323185664,
+    "seed": 1337,
+    "peak_gpu_memory_bytes": 1373408768
+  },
+  "parameter_ledger": {
+    "components": {
+      "selected_text": {
+        "total": 124062727,
+        "trainable": 124062727
+      },
+      "frozen_wavlm": {
+        "total": 94381936,
+        "trainable": 0
+      },
+      "audio_head": {
+        "total": 198663,
+        "trainable": 198663
+      }
+    },
+    "learned_scalars": {
+      "alpha": 1,
+      "temperatures": 3
+    },
+    "total_required_parameters": 218643330,
+    "within_6b": true,
+    "note": "Includes frozen parameters and all diagnostic temperatures; unused alternate text/concat are separate experiments."
+  },
+  "summary_ms": {
+    "text": {
+      "p50": 7.472384997527115,
+      "p95": 11.147275535040574
+    },
+    "audio": {
+      "p50": 19.56499449443072,
+      "p95": 78.90181271213807
+    },
+    "fusion_response": {
+      "p50": 0.12190600682515651,
+      "p95": 0.16305550234392288
+    },
+    "total": {
+      "p50": 28.606930500245653,
+      "p95": 86.53718565328747
+    }
+  },
+  "median_real_time_factor": 0.017857390137508037,
+  "caution": "Small duration-stratified sample; quantiles are initial observations, not an SLA.",
+  "peak_process_rss_bytes": 2323185664
+}

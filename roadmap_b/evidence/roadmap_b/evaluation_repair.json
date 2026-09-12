@@ -1,0 +1,12 @@
+{
+  "reason": "Evaluation-only constant float32 correlation produced NaN; use float64 variance guard and null for undefined correlation",
+  "source_hash_amendments": {
+    "b_evaluate.py": {
+      "original_sha256": "05953961cd43dfe8cf660a547db4653eead529f4a789c46e94897db5f4633c9c",
+      "repaired_sha256": "613145f1e0e74d94b22b47a62f6b08980083f4aba055e8651ed2c55fc6051c55"
+    }
+  },
+  "model_freeze_preserved_sha256": "68df648fd1c1f21cf0276e721ec43c5ea6e83b23305d58f205e5b3af1493fe61",
+  "checkpoints_retrained": false,
+  "failed_outputs": "evaluation_failed_constant_correlation_v1"
+}

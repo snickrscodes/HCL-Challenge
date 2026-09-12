@@ -1,0 +1,123 @@
+{
+  "banner": "Provisional analysis using speaker-intended delivery labels. Independent listener validation (L01) is pending; these results are not human-validated evidence.",
+  "labels": [
+    "neutral",
+    "joy",
+    "sadness",
+    "anger",
+    "surprise",
+    "fear",
+    "disgust"
+  ],
+  "mapping": {
+    "warmly pleased": {
+      "category": "joy",
+      "rationale": "Temporary coarse interpretation of the explicit intended affect; not a listener label."
+    },
+    "irritated or annoyed": {
+      "category": "anger",
+      "rationale": "Temporary coarse interpretation of the explicit intended affect; not a listener label."
+    },
+    "disappointed and subdued": {
+      "category": "sadness",
+      "rationale": "Temporary coarse interpretation of the explicit intended affect; not a listener label."
+    },
+    "willing and friendly": {
+      "category": null,
+      "rationale": "No unique emotion target: pragmatic/social stance alone does not establish a MELD category."
+    },
+    "reluctant and irritated": {
+      "category": "anger",
+      "rationale": "Temporary coarse interpretation of the explicit intended affect; not a listener label."
+    },
+    "hesitant or apprehensive": {
+      "category": "fear",
+      "rationale": "Temporary coarse interpretation of the explicit intended affect; not a listener label."
+    },
+    "calm and matter-of-fact": {
+      "category": "neutral",
+      "rationale": "Temporary coarse interpretation of the explicit intended affect; not a listener label."
+    },
+    "hurt or sad": {
+      "category": "sadness",
+      "rationale": "Temporary coarse interpretation of the explicit intended affect; not a listener label."
+    },
+    "defensive and irritated": {
+      "category": "anger",
+      "rationale": "Temporary coarse interpretation of the explicit intended affect; not a listener label."
+    },
+    "pleasantly surprised": {
+      "category": "surprise",
+      "rationale": "Temporary coarse interpretation of the explicit intended affect; not a listener label."
+    },
+    "skeptical and annoyed": {
+      "category": "anger",
+      "rationale": "Temporary coarse interpretation of the explicit intended affect; not a listener label."
+    },
+    "worried or apprehensive": {
+      "category": "fear",
+      "rationale": "Temporary coarse interpretation of the explicit intended affect; not a listener label."
+    },
+    "pleased acceptance": {
+      "category": "joy",
+      "rationale": "Temporary coarse interpretation of the explicit intended affect; not a listener label."
+    },
+    "sad resignation": {
+      "category": "sadness",
+      "rationale": "Temporary coarse interpretation of the explicit intended affect; not a listener label."
+    },
+    "irritated acceptance": {
+      "category": "anger",
+      "rationale": "Temporary coarse interpretation of the explicit intended affect; not a listener label."
+    },
+    "angry disbelief": {
+      "category": "anger",
+      "rationale": "Temporary coarse interpretation of the explicit intended affect; not a listener label."
+    },
+    "sad disbelief": {
+      "category": "sadness",
+      "rationale": "Temporary coarse interpretation of the explicit intended affect; not a listener label."
+    },
+    "warm appreciation": {
+      "category": null,
+      "rationale": "No unique emotion target: pragmatic/social stance alone does not establish a MELD category."
+    },
+    "hurt or disappointed": {
+      "category": "sadness",
+      "rationale": "Temporary coarse interpretation of the explicit intended affect; not a listener label."
+    },
+    "irritated or resentful": {
+      "category": "anger",
+      "rationale": "Temporary coarse interpretation of the explicit intended affect; not a listener label."
+    },
+    "relaxed acceptance": {
+      "category": null,
+      "rationale": "No unique emotion target: pragmatic/social stance alone does not establish a MELD category."
+    },
+    "irritated dismissal": {
+      "category": "anger",
+      "rationale": "Temporary coarse interpretation of the explicit intended affect; not a listener label."
+    },
+    "neutral, ordinary volume": {
+      "category": "neutral",
+      "rationale": "Temporary coarse interpretation of the explicit intended affect; not a listener label."
+    },
+    "neutral, slightly softer": {
+      "category": "neutral",
+      "rationale": "Temporary coarse interpretation of the explicit intended affect; not a listener label."
+    },
+    "neutral, slightly slower": {
+      "category": "neutral",
+      "rationale": "Temporary coarse interpretation of the explicit intended affect; not a listener label."
+    }
+  },
+  "scope": "All accepted recordings; within-speaker/phrase pairs only; no training or selection.",
+  "pair_order": "lexicographic delivery ID; all three unordered pairs in each set",
+  "direction": "D=(p2[c2]-p2[c1])-(p1[c2]-p1[c1]); positive is intention-consistent only",
+  "sign_epsilon": 1e-12,
+  "effect_size": "Always retain magnitude; no practical-significance claim from a positive sign.",
+  "stable_controls": "Manifest p09/p10; expected neutral category, not listener-confirmed stability.",
+  "unmapped": "Retain all distributions and TV; directional category analysis null.",
+  "text_invariance_atol": 2e-05,
+  "final_controlled_delivery_requirement_satisfied": false
+}

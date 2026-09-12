@@ -1,0 +1,38 @@
+import json,hashlib
+from pathlib import Path
+import numpy as np
+root=Path('roadmap_b');dest=root/'artifacts/submission/controlled_delivery_provisional_smoke'
+s=json.loads((dest/'summary.json').read_text());o=json.loads((dest/'outputs.json').read_text());raw=json.loads((dest/'uncalibrated_pairs.json').read_text());info=json.loads((dest/'integrity.json').read_text())
+names=['text','audio','A','B'];pairs=s['pairs'];directional=[p for p in pairs if p['direction_evaluable']]
+comparison={}
+for a in ['aligned','opposite','zero']:
+ for b in ['aligned','opposite','zero']:
+  comparison[f'A_{a}__B_{b}']=sum(p['models']['A']['direction']==a and p['models']['B']['direction']==b for p in directional)
+summary={'argmax_pair_changes_all':{n:sum(p['models'][n]['argmax_changed'] for p in pairs) for n in names},'uncalibrated_mean_pairwise_tv':{n:float(np.mean([p['models'][n]['posterior_tv'] for p in raw])) for n in names},'paired_direction_comparison':comparison,'inference_environment':info['environment'],'model_load_s':info['load_seconds'],'text_fixed_across_all_deliveries':s['all_text_sets_invariant'],'numeric_ranges':{k:{'min':min(v['state'][k] for v in o.values()),'median':float(np.median([v['state'][k] for v in o.values()])),'max':max(v['state'][k] for v in o.values())} for k in ['gate','audio_influence','delta_l2','delta_max_abs']}}
+(dest/'engineering_readout.json').write_text(json.dumps(summary,indent=2)+'\n')
+readout='''## Engineering readout — provisional assumptions only
+
+The frozen audio classifier responds to these recordings, but neither fixed A nor adaptive B changes its argmax within any of the 60 within-speaker delivery pairs. Text has exactly zero posterior movement. Therefore this smoke test does **not** demonstrate categorical delivery correction by either fused system. Posterior movement is the informative quantity here.
+
+Using the pre-output mapping, 36 pairs have distinct mapped intended categories, 12 are intended-neutral stable pairs, and 12 involve an unmapped delivery. A aligns with the temporary category contrast on 28/36 pairs and moves oppositely on 8; B aligns on 23/36 and moves oppositely on 13. Both intended categories gain probability for their own respective delivery on 22 pairs for A and 15 for B. These are descriptive counts of correlated contrasts under an oracle assumption, not accuracy or independent trials.
+
+Mean calibrated pairwise TV across all 60 pairs is .026253 for A versus .007295 for B. Audio-only mean TV is .172151. At the common diagnostic temperature T=1, A TV is .023458 and B TV .002098: the sensitivity gap is not solely due to the different saved calibration temperatures. This does not isolate which feature, residual or logit-scale mechanism causes the gap.
+
+B is less sensitive, and this is not uniformly a benefit: its smaller movement accompanies fewer intended-direction alignments. Conversely, the 12 intended stable-control pairs have no categorical flips for either A or B, with mean/max TV .013337/.039055 for A and .006506/.014078 for B. Stability alone does not establish that the common category is appropriate; independent judgments are pending.
+
+B gate median is .705521 (range .036373–.951342), while its median within-recording audio influence is .031032 (range .003520–.065804). A high gate is not large delivery sensitivity. Within-recording influence compares B to text under the same B temperature; between-recording TV compares two deliveries. These are different comparisons and should not be conflated.
+
+The conservative provisional conclusion is: paired recordings produce measurable acoustic/posterior variation, but B does not show an advantage over A on the temporary intended-direction diagnostic, and neither fused model flips category within a delivery set. This does not revoke development selection or establish a human-validated failure. L01 may perceive categories or contrasts differently. No tuning, re-recording, seed change or freeze decision follows.
+
+The inference ran locally on the NVIDIA GeForce RTX 5080 Laptop GPU with Python 3.12.14, PyTorch 2.8.0+cu128 and Transformers 4.56.2. It reused the exact selected weights and canonical singleton FP32 text/BF16 audio path. These are not fresh RTX 4090 measurements. Accepted recordings stayed local; no human audio was sent to RunPod.
+
+Full recording-by-recording intended probabilities, predictions and diagnostics are indexed in [RECORDING_INDEX.md](RECORDING_INDEX.md); every full distribution and waveform hash remains in [outputs.json](outputs.json). The full paired sensitivity/sign comparison is in [engineering_readout.json](engineering_readout.json).
+
+'''
+p=dest/'CONTROLLED_DELIVERY_PROVISIONAL_SMOKE.md';text=p.read_text();text=text.replace('## Scope and interpretation',readout+'## Scope and interpretation',1);p.write_text(text)
+lines=['# Every accepted recording — provisional intended-delivery index','', '> '+s['banner'],'','No accuracy is computed. P(target) is null when intended delivery does not uniquely specify a MELD category. Full distributions, wave hashes, timestamps and all raw logits are in outputs.json.','', '| Recording | Intended delivery | Temporary target | Text / audio / A / B argmax | P(target): text / audio / A / B | B gate | B influence | Residual L2 |','|---|---|---|---|---|---:|---:|---:|']
+for rid,v in sorted(o.items()):
+ m=v['metadata'];probs=v['intended_category_probabilities'];pp=' / '.join('n/a' if probs[n] is None else f'{probs[n]:.5f}' for n in names)
+ lines.append(f"| {rid} | {m['intended_delivery']} | {v['intended_category']} | {' / '.join(v['argmaxes'][n] for n in names)} | {pp} | {v['state']['gate']:.5f} | {v['state']['audio_influence']:.5f} | {v['state']['delta_l2']:.5f} |")
+(dest/'RECORDING_INDEX.md').write_text('\n'.join(lines)+'\n')
+print(json.dumps(summary['paired_direction_comparison'],indent=2))

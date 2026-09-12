@@ -1,0 +1,12 @@
+# Install torch separately with the CUDA 12.8 index (see bootstrap.sh).
+torch==2.8.0
+transformers==4.56.2
+numpy==2.2.6
+scipy==1.16.2
+scikit-learn==1.7.2
+PyYAML==6.0.3
+soundfile==0.13.1
+imageio-ffmpeg==0.6.0
+psutil==7.1.0
+pytest==8.4.2
+ruff==0.13.2

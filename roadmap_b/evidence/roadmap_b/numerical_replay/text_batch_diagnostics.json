@@ -1,0 +1,26 @@
+[
+  {
+    "key": "dev/99/3",
+    "cached_vs_batch16_logits_max": 0.0,
+    "cached_vs_single_logits_max": 0.017578125,
+    "cached_vs_single_raw_probability_max": 0.0002359389274605439
+  },
+  {
+    "key": "dev/108/5",
+    "cached_vs_batch16_logits_max": 0.0,
+    "cached_vs_single_logits_max": 0.015625,
+    "cached_vs_single_raw_probability_max": 0.003455317501734445
+  },
+  {
+    "key": "dev/62/4",
+    "cached_vs_batch16_logits_max": 0.0,
+    "cached_vs_single_logits_max": 0.0625,
+    "cached_vs_single_raw_probability_max": 0.018350900177001805
+  },
+  {
+    "key": "dev/72/0",
+    "cached_vs_batch16_logits_max": 0.0,
+    "cached_vs_single_logits_max": 0.015625,
+    "cached_vs_single_raw_probability_max": 0.00299777720479405
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "argmax_pair_changes_all": {
+    "text": 0,
+    "audio": 8,
+    "A": 0,
+    "B": 0
+  },
+  "uncalibrated_mean_pairwise_tv": {
+    "text": 0.0,
+    "audio": 0.17351130020464037,
+    "A": 0.023457551363952375,
+    "B": 0.0020981348414214366
+  },
+  "paired_direction_comparison": {
+    "A_aligned__B_aligned": 18,
+    "A_aligned__B_opposite": 10,
+    "A_aligned__B_zero": 0,
+    "A_opposite__B_aligned": 5,
+    "A_opposite__B_opposite": 3,
+    "A_opposite__B_zero": 0,
+    "A_zero__B_aligned": 0,
+    "A_zero__B_opposite": 0,
+    "A_zero__B_zero": 0
+  },
+  "inference_environment": {
+    "git_commit": "ace76cba0adc96491810bccb0cef330637584b95",
+    "git_dirty": true,
+    "python": "3.12.14",
+    "pytorch": "2.8.0+cu128",
+    "transformers": "4.56.2",
+    "cuda_runtime": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5080 Laptop GPU",
+    "gpu_memory_bytes": 17094475776,
+    "cpu": "Intel(R) Core(TM) Ultra 9 275HX",
+    "cpu_count": 24,
+    "ram_bytes": 16466878464,
+    "process_rss_bytes": 2225250304,
+    "seed": 1337,
+    "peak_gpu_memory_bytes": 942730752
+  },
+  "model_load_s": 1.2519815850027953,
+  "text_fixed_across_all_deliveries": true,
+  "numeric_ranges": {
+    "gate": {
+      "min": 0.03637343645095825,
+      "median": 0.7055206894874573,
+      "max": 0.9513424038887024
+    },
+    "audio_influence": {
+      "min": 0.003519937804056558,
+      "median": 0.031032058921039565,
+      "max": 0.06580441523055303
+    },
+    "delta_l2": {
+      "min": 1.5611810684204102,
+      "median": 1.7531681060791016,
+      "max": 2.4831838607788086
+    },
+    "delta_max_abs": {
+      "min": 1.194838285446167,
+      "median": 1.3760185241699219,
+      "max": 1.5951346158981323
+    }
+  }
+}
