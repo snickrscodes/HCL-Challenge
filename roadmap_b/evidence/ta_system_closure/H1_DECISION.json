@@ -1,0 +1,29 @@
+{
+  "decision": "REJECT_CHANGE",
+  "recommended_default": "evidence_only",
+  "measured_requirements": {
+    "primary_gain_over_baseline_at_least_0.05": "FAIL",
+    "primary_gain_over_shuffle_at_least_0.05": "FAIL",
+    "eligible_coverage_at_least_0.10": "FAIL",
+    "actors_with_routes_at_least_8": "PASS",
+    "routed_listener_agreement_at_least_0.65": "PASS",
+    "stable_route_changes_at_most_12_of_67": "PASS",
+    "MELD839_categorical_probabilities_calibration_preserved": "PASS",
+    "fixed_cases": "PASS",
+    "input_integrity_and_joins": "PASS"
+  },
+  "all_measured_requirements_pass": false,
+  "primary_gain_over_baseline": 0.04095507441788781,
+  "primary_gain_over_shuffle": 0.04059384186343377,
+  "local_raw_runtime_and_availability": "NOT_MEASURED",
+  "independent_transfer": "NOT_MEASURED",
+  "human_response_usefulness": "NOT_MEASURED",
+  "selective_nuisance_claim": "INCONCLUSIVE",
+  "claim": "Fixed adaptive working-data response-routing experiment; no improved categorical accuracy or human-response-quality claim.",
+  "budget": {
+    "new_hypotheses": 1,
+    "new_fits": 0,
+    "new_calibrations": 0,
+    "threshold_retries": 0
+  }
+}

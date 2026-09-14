@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "scope": "Portable loading and exact local asset handoff; no corpus/model development or pretrained backbone inference in this audit",
+  "preexisting_frozen_hash_checks": {
+    "A_baseline_files": 71,
+    "B_release_files": 6,
+    "old_C1_manifest_files": 13,
+    "missing": 0,
+    "changed": 0,
+    "historical_C1_runtime_source_and_provenance": "PASS"
+  },
+  "retained_design": {
+    "B": "adaptive/1337",
+    "D2": "1337",
+    "wavlm_instances": 1,
+    "extra_backbone_passes": 0,
+    "text_context": "up to three preceding observed human turns; no generated-state feedback",
+    "audio": "shared existing preparation; 16kHz float PCM; utterance-final"
+  },
+  "portable_assets": {
+    "files": 33,
+    "bytes": 880734827,
+    "manifest": "ASSET_MANIFEST.json",
+    "scope": "Selected T1 text-context, WavLM, original audio head, B adaptive head, D2 head and frozen scalar/provenance files only",
+    "excluded": [
+      "D0",
+      "D3",
+      "separate normalization file",
+      "training caches",
+      "corpus media"
+    ],
+    "construction_from_nonrepository_cwd": "PASS",
+    "asset_hash_verification": "PASS"
+  },
+  "D2_embedded_normalization": {
+    "status": "PASS",
+    "comparison": "exact tensor equality with historical normalization/D2.pt, atol=0 rtol=0",
+    "mean_shape": [
+      13,
+      1536
+    ],
+    "scale_shape": [
+      13,
+      1
+    ]
+  },
+  "D2_only_loader_reference": {
+    "status": "PASS",
+    "input": "fixed synthetic [1,13,1536] tensor; no corpus data",
+    "comparison": "new selected-D2 loader versus historical load_head(D2,1337), exact logits/representation/unnormalized, atol=0 rtol=0",
+    "neural_parameters": 197779,
+    "frozen": true,
+    "temperature": 1.0316526942307542
+  },
+  "tests": {
+    "status": "PASS",
+    "command": "python -m pytest tests/test_ta_assets.py tests/test_ta_runtime.py -q",
+    "passed": 17,
+    "failed": 0,
+    "coverage": [
+      "missing/changed/extra/symlink/traversal assets",
+      "source pinning",
+      "all sources checked before copying",
+      "existing bundle not overwritten",
+      "explicit device and CWD-independent config",
+      "fail before loading on absent assets",
+      "D2 role/normalization and frozen head round trip",
+      "inherited error cleanup then missing audio",
+      "clock hook cleanup"
+    ]
+  },
+  "unmeasured_here": [
+    "actual waveform-to-state-to-response in the new portable loader",
+    "complete system response policy",
+    "latency benchmark",
+    "cross-device equality"
+  ],
+  "deployment_parameter_contract": {
+    "learned_parameters": 218895839,
+    "budget": 6000000000,
+    "normalization_buffer_bytes": 79924,
+    "runtime_count_check": "loader asserts inherited unique-parameter ledger"
+  },
+  "implementation": {
+    "new_source": [
+      "src/ta_assets.py",
+      "src/ta_runtime.py"
+    ],
+    "root_entry": "prepare_ta_assets.py",
+    "unchanged_dependency_allowlist": "RUNTIME_SOURCE_CLOSURE.json",
+    "runtime_source_hashes_in_manifest": 33,
+    "historical_freezes": "preserved; inference-only manifest does not weaken or claim full research freeze verification"
+  },
+  "cautions": [
+    "Do not run the old ta_release verification on the minimal bundle: it intentionally requires full historical research assets and D3. Use PortableTADual and prepare_ta_assets.py --verify-only.",
+    "Do not change pinned historical source files or infer a new model revision from pretrained names.",
+    "CPU is explicit FP32 scope. CUDA uses existing BF16 audio policy; neither establishes equality across GPU devices.",
+    "Source tree contains unchanged historical training/acquisition functions only because frozen runtime imports them; the portable entry path calls none of them."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "installation": {
+    "fresh_environment": true,
+    "packages": 55,
+    "offline_cache_only": true,
+    "compatibility_check": "PASS",
+    "python": "3.12.14",
+    "fresh_network_download": "NOT_MEASURED"
+  },
+  "ordinary_tests": {
+    "passed": 118,
+    "skipped": 3,
+    "failed": 0,
+    "scope": "final review source; newly installed environment"
+  },
+  "pretrained_tests": {
+    "passed": 3,
+    "failed": 0,
+    "scope": "separate opt-in pretrained checks; retained local pretrained/baseline weights; original equivalent locked environment"
+  },
+  "raw_waveforms": {
+    "count": 15,
+    "status": "PASS",
+    "scope": "RTX5080 same-environment legacy-versus-portable comparison; no cross-GPU claim"
+  },
+  "root_cli": "PASS; help/assets/raw/fallback/four-turn chunked replay from unrelated cwd",
+  "lint": "PASS; explicit new source allowlist",
+  "benchmark": "one600turnblock; absolute/incremental p95PASS; RTF FAIL",
+  "postcommit_clean_checkout": "PENDING_AT_COMMIT; external completion attestation follows"
+}

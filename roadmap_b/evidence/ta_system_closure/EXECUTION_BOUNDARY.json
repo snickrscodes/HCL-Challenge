@@ -1,0 +1,19 @@
+{
+  "launch_utc": "2026-09-14T07:30:00Z",
+  "launch_local": "2026-09-14T03:30:00-04:00",
+  "research_cutoff": "2026-09-14T07:30:00-04:00",
+  "handoff_deadline": "2026-09-14T09:00:00-04:00",
+  "research_closed": true,
+  "phase": "FINALIZATION",
+  "budget": {
+    "hypotheses_used": 1,
+    "hypotheses_max": 2,
+    "new_fits": 0,
+    "fits_max": 12,
+    "new_calibrations": 0,
+    "threshold_retries": 0,
+    "second_hypothesis": "SKIPPED; lowering fixed thresholds would chase working coverage without a separately justified release decision"
+  },
+  "no_push": true,
+  "cloud_actions": "NONE; local evidence/assets sufficient; resources untouched"
+}

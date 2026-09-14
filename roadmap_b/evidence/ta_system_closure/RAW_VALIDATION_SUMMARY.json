@@ -1,0 +1,391 @@
+{
+  "hardware": "NVIDIA GeForce RTX 5080 Laptop GPU",
+  "torch": "2.8.0+cu128",
+  "numerical_scope": "local same-GPU singleton FP32 text/BF16 WavLM/FP32 summaries and heads",
+  "cross_4090_cache_equivalence": "NOT_CLAIMED; known cross-GPU BF16 failure retained",
+  "official_test_or_confirmation_inference": false,
+  "availability": [
+    {
+      "case": "missing",
+      "audio_valid": false,
+      "audio_available": false,
+      "reason": "missing_or_invalid",
+      "one_pass_or_skip": true
+    },
+    {
+      "case": "corrupt",
+      "audio_valid": false,
+      "audio_available": false,
+      "reason": "invalid_audio",
+      "one_pass_or_skip": true
+    },
+    {
+      "case": "long",
+      "audio_valid": true,
+      "audio_available": false,
+      "reason": "duration_limit",
+      "one_pass_or_skip": true
+    },
+    {
+      "case": "silent",
+      "audio_valid": true,
+      "audio_available": true,
+      "reason": null,
+      "one_pass_or_skip": true
+    }
+  ],
+  "context_isolation": {
+    "D2_exact_across_histories": true,
+    "history_length": 3,
+    "B_distribution_changes": true
+  },
+  "temporal_replay": [
+    {
+      "id": "dev/99/3",
+      "history_length": 0,
+      "audio_available": true,
+      "route_id": "b_policy",
+      "state_reached_response": true
+    },
+    {
+      "id": "dev/99/4",
+      "history_length": 1,
+      "audio_available": false,
+      "route_id": "b_policy",
+      "state_reached_response": true
+    },
+    {
+      "id": "dev/99/5",
+      "history_length": 2,
+      "audio_available": false,
+      "route_id": "b_policy",
+      "state_reached_response": true
+    },
+    {
+      "id": "dev/99/6",
+      "history_length": 3,
+      "audio_available": true,
+      "route_id": "b_policy",
+      "state_reached_response": true
+    }
+  ],
+  "failure_cleanup": "PASS",
+  "parameter_ledger": {
+    "B": {
+      "components": {
+        "selected_text": {
+          "total": 124062727,
+          "trainable": 0
+        },
+        "frozen_wavlm": {
+          "total": 94381936,
+          "trainable": 0
+        },
+        "audio_head": {
+          "total": 198663,
+          "trainable": 0
+        },
+        "residual": {
+          "total": 54728,
+          "trainable": 0
+        }
+      },
+      "learned_scalars": {
+        "original_alpha": 1,
+        "original_diagnostic_temperatures": 3,
+        "B_temperature": 1
+      },
+      "total_required_parameters": 218698059,
+      "within_6b": true,
+      "note": "Conservative count retains all loaded A diagnostic scalars; no quantization discount"
+    },
+    "additional_neural_parameters": 197779,
+    "additional_temperature": 1,
+    "loaded_unique_neural_parameters": 218895833,
+    "total_learned_parameters": 218895839,
+    "normalization_buffer_elements": 19981,
+    "normalization_buffer_bytes": 79924,
+    "shared_wavlm_instances": 1
+  },
+  "benchmark": {
+    "order": [
+      "B",
+      "legacy_B_D2",
+      "selected_system"
+    ],
+    "warmups_per_mode": 30,
+    "turns_per_mode": 200,
+    "boundary": "predecoded waveform + observed transcript/history to full returned state/response; GPU synchronized; disk decode/load excluded",
+    "blocks": {
+      "B": {
+        "all": {
+          "support": 200,
+          "p50_ms": 19.128758998704143,
+          "p95_ms": 59.97430410061496,
+          "max_ms": 125.56978899738169,
+          "p50_rtf": 0.007215443577340213,
+          "p95_rtf": 0.3295992796836341
+        },
+        "at_most_12s": {
+          "support": 187,
+          "p50_ms": 18.632740000612102,
+          "p95_ms": 31.45306119840825,
+          "max_ms": 53.100946999620646,
+          "p50_rtf": 0.007639987847104142,
+          "p95_rtf": 0.3421954468876718
+        },
+        "strata": {
+          "under_250ms": {
+            "support": 27,
+            "p50_ms": 20.175431000097888,
+            "p95_ms": 33.507646799989736,
+            "max_ms": 39.91178499927628,
+            "p50_rtf": 0.3152411093765295,
+            "p95_rtf": 0.5235569812498396
+          },
+          "250ms_to_1s": {
+            "support": 0
+          },
+          "1_to_3s": {
+            "support": 82,
+            "p50_ms": 16.72155800224573,
+            "p95_ms": 28.232012400985695,
+            "max_ms": 49.85773299995344,
+            "p50_rtf": 0.009489174760066537,
+            "p95_rtf": 0.02393998254414273
+          },
+          "3_to_6s": {
+            "support": 39,
+            "p50_ms": 17.36541100035538,
+            "p95_ms": 40.79629910229415,
+            "max_ms": 53.100946999620646,
+            "p50_rtf": 0.004783290528868705,
+            "p95_rtf": 0.00992710018673302
+          },
+          "6_to_12s": {
+            "support": 39,
+            "p50_ms": 21.042720996774733,
+            "p95_ms": 32.822377997945296,
+            "max_ms": 33.73823400033871,
+            "p50_rtf": 0.002921293835402704,
+            "p95_rtf": 0.004310147387014252
+          },
+          "12_to_60s": {
+            "support": 13,
+            "p50_ms": 62.50262799949269,
+            "p95_ms": 102.47563239827281,
+            "max_ms": 125.56978899738169,
+            "p50_rtf": 0.002189694086305097,
+            "p95_rtf": 0.0035900936238184144
+          },
+          "over_60s": {
+            "support": 0
+          }
+        },
+        "first30": {
+          "support": 30,
+          "p50_ms": 17.019010501826415,
+          "p95_ms": 47.17463429842603,
+          "max_ms": 61.212201002490474,
+          "p50_rtf": 0.005564817304373897,
+          "p95_rtf": 0.28847520315480313
+        },
+        "last30": {
+          "support": 30,
+          "p50_ms": 18.625608998263488,
+          "p95_ms": 57.044008250704756,
+          "max_ms": 66.79080100002466,
+          "p50_rtf": 0.006951639524993392,
+          "p95_rtf": 0.2839855437400727
+        },
+        "drift_last_first_p50_ratio": 1.0944002294530966
+      },
+      "legacy_B_D2": {
+        "all": {
+          "support": 200,
+          "p50_ms": 21.614373501506634,
+          "p95_ms": 64.36259284801054,
+          "max_ms": 90.16012200299883,
+          "p50_rtf": 0.008391424528904665,
+          "p95_rtf": 0.33681564609366876
+        },
+        "at_most_12s": {
+          "support": 187,
+          "p50_ms": 21.00333299677004,
+          "p95_ms": 36.00127250101649,
+          "max_ms": 63.711147999129025,
+          "p50_rtf": 0.008873401041695515,
+          "p95_rtf": 0.3404965453057684
+        },
+        "strata": {
+          "under_250ms": {
+            "support": 27,
+            "p50_ms": 20.57081499879132,
+            "p95_ms": 32.29996859736275,
+            "max_ms": 54.13395700088586,
+            "p50_rtf": 0.3214189843561144,
+            "p95_rtf": 0.504687009333793
+          },
+          "250ms_to_1s": {
+            "support": 0
+          },
+          "1_to_3s": {
+            "support": 82,
+            "p50_ms": 20.259453000107897,
+            "p95_ms": 44.584527799634095,
+            "max_ms": 63.711147999129025,
+            "p50_rtf": 0.011886630494830717,
+            "p95_rtf": 0.026026796688813865
+          },
+          "3_to_6s": {
+            "support": 39,
+            "p50_ms": 21.185383000556612,
+            "p95_ms": 33.380624900019036,
+            "max_ms": 39.0734690008685,
+            "p50_rtf": 0.005188366302947791,
+            "p95_rtf": 0.010014785470127479
+          },
+          "6_to_12s": {
+            "support": 39,
+            "p50_ms": 23.005265000392683,
+            "p95_ms": 34.28016440011561,
+            "max_ms": 43.21956599960686,
+            "p50_rtf": 0.003145671509906179,
+            "p95_rtf": 0.005007610554877588
+          },
+          "12_to_60s": {
+            "support": 13,
+            "p50_ms": 71.39838199873338,
+            "p95_ms": 87.86245740047889,
+            "max_ms": 90.16012200299883,
+            "p50_rtf": 0.002501344660830065,
+            "p95_rtf": 0.0030781410244001854
+          },
+          "over_60s": {
+            "support": 0
+          }
+        },
+        "first30": {
+          "support": 30,
+          "p50_ms": 20.723824498418253,
+          "p95_ms": 64.0656620484151,
+          "max_ms": 64.4931960014219,
+          "p50_rtf": 0.007193110684444766,
+          "p95_rtf": 0.3708305171727487
+        },
+        "last30": {
+          "support": 30,
+          "p50_ms": 26.49307850151672,
+          "p95_ms": 58.05647840006702,
+          "max_ms": 85.59125700048753,
+          "p50_rtf": 0.008425372604633965,
+          "p95_rtf": 0.3800556281419175
+        },
+        "drift_last_first_p50_ratio": 1.2783875149849298
+      },
+      "selected_system": {
+        "all": {
+          "support": 200,
+          "p50_ms": 19.86022849996516,
+          "p95_ms": 66.37916389918246,
+          "max_ms": 91.11644400036312,
+          "p50_rtf": 0.00717799897929747,
+          "p95_rtf": 0.32055326248610067
+        },
+        "at_most_12s": {
+          "support": 187,
+          "p50_ms": 19.520493002346484,
+          "p95_ms": 33.42828860113514,
+          "max_ms": 70.73708799725864,
+          "p50_rtf": 0.007562259747244003,
+          "p95_rtf": 0.32292104999669385
+        },
+        "strata": {
+          "under_250ms": {
+            "support": 27,
+            "p50_ms": 19.01768699826789,
+            "p95_ms": 35.50456999982998,
+            "max_ms": 45.25084100168897,
+            "p50_rtf": 0.2971513593479358,
+            "p95_rtf": 0.5547589062473435
+          },
+          "250ms_to_1s": {
+            "support": 0
+          },
+          "1_to_3s": {
+            "support": 82,
+            "p50_ms": 18.599559502035845,
+            "p95_ms": 30.046090102950984,
+            "max_ms": 40.592394001578214,
+            "p50_rtf": 0.01117074787862762,
+            "p95_rtf": 0.024803760045061234
+          },
+          "3_to_6s": {
+            "support": 39,
+            "p50_ms": 18.774972999381134,
+            "p95_ms": 24.935937498230487,
+            "max_ms": 31.373572997836163,
+            "p50_rtf": 0.004957323437793093,
+            "p95_rtf": 0.007320978683722562
+          },
+          "6_to_12s": {
+            "support": 39,
+            "p50_ms": 22.537504002684727,
+            "p95_ms": 39.29729619994761,
+            "max_ms": 70.73708799725864,
+            "p50_rtf": 0.003102947066021703,
+            "p95_rtf": 0.005177538646923733
+          },
+          "12_to_60s": {
+            "support": 13,
+            "p50_ms": 70.31967299917596,
+            "p95_ms": 83.84843400053795,
+            "max_ms": 91.11644400036312,
+            "p50_rtf": 0.002463553566394898,
+            "p95_rtf": 0.0029375152046152587
+          },
+          "over_60s": {
+            "support": 0
+          }
+        },
+        "first30": {
+          "support": 30,
+          "p50_ms": 21.149481000975356,
+          "p95_ms": 53.890361300727704,
+          "max_ms": 79.00309400065453,
+          "p50_rtf": 0.007135204698591556,
+          "p95_rtf": 0.3264408531435947
+        },
+        "last30": {
+          "support": 30,
+          "p50_ms": 18.771711000226787,
+          "p95_ms": 52.356161551324384,
+          "max_ms": 71.92752700211713,
+          "p50_rtf": 0.006899893389281044,
+          "p95_rtf": 0.2778338210930541
+        },
+        "drift_last_first_p50_ratio": 0.8875731276507961
+      }
+    },
+    "nonstationarity": "Single sequential block; drift ratios reported, no best-of reruns; hardware-local evidence only",
+    "absolute_p95_100ms": true,
+    "incremental_p95_10ms": true,
+    "rtf_p95_0_1": false
+  },
+  "elapsed_s": 23.489493370056152,
+  "engineering_status": "PASS",
+  "selected_policy": "evidence_only",
+  "release_manifest_at_execution_sha256": "2909d862df784eaf351a03a9e4b4a31103a5789c649f93a0a4c60ecff48afcd9",
+  "validator_source_at_execution_sha256": "fc983ced98bd83e92675ae02a8290e822a472ecd2097e93fdfecb4efc540aa96",
+  "raw_record_sha256": "07273d6b7aef259daffb56b4d0217251a510434d6f362499ed5e79462af7d574",
+  "benchmark_samples_sha256": "f9481e2b7d291aad18b6f4190bee3055d1361afee5e31d7d8c1d13c3309b064a",
+  "identity_note": "Execution policy identity added from the frozen launch RELEASE snapshot; original raw record and validator source retained. Source-pinning/cleanup-only hardening follows this block; no model arithmetic changes.",
+  "waveform_checks": {
+    "count": 15,
+    "all_B_state_exact": true,
+    "max_D2_probability_difference": 0.0,
+    "max_D2_vector_difference": 0.0,
+    "max_same_environment_D2_cached_difference": 0.0,
+    "one_encoder_pass_each": true
+  }
+}

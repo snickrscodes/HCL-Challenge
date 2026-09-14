@@ -1,0 +1,8 @@
+{
+  "turns": [
+    {"text": "I was waiting for a reply.", "speaker": "user"},
+    {"text": "It arrived this morning.", "speaker": "user"},
+    {"text": "I am still thinking about what to say.", "speaker": "user"},
+    {"text": "Thanks for listening.", "speaker": "user"}
+  ]
+}

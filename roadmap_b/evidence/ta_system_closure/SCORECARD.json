@@ -1,0 +1,30 @@
+{
+  "scope": "EVIDENCE_ONLY_BASELINE_WITH_RESEARCH_RESULTS",
+  "hard_requirements": {
+    "data_label_joins_and_evaluation_boundaries": "PASS",
+    "local_waveform_state_response": "PASS",
+    "causal_context_and_availability": "PASS",
+    "loading_assets_and_source_provenance": "PASS",
+    "required_parameters_under_six_billion": "PASS",
+    "commit_excludes_private_data_credentials_unauthorized_media": "PASS"
+  },
+  "quality_objectives": {
+    "complete_system_MELD_preservation": "PASS",
+    "new_policy_primary_gain": "FAIL",
+    "new_policy_coverage": "FAIL",
+    "new_policy_routed_agreement": "PASS",
+    "new_policy_pooled_stable_repeat_requirement": "PASS",
+    "selective_nuisance_actor_support": "INCONCLUSIVE",
+    "independent_evaluation": "NOT_MEASURED",
+    "human_response_usefulness": "NOT_MEASURED",
+    "local_absolute_and_incremental_latency": "PASS",
+    "local_RTF_limit": "FAIL",
+    "cross_GPU_cache_equivalence": "FAIL"
+  },
+  "commit_privacy_audit": "PASS; exact45-file source/document/aggregate allowlist inspected, plus this audit record; no new binaries/media/private records/credentials",
+  "notes": [
+    "The rejected H1 does not become default.",
+    "Hardengineering pass is separate from model-quality and independent-evaluation claims.",
+    "Historical failed repeat-tail and other metrics remain in H1_RESULTS and TA_SYSTEM_REPORT."
+  ]
+}

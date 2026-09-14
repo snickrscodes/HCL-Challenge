@@ -1,0 +1,299 @@
+{
+  "status": "PASS",
+  "baseline_head": "312d93cac817fb08188352f19c3827418ff1c440",
+  "baseline_branch": "main",
+  "review_branch": "ta/finalize-20260914-0330",
+  "original_worktree_index_and_current_source_unchanged": true,
+  "scope": "45 explicitly named source, tests, configuration, docs and aggregate evidence files; this audit record is the46thfile and excluded from its own content hash list",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 5698,
+      "sha256": "97a312cb0cff5392e783d6cebdd579df846dae3d81732dd10bc4343d745173d4",
+      "role": "ownership/contract/report"
+    },
+    {
+      "path": "TA_SYSTEM_CONTRACT.md",
+      "bytes": 4223,
+      "sha256": "c4c007f8b6d41ecf1087d48ac0594c44abaf95ff2d6c8b6b06d2d0898f09345b",
+      "role": "ownership/contract/report"
+    },
+    {
+      "path": "TA_SYSTEM_REPORT.md",
+      "bytes": 13089,
+      "sha256": "571246b73b2b9e2491c19822a33a9c5a8644d95d30357a6d2aa6c06ae84b5e50",
+      "role": "ownership/contract/report"
+    },
+    {
+      "path": "START_HERE_TA.md",
+      "bytes": 17005,
+      "sha256": "ce16e26f3958487526a6c6ca9a140a4c5d238fa7226c8b37aee565dd31c24c52",
+      "role": "ownership/contract/report"
+    },
+    {
+      "path": "ta.py",
+      "bytes": 5325,
+      "sha256": "2dcd556a458ccb31049346b3171fa1651cf921f8d4fa6b59d5696afab4dcd24c",
+      "role": "runtime/entry/reproduction/configuration"
+    },
+    {
+      "path": "prepare_ta_assets.py",
+      "bytes": 1476,
+      "sha256": "62004be012f2b5f644fb4716c94f8affea88178386415b50120f995de23e9ac5",
+      "role": "runtime/entry/reproduction/configuration"
+    },
+    {
+      "path": "roadmap_b/EXTERNAL_COMPONENTS.md",
+      "bytes": 5032,
+      "sha256": "8c66c401f0f06fd6064d3454a7c0de614f1510f3f402a132c51e7c820937d2bb",
+      "role": "runtime/entry/reproduction/configuration"
+    },
+    {
+      "path": "roadmap_b/c1/C1_EXPERIMENT_CONTRACT.json",
+      "bytes": 2228,
+      "sha256": "93fa79c25254ee860cb50b2c1bd1ea15f8fceea6fb50a0502657df115cec9e20",
+      "role": "runtime/entry/reproduction/configuration"
+    },
+    {
+      "path": "roadmap_b/examples/ta_replay.json",
+      "bytes": 277,
+      "sha256": "2503b77fd7743ec7c33eacf5220c7af00a0907a7f335f063bb2eab7028ad9b5a",
+      "role": "runtime/entry/reproduction/configuration"
+    },
+    {
+      "path": "roadmap_b/src/c1_data.py",
+      "bytes": 15722,
+      "sha256": "fda534d206e55b5f79a1f96f95ee1ceba16826dc71bbaf6f26b0b410ac54bb31",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "roadmap_b/src/c1_media_v2.py",
+      "bytes": 11677,
+      "sha256": "d4a2cd39e7ad7e4d52676fc79a9f911f8f09aca46f0edc6571e49e27f002903e",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "roadmap_b/src/c1_metrics.py",
+      "bytes": 4312,
+      "sha256": "b27c0dfdd33804068d9ad82b9cd5a35bc43101315efceec72067a772609329cf",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "roadmap_b/src/c1_model.py",
+      "bytes": 5906,
+      "sha256": "386c4e9ce1c93cd7b420cc4f95314dadf062df43f892d48871f490d71c104f12",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "roadmap_b/src/c1_protocol_v2.py",
+      "bytes": 8888,
+      "sha256": "139f8cfa176fa1a214e3b5ad5f68727d9ccaade32521c03f8798a6dcd5372c32",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "roadmap_b/src/c1_runtime_v2.py",
+      "bytes": 17351,
+      "sha256": "e7f18011ef5ebb318ef676c5bece0c4f4b4628178ef3c289e44160f9604c2e33",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "roadmap_b/src/c1_transfer_runtime.py",
+      "bytes": 4578,
+      "sha256": "f91df9ec07e713df773f1f70a7770dd9450f54448db1aee88dd15212c5ad9a2c",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "roadmap_b/src/c1_workflow_v2.py",
+      "bytes": 27198,
+      "sha256": "254201d66ea422090c32d1be3c6255a8be51a9980d68de32d4c1927ccdec5596",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "roadmap_b/src/ta_release.py",
+      "bytes": 5862,
+      "sha256": "e36978ef5060a4da287b2a1083778abee833510cf10e9492f4bfed6c51e327da",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "roadmap_b/src/ta_assets.py",
+      "bytes": 5362,
+      "sha256": "9beac1b652f6e04d1a5831fcf9f39ac7725b6c4731407e080d3f0aa13a3688fa",
+      "role": "runtime/entry/reproduction/configuration"
+    },
+    {
+      "path": "roadmap_b/src/ta_runtime.py",
+      "bytes": 5504,
+      "sha256": "b30b986f69b64b32aeb006f80071f2fe062b5d486788f0d81cc68ffabba4377f",
+      "role": "runtime/entry/reproduction/configuration"
+    },
+    {
+      "path": "roadmap_b/src/ta_interface.py",
+      "bytes": 3715,
+      "sha256": "ea0a9f03376988869ee06b1618f0b8624fcf488dcd6570aa69a81beade33a987",
+      "role": "runtime/entry/reproduction/configuration"
+    },
+    {
+      "path": "roadmap_b/src/ta_policy.py",
+      "bytes": 2481,
+      "sha256": "9814915d9fd0bdd45256227ed251c42d31cb8aa260b63f36dd494f0c6e724d9a",
+      "role": "runtime/entry/reproduction/configuration"
+    },
+    {
+      "path": "roadmap_b/tests/test_ta_assets.py",
+      "bytes": 5092,
+      "sha256": "ace87833c4e120b2f0e81b3e3a8e3b3ee31abdcc36915e6c42b1977b9a40807a",
+      "role": "regression test"
+    },
+    {
+      "path": "roadmap_b/tests/test_ta_runtime.py",
+      "bytes": 5171,
+      "sha256": "b8f2d0cae9a61723edd7b5af5404227d033743ee016549b90d68ee517cc85304",
+      "role": "regression test"
+    },
+    {
+      "path": "roadmap_b/tests/test_ta_system_interface.py",
+      "bytes": 6773,
+      "sha256": "27a0f1bd65a45ccfba50a3b022b2acb1689b8e659c56880372e30b2bfc6f8d02",
+      "role": "regression test"
+    },
+    {
+      "path": "roadmap_b/tests/test_ta_system_evaluate.py",
+      "bytes": 5035,
+      "sha256": "cb246ded7706314110e629a66c64e9c004be8f268054c75b1f471eaa2a53345a",
+      "role": "regression test"
+    },
+    {
+      "path": "roadmap_b/scripts/ta_system_evaluate.py",
+      "bytes": 27214,
+      "sha256": "c38a92f31aa3a292a3bc573d5e7f8e8a6d389257f16a384d5d268f4ffb5a7522",
+      "role": "runtime/entry/reproduction/configuration"
+    },
+    {
+      "path": "roadmap_b/scripts/validate_ta_system.py",
+      "bytes": 14343,
+      "sha256": "4902a17c8caf9b256a0bc9ab4562cf34463b7cddf7c7a8a5b6c29496d6ec7ae2",
+      "role": "runtime/entry/reproduction/configuration"
+    },
+    {
+      "path": "roadmap_b/evidence/ta_system_closure/ASSET_MANIFEST.json",
+      "bytes": 13469,
+      "sha256": "838eb261446851d68184392f6d213b5d2221e763d430564b2aabaa8e083ea3ce",
+      "role": "aggregate/provenance evidence"
+    },
+    {
+      "path": "roadmap_b/evidence/ta_system_closure/EXECUTION_BOUNDARY.json",
+      "bytes": 649,
+      "sha256": "8460ed582dda4fa127f45e77929cd8d2e256f0883337166119f9b43c11fb6595",
+      "role": "aggregate/provenance evidence"
+    },
+    {
+      "path": "roadmap_b/evidence/ta_system_closure/FINAL_SOURCE_HARDENING.json",
+      "bytes": 712,
+      "sha256": "4320352f70d24f2f7d8fe69fe68e39b8340042d524aa3232c32fa402006d1016",
+      "role": "aggregate/provenance evidence"
+    },
+    {
+      "path": "roadmap_b/evidence/ta_system_closure/H1_RESULTS.json",
+      "bytes": 38979,
+      "sha256": "c17fbc31dbe4e5a6d331391e2acce062852e3713329758de6ae01a8741c86b83",
+      "role": "aggregate/provenance evidence"
+    },
+    {
+      "path": "roadmap_b/evidence/ta_system_closure/H1_DECISION.json",
+      "bytes": 1152,
+      "sha256": "ab3bc1132d738cd441a4baa1e88d12b8081ce3c30c479c55ece2dab24dd53209",
+      "role": "aggregate/provenance evidence"
+    },
+    {
+      "path": "roadmap_b/evidence/ta_system_closure/H1_INDEPENDENT_ARITHMETIC.json",
+      "bytes": 1397,
+      "sha256": "ef134170d3a270124ffde0160f3b8cf840f22f63b7ff8d78ff030246e963ed1d",
+      "role": "aggregate/provenance evidence"
+    },
+    {
+      "path": "roadmap_b/evidence/ta_system_closure/HYPOTHESIS_01.md",
+      "bytes": 4817,
+      "sha256": "f222ea56474f66b4a31ebfa5da732421a00e2659bca17a8eb14d3ff2fb9280f6",
+      "role": "aggregate/provenance evidence"
+    },
+    {
+      "path": "roadmap_b/evidence/ta_system_closure/POLICY_CASES.json",
+      "bytes": 7397,
+      "sha256": "0061c5aeef8c79a970899c090437211cb268f2fa150659d6c3b46df40ad67612",
+      "role": "aggregate/provenance evidence"
+    },
+    {
+      "path": "roadmap_b/evidence/ta_system_closure/PORTABLE_RUNTIME_AUDIT.json",
+      "bytes": 3748,
+      "sha256": "307b692b3b4d583d8632f609527ec93207b782cf6fc630a379985b7d1ebe92cf",
+      "role": "aggregate/provenance evidence"
+    },
+    {
+      "path": "roadmap_b/evidence/ta_system_closure/RAW_VALIDATION_SUMMARY.json",
+      "bytes": 12356,
+      "sha256": "f287a8cb63e919754e0c480405fb7cd203964d565d90c1825fa87096b6ebb0f9",
+      "role": "aggregate/provenance evidence"
+    },
+    {
+      "path": "roadmap_b/evidence/ta_system_closure/RELEASE.json",
+      "bytes": 1405,
+      "sha256": "7688620ca57fbc098d4b3e46f43e736993967171b03dd4f744b3868f07dd8599",
+      "role": "aggregate/provenance evidence"
+    },
+    {
+      "path": "roadmap_b/evidence/ta_system_closure/RUNTIME_SOURCE_CLOSURE.json",
+      "bytes": 3226,
+      "sha256": "50baf1dae4f19f22c5fd14dd95e8c1e53eff24a7d54f58b825ef856fb953c6f7",
+      "role": "aggregate/provenance evidence"
+    },
+    {
+      "path": "roadmap_b/evidence/ta_system_closure/VALIDATION_SUMMARY.json",
+      "bytes": 1044,
+      "sha256": "1c97aa6d6b9e7961033d79b2ec539a88dfd9c4941e5ac55d03b7eada87b659b9",
+      "role": "aggregate/provenance evidence"
+    },
+    {
+      "path": "roadmap_b/evidence/ta_system_closure/CLI_VALIDATION.json",
+      "bytes": 1826,
+      "sha256": "5ee514965ca8bd5bc52e53cb008d34c89408cdd0e73a892f98c01c4204b42b82",
+      "role": "aggregate/provenance evidence"
+    },
+    {
+      "path": "roadmap_b/evidence/ta_system_closure/SCORECARD.json",
+      "bytes": 1381,
+      "sha256": "fec30a949e3d23b6eaf19418d0fee56446a50110b2ed9bb800230f4a2f2e916f",
+      "role": "aggregate/provenance evidence"
+    },
+    {
+      "path": "roadmap_b/evidence/ta_system_closure/HANDOFF_IDENTITY.json",
+      "bytes": 366,
+      "sha256": "77201d764c7dc707872d65b62a729ab363de8e500889b0bd678c27f1ed84a1fa",
+      "role": "aggregate/provenance evidence"
+    },
+    {
+      "path": "roadmap_b/evidence/ta_system_closure/AGGREGATE_REGENERATION.json",
+      "bytes": 392,
+      "sha256": "b51553a7977f76ae3068874fe71e6c2995c8a079847b18b42cff3af8766ddf4a",
+      "role": "aggregate/provenance evidence"
+    }
+  ],
+  "excluded": [
+    "virtual environments",
+    "weights/checkpoints/archives",
+    "corpus or private human media",
+    "listener/consent/contact records",
+    "per-record human embeddings",
+    "credentials and private endpoints",
+    "machine-local logs",
+    "unrelated untracked research and extensions"
+  ],
+  "review": [
+    "frozen import dependency closure checked against current source hashes",
+    "every proposed file decoded and assigned a role",
+    "size/binary/private-path/credential-pattern scan clear",
+    "independent code/claims/privacy review completed",
+    "no new blanket third-party license assigned"
+  ],
+  "git_publication": "one local review commit authorized; no push or remote PR",
+  "clean_checkout_validation": "performed after commit; recorded in external final attestation"
+}

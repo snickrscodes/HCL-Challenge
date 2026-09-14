@@ -1,0 +1,30 @@
+{
+  "release_id": "TA-system-closure-20260914-B-D2",
+  "condition": "D2",
+  "seed": 1337,
+  "scope": "EVIDENCE_ONLY_BASELINE_WITH_RESEARCH_RESULTS",
+  "default_policy": "evidence_only",
+  "policy_status": {
+    "evidence_only": "selected; locally validated operational baseline",
+    "role_specific_h1": "REJECTED; explicit research opt-in only; insufficient effect and coverage"
+  },
+  "categorical_authority": "meld_state / frozen B adaptive1337 / MELD7",
+  "vocal_authority": "acoustic_evidence / frozen D2 1337 / crema6_audio_votes_v1",
+  "response_authority": "top-level response and interaction; nested meld_state.response is the original B reference",
+  "audio_effect_default": "B learned gated bounded correction can change MELD state and authored response; D2 adds separate evidence only",
+  "independent_transfer": false,
+  "human_response_usefulness": "NOT_MEASURED",
+  "official_MELD_test": "NOT_RUN; separate authorization required",
+  "former_confirmation": "CONSUMED; not used by H1",
+  "learned_parameters": 218895839,
+  "budget": {
+    "hypotheses_used": 1,
+    "hypotheses_max": 2,
+    "new_fits": 0,
+    "fits_max": 12,
+    "new_calibrations": 0,
+    "threshold_retries": 0,
+    "second_hypothesis": "SKIPPED; lowering fixed thresholds would chase working coverage without a separately justified release decision"
+  },
+  "finalization_started_utc": "2026-09-14T07:51:45.466079+00:00"
+}

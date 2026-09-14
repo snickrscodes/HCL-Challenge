@@ -1,0 +1,8 @@
+{
+  "prompt_bytes_identical": true,
+  "prompt_sha256": "d305e0bde5dad11813269f097d67125961b9641747bfeb077ce1aedc5de207a9",
+  "role": "User explicitly adopted this closure prompt; other reports are context and repository bytes remain authoritative.",
+  "CONDITIONAL_GRADIENT_ABLATION_REPORT.md": true,
+  "OWNERSHIP_DELTA.md": true,
+  "ACCEPTANCE_MATRIX.json": true
+}

@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "environment": "fresh55packageofflineinstallation; Python3.12.14; RTX5080 Laptop",
+  "working_directory": "unrelated temporary directory",
+  "source_checkout": "isolated review checkout",
+  "commands": {
+    "help": {
+      "exit_code": 0,
+      "cwd_independent": true
+    },
+    "assets": {
+      "exit_code": 0,
+      "cwd_independent": true
+    },
+    "raw": {
+      "exit_code": 0,
+      "cwd_independent": true,
+      "policy": "evidence_only",
+      "release_scope": "EVIDENCE_ONLY_BASELINE_WITH_RESEARCH_RESULTS",
+      "turns": 1,
+      "available": [
+        true
+      ],
+      "history_lengths": [
+        0
+      ],
+      "response_routed": [
+        true
+      ],
+      "output_sha256": "2992bd32d8951551e68bdcd91c871428244695ba6283a5e29203f59dad627fd9"
+    },
+    "fallback": {
+      "exit_code": 0,
+      "cwd_independent": true,
+      "policy": "evidence_only",
+      "release_scope": "EVIDENCE_ONLY_BASELINE_WITH_RESEARCH_RESULTS",
+      "turns": 1,
+      "available": [
+        false
+      ],
+      "history_lengths": [
+        0
+      ],
+      "response_routed": [
+        true
+      ],
+      "output_sha256": "845cd0fae38222d3a6f0a0a32373df52220d0eda04782fcd15c2296f0f5a5adf"
+    },
+    "replay": {
+      "exit_code": 0,
+      "cwd_independent": true,
+      "policy": "evidence_only",
+      "release_scope": "EVIDENCE_ONLY_BASELINE_WITH_RESEARCH_RESULTS",
+      "turns": 4,
+      "available": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "history_lengths": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "response_routed": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "output_sha256": "56d398f07ba7ec4b8d2444f55b6c3fb585f5200e5d6b896732c02ad7ab5155a5"
+    }
+  },
+  "fresh_network_installation": "NOT_MEASURED"
+}

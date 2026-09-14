@@ -1,0 +1,1368 @@
+{
+  "created_at_utc": "2026-09-14T07:50:03.147022+00:00",
+  "hypothesis": "H1 fixed role-specific authored routing",
+  "numerical_scope": "Saved internally consistent RTX5080 working outputs; RTX4090 MELD development outputs; CPU float64 metric arithmetic. No model forwards.",
+  "integrity": {
+    "passed": true,
+    "all720_prediction_hashes_match": true,
+    "input_hashes": {
+      "ta_closure_v1/EVALUATION_PROTOCOL.json": "8af56aa4d8184b33afd045b0ef61cd1005818f4c5afa3f704c6f8920ab0e2c32",
+      "ta_closure_v1/working/OUTPUT_LOCK.json": "b1b596c79eda124f7c47008404a5c39adb7ab909126e6a5bfba1a2bb4f7d3e0a",
+      "acoustic_capability_v1/working/SHUFFLE.json": "10ec8912914479ea9f97c0a8743e1aef3484aae823b99522b87f93df4a126b5f",
+      "joint_supervision_v1/working_local5080/PAIR_INVENTORY.json": "6446912545f77233a20dcb411e64ec5f7ca581996f7423bf841aaa15bdccfd79",
+      "roadmap_b/evaluation/adaptive/1337/predictions.jsonl": "9bc75968236877cfccd057ad0c16ba9a40054aa1f083ca255faeb6bc75cdab0f",
+      "roadmap_b/evaluation/adaptive/1337/metrics.json": "b6520b0592b869237e1616bfa28f5188cd5a6c4c40e31a9af3b83330718cccee",
+      "joint_supervision_v1/features/meld_dev_model.pt": "8ff39055ef45c54e206a72bcc28a07993bbe6462c26ac9afa7f3838764c059fb",
+      "acoustic_capability_v1/features/meld_dev_model.pt": "73ae6c65369bdae7be1b15b4d26f6ed4999b6363c84bc2888319ad251d786ace",
+      "joint_supervision_v1/features/crema_train.pt": "965d997fc4fb014dc3d53210198387a67b26cf0a9e164c2215061d6350b6aaaa",
+      "ta_finalization_v1/TA_RELEASE_CANDIDATE.json": "0cc0ae6f0e3fdc024242cb8b60e98d66945626d60d6438a11c3edeb3b5a9ec68",
+      "conditional_gradient_ablation_v1/ACCEPTANCE_MATRIX.json": "b7cc4f70552f18afd402bab7d21abc760a7a378bc02975cd1636c03edea32af9"
+    },
+    "source_hashes": {
+      "evidence/ta_system_closure/HYPOTHESIS_01.md": "f222ea56474f66b4a31ebfa5da732421a00e2659bca17a8eb14d3ff2fb9280f6",
+      "evidence/ta_system_closure/POLICY_CASES.json": "0061c5aeef8c79a970899c090437211cb268f2fa150659d6c3b46df40ad67612",
+      "src/responses.py": "9c6a0cf2b373fe7875db3f941b0f1024a7fc337571c2766a564a7793871c61a1",
+      "src/ta_policy.py": "9814915d9fd0bdd45256227ed251c42d31cb8aa260b63f36dd494f0c6e724d9a",
+      "scripts/ta_system_evaluate.py": "2ece41eda1f2c24271366dcc708b071d64a736f3739ce90e50241ad323bba51c"
+    },
+    "manifest_assets_verified": "All B manifest assets and selected D2 normalization/checkpoint/calibration",
+    "shuffle_bijection720": true,
+    "no_confirmation_or_official_test_opened": true
+  },
+  "working": {
+    "candidate": {
+      "eligible_support": 412,
+      "all_recordings": 720,
+      "actor_equal_signed_routed_agreement": 0.04095507441788781,
+      "pooled_signed_routed_agreement": 0.04053398058252427,
+      "eligible_route_count": 20,
+      "eligible_route_coverage": 0.04854368932038835,
+      "actors_with_eligible_route": 9,
+      "routed_mean_listener_agreement": 0.9174999999999999,
+      "eligible_route_counts": {
+        "b_policy": 392,
+        "vocal_angry": 18,
+        "vocal_fear": 2
+      },
+      "per_actor": {
+        "02": {
+          "support": 38,
+          "routes": 2,
+          "signed_mean": 0.04736842105263158,
+          "coverage": 0.05263157894736842,
+          "routed_mean_agreement": 0.95
+        },
+        "07": {
+          "support": 33,
+          "routes": 4,
+          "signed_mean": 0.12121212121212122,
+          "coverage": 0.12121212121212122,
+          "routed_mean_agreement": 1.0
+        },
+        "08": {
+          "support": 40,
+          "routes": 2,
+          "signed_mean": 0.0375,
+          "coverage": 0.05,
+          "routed_mean_agreement": 0.875
+        },
+        "09": {
+          "support": 36,
+          "routes": 1,
+          "signed_mean": 0.011111111111111108,
+          "coverage": 0.027777777777777776,
+          "routed_mean_agreement": 0.7
+        },
+        "10": {
+          "support": 31,
+          "routes": 3,
+          "signed_mean": 0.07096774193548387,
+          "coverage": 0.0967741935483871,
+          "routed_mean_agreement": 0.8666666666666667
+        },
+        "14": {
+          "support": 32,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "15": {
+          "support": 32,
+          "routes": 1,
+          "signed_mean": 0.03125,
+          "coverage": 0.03125,
+          "routed_mean_agreement": 1.0
+        },
+        "16": {
+          "support": 41,
+          "routes": 4,
+          "signed_mean": 0.08292682926829269,
+          "coverage": 0.0975609756097561,
+          "routed_mean_agreement": 0.9249999999999999
+        },
+        "18": {
+          "support": 38,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "19": {
+          "support": 29,
+          "routes": 1,
+          "signed_mean": 0.027586206896551727,
+          "coverage": 0.034482758620689655,
+          "routed_mean_agreement": 0.9
+        },
+        "20": {
+          "support": 36,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "22": {
+          "support": 26,
+          "routes": 2,
+          "signed_mean": 0.06153846153846154,
+          "coverage": 0.07692307692307693,
+          "routed_mean_agreement": 0.9
+        }
+      },
+      "unique_plurality_class_slices": {
+        "neutral": {
+          "unique_plurality_support": 46,
+          "routed": 0,
+          "routes": {
+            "b_policy": 46
+          }
+        },
+        "happy": {
+          "unique_plurality_support": 36,
+          "routed": 0,
+          "routes": {
+            "b_policy": 36
+          }
+        },
+        "sad": {
+          "unique_plurality_support": 68,
+          "routed": 0,
+          "routes": {
+            "b_policy": 68
+          }
+        },
+        "angry": {
+          "unique_plurality_support": 97,
+          "routed": 18,
+          "routes": {
+            "b_policy": 79,
+            "vocal_angry": 18
+          }
+        },
+        "fear": {
+          "unique_plurality_support": 84,
+          "routed": 2,
+          "routes": {
+            "b_policy": 82,
+            "vocal_fear": 2
+          }
+        },
+        "disgust": {
+          "unique_plurality_support": 67,
+          "routed": 0,
+          "routes": {
+            "b_policy": 67
+          }
+        }
+      },
+      "all_recording_route_counts": {
+        "b_policy": 699,
+        "vocal_angry": 18,
+        "vocal_fear": 3
+      },
+      "all_recording_reason_counts": {
+        "unsupported_vocal_route": 399,
+        "low_vocal_confidence_or_margin": 300,
+        "supported_vocal_offer": 21
+      },
+      "all_recording_response_changes": 21,
+      "unsupported_mass_policy": "All720 retained for routing. Score explicitly conditions412 compatible rows. Calm, surprise, none never mapped."
+    },
+    "evidence_only": {
+      "eligible_support": 412,
+      "all_recordings": 720,
+      "actor_equal_signed_routed_agreement": 0.0,
+      "pooled_signed_routed_agreement": 0.0,
+      "eligible_route_count": 0,
+      "eligible_route_coverage": 0.0,
+      "actors_with_eligible_route": 0,
+      "routed_mean_listener_agreement": null,
+      "eligible_route_counts": {
+        "b_policy": 412
+      },
+      "per_actor": {
+        "02": {
+          "support": 38,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "07": {
+          "support": 33,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "08": {
+          "support": 40,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "09": {
+          "support": 36,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "10": {
+          "support": 31,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "14": {
+          "support": 32,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "15": {
+          "support": 32,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "16": {
+          "support": 41,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "18": {
+          "support": 38,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "19": {
+          "support": 29,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "20": {
+          "support": 36,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "22": {
+          "support": 26,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        }
+      },
+      "unique_plurality_class_slices": {
+        "neutral": {
+          "unique_plurality_support": 46,
+          "routed": 0,
+          "routes": {
+            "b_policy": 46
+          }
+        },
+        "happy": {
+          "unique_plurality_support": 36,
+          "routed": 0,
+          "routes": {
+            "b_policy": 36
+          }
+        },
+        "sad": {
+          "unique_plurality_support": 68,
+          "routed": 0,
+          "routes": {
+            "b_policy": 68
+          }
+        },
+        "angry": {
+          "unique_plurality_support": 97,
+          "routed": 0,
+          "routes": {
+            "b_policy": 97
+          }
+        },
+        "fear": {
+          "unique_plurality_support": 84,
+          "routed": 0,
+          "routes": {
+            "b_policy": 84
+          }
+        },
+        "disgust": {
+          "unique_plurality_support": 67,
+          "routed": 0,
+          "routes": {
+            "b_policy": 67
+          }
+        }
+      },
+      "all_recording_route_counts": {
+        "b_policy": 720
+      },
+      "all_recording_reason_counts": {
+        "evidence_only": 720
+      },
+      "all_recording_response_changes": 0,
+      "unsupported_mass_policy": "All720 retained for routing. Score explicitly conditions412 compatible rows. Calm, surprise, none never mapped."
+    },
+    "no_new_evidence": {
+      "eligible_support": 412,
+      "all_recordings": 720,
+      "actor_equal_signed_routed_agreement": 0.0,
+      "pooled_signed_routed_agreement": 0.0,
+      "eligible_route_count": 0,
+      "eligible_route_coverage": 0.0,
+      "actors_with_eligible_route": 0,
+      "routed_mean_listener_agreement": null,
+      "eligible_route_counts": {
+        "b_policy": 412
+      },
+      "per_actor": {
+        "02": {
+          "support": 38,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "07": {
+          "support": 33,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "08": {
+          "support": 40,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "09": {
+          "support": 36,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "10": {
+          "support": 31,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "14": {
+          "support": 32,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "15": {
+          "support": 32,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "16": {
+          "support": 41,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "18": {
+          "support": 38,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "19": {
+          "support": 29,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "20": {
+          "support": 36,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "22": {
+          "support": 26,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        }
+      },
+      "unique_plurality_class_slices": {
+        "neutral": {
+          "unique_plurality_support": 46,
+          "routed": 0,
+          "routes": {
+            "b_policy": 46
+          }
+        },
+        "happy": {
+          "unique_plurality_support": 36,
+          "routed": 0,
+          "routes": {
+            "b_policy": 36
+          }
+        },
+        "sad": {
+          "unique_plurality_support": 68,
+          "routed": 0,
+          "routes": {
+            "b_policy": 68
+          }
+        },
+        "angry": {
+          "unique_plurality_support": 97,
+          "routed": 0,
+          "routes": {
+            "b_policy": 97
+          }
+        },
+        "fear": {
+          "unique_plurality_support": 84,
+          "routed": 0,
+          "routes": {
+            "b_policy": 84
+          }
+        },
+        "disgust": {
+          "unique_plurality_support": 67,
+          "routed": 0,
+          "routes": {
+            "b_policy": 67
+          }
+        }
+      },
+      "all_recording_route_counts": {
+        "b_policy": 720
+      },
+      "all_recording_reason_counts": {
+        "audio_unavailable": 720
+      },
+      "all_recording_response_changes": 0,
+      "unsupported_mass_policy": "All720 retained for routing. Score explicitly conditions412 compatible rows. Calm, surprise, none never mapped."
+    },
+    "fixed_coupled_shuffle": {
+      "eligible_support": 412,
+      "all_recordings": 720,
+      "actor_equal_signed_routed_agreement": 0.00036123255445403803,
+      "pooled_signed_routed_agreement": 0.0006202804746494077,
+      "eligible_route_count": 11,
+      "eligible_route_coverage": 0.02669902912621359,
+      "actors_with_eligible_route": 6,
+      "routed_mean_listener_agreement": 0.5116161616161615,
+      "eligible_route_counts": {
+        "b_policy": 401,
+        "vocal_fear": 1,
+        "vocal_angry": 10
+      },
+      "per_actor": {
+        "02": {
+          "support": 38,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "07": {
+          "support": 33,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "08": {
+          "support": 40,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "09": {
+          "support": 36,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "10": {
+          "support": 31,
+          "routes": 1,
+          "signed_mean": 0.025806451612903226,
+          "coverage": 0.03225806451612903,
+          "routed_mean_agreement": 0.9
+        },
+        "14": {
+          "support": 32,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "15": {
+          "support": 32,
+          "routes": 1,
+          "signed_mean": 0.017361111111111112,
+          "coverage": 0.03125,
+          "routed_mean_agreement": 0.7777777777777778
+        },
+        "16": {
+          "support": 41,
+          "routes": 1,
+          "signed_mean": 0.01951219512195122,
+          "coverage": 0.024390243902439025,
+          "routed_mean_agreement": 0.9
+        },
+        "18": {
+          "support": 38,
+          "routes": 3,
+          "signed_mean": -0.02631578947368421,
+          "coverage": 0.07894736842105263,
+          "routed_mean_agreement": 0.3333333333333333
+        },
+        "19": {
+          "support": 29,
+          "routes": 3,
+          "signed_mean": -0.022413793103448272,
+          "coverage": 0.10344827586206896,
+          "routed_mean_agreement": 0.39166666666666666
+        },
+        "20": {
+          "support": 36,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "22": {
+          "support": 26,
+          "routes": 2,
+          "signed_mean": -0.009615384615384616,
+          "coverage": 0.07692307692307693,
+          "routed_mean_agreement": 0.4375
+        }
+      },
+      "unique_plurality_class_slices": {
+        "neutral": {
+          "unique_plurality_support": 46,
+          "routed": 1,
+          "routes": {
+            "b_policy": 45,
+            "vocal_fear": 1
+          }
+        },
+        "happy": {
+          "unique_plurality_support": 36,
+          "routed": 0,
+          "routes": {
+            "b_policy": 36
+          }
+        },
+        "sad": {
+          "unique_plurality_support": 68,
+          "routed": 1,
+          "routes": {
+            "b_policy": 67,
+            "vocal_angry": 1
+          }
+        },
+        "angry": {
+          "unique_plurality_support": 97,
+          "routed": 6,
+          "routes": {
+            "b_policy": 91,
+            "vocal_angry": 6
+          }
+        },
+        "fear": {
+          "unique_plurality_support": 84,
+          "routed": 2,
+          "routes": {
+            "b_policy": 82,
+            "vocal_angry": 2
+          }
+        },
+        "disgust": {
+          "unique_plurality_support": 67,
+          "routed": 1,
+          "routes": {
+            "b_policy": 66,
+            "vocal_angry": 1
+          }
+        }
+      },
+      "all_recording_route_counts": {
+        "b_policy": 699,
+        "vocal_fear": 3,
+        "vocal_angry": 18
+      },
+      "all_recording_reason_counts": {
+        "low_vocal_confidence_or_margin": 300,
+        "unsupported_vocal_route": 399,
+        "supported_vocal_offer": 21
+      },
+      "all_recording_response_changes": 21,
+      "unsupported_mass_policy": "All720 retained for routing. Score explicitly conditions412 compatible rows. Calm, surprise, none never mapped."
+    },
+    "CREMA_training_listener_prior": {
+      "eligible_support": 412,
+      "all_recordings": 720,
+      "actor_equal_signed_routed_agreement": 0.0,
+      "pooled_signed_routed_agreement": 0.0,
+      "eligible_route_count": 0,
+      "eligible_route_coverage": 0.0,
+      "actors_with_eligible_route": 0,
+      "routed_mean_listener_agreement": null,
+      "eligible_route_counts": {
+        "b_policy": 412
+      },
+      "per_actor": {
+        "02": {
+          "support": 38,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "07": {
+          "support": 33,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "08": {
+          "support": 40,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "09": {
+          "support": 36,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "10": {
+          "support": 31,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "14": {
+          "support": 32,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "15": {
+          "support": 32,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "16": {
+          "support": 41,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "18": {
+          "support": 38,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "19": {
+          "support": 29,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "20": {
+          "support": 36,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        },
+        "22": {
+          "support": 26,
+          "routes": 0,
+          "agreement_sum": 0.0,
+          "signed_mean": 0.0,
+          "coverage": 0.0,
+          "routed_mean_agreement": null
+        }
+      },
+      "unique_plurality_class_slices": {
+        "neutral": {
+          "unique_plurality_support": 46,
+          "routed": 0,
+          "routes": {
+            "b_policy": 46
+          }
+        },
+        "happy": {
+          "unique_plurality_support": 36,
+          "routed": 0,
+          "routes": {
+            "b_policy": 36
+          }
+        },
+        "sad": {
+          "unique_plurality_support": 68,
+          "routed": 0,
+          "routes": {
+            "b_policy": 68
+          }
+        },
+        "angry": {
+          "unique_plurality_support": 97,
+          "routed": 0,
+          "routes": {
+            "b_policy": 97
+          }
+        },
+        "fear": {
+          "unique_plurality_support": 84,
+          "routed": 0,
+          "routes": {
+            "b_policy": 84
+          }
+        },
+        "disgust": {
+          "unique_plurality_support": 67,
+          "routed": 0,
+          "routes": {
+            "b_policy": 67
+          }
+        }
+      },
+      "all_recording_route_counts": {
+        "b_policy": 720
+      },
+      "all_recording_reason_counts": {
+        "unsupported_vocal_route": 720
+      },
+      "all_recording_response_changes": 0,
+      "unsupported_mass_policy": "All720 retained for routing. Score explicitly conditions412 compatible rows. Calm, surprise, none never mapped."
+    }
+  },
+  "stability": {
+    "stable_proxy": {
+      "support": 67,
+      "route_changes": 5,
+      "D2_top1_changes": 12,
+      "maximum_actor_route_change_rate": 1.0,
+      "actor_equal_D2_TV_mean": 0.11999115523562975,
+      "per_actor": {
+        "02": {
+          "support": 12,
+          "route_changes": 1,
+          "D2_top1_changes": 1,
+          "route_change_rate": 0.08333333333333333,
+          "D2_TV_mean": 0.0675151709975656,
+          "D2_TV_p95_linear": 0.10857359736153256
+        },
+        "07": {
+          "support": 6,
+          "route_changes": 0,
+          "D2_top1_changes": 2,
+          "route_change_rate": 0.0,
+          "D2_TV_mean": 0.1661698311737956,
+          "D2_TV_p95_linear": 0.37160337412219135
+        },
+        "08": {
+          "support": 3,
+          "route_changes": 0,
+          "D2_top1_changes": 1,
+          "route_change_rate": 0.0,
+          "D2_TV_mean": 0.14941283955263368,
+          "D2_TV_p95_linear": 0.2484063923612867
+        },
+        "09": {
+          "support": 5,
+          "route_changes": 0,
+          "D2_top1_changes": 0,
+          "route_change_rate": 0.0,
+          "D2_TV_mean": 0.08776634215881673,
+          "D2_TV_p95_linear": 0.1793866623411563
+        },
+        "10": {
+          "support": 2,
+          "route_changes": 0,
+          "D2_top1_changes": 1,
+          "route_change_rate": 0.0,
+          "D2_TV_mean": 0.12009465686076047,
+          "D2_TV_p95_linear": 0.19398782574238055
+        },
+        "14": {
+          "support": 6,
+          "route_changes": 0,
+          "D2_top1_changes": 1,
+          "route_change_rate": 0.0,
+          "D2_TV_mean": 0.0877271699337208,
+          "D2_TV_p95_linear": 0.1382250120529146
+        },
+        "15": {
+          "support": 1,
+          "route_changes": 1,
+          "D2_top1_changes": 0,
+          "route_change_rate": 1.0,
+          "D2_TV_mean": 0.11285467416919027,
+          "D2_TV_p95_linear": 0.11285467416919027
+        },
+        "16": {
+          "support": 5,
+          "route_changes": 1,
+          "D2_top1_changes": 1,
+          "route_change_rate": 0.2,
+          "D2_TV_mean": 0.07275642101916349,
+          "D2_TV_p95_linear": 0.14524117881453077
+        },
+        "18": {
+          "support": 9,
+          "route_changes": 0,
+          "D2_top1_changes": 0,
+          "route_change_rate": 0.0,
+          "D2_TV_mean": 0.10652930728453291,
+          "D2_TV_p95_linear": 0.17430978542574577
+        },
+        "19": {
+          "support": 6,
+          "route_changes": 1,
+          "D2_top1_changes": 2,
+          "route_change_rate": 0.16666666666666666,
+          "D2_TV_mean": 0.1534653311032785,
+          "D2_TV_p95_linear": 0.28926245347483936
+        },
+        "20": {
+          "support": 6,
+          "route_changes": 0,
+          "D2_top1_changes": 2,
+          "route_change_rate": 0.0,
+          "D2_TV_mean": 0.21549988368359485,
+          "D2_TV_p95_linear": 0.4442584524800545
+        },
+        "22": {
+          "support": 6,
+          "route_changes": 1,
+          "D2_top1_changes": 1,
+          "route_change_rate": 0.16666666666666666,
+          "D2_TV_mean": 0.10010223489050397,
+          "D2_TV_p95_linear": 0.13906108158621855
+        }
+      },
+      "transitions": {
+        "b_policy->b_policy": 59,
+        "b_policy->vocal_angry": 5,
+        "vocal_angry->vocal_angry": 3
+      },
+      "route_to_baseline_transitions": 0,
+      "baseline_to_route_transitions": 5
+    },
+    "all_performed_repeats": {
+      "support": 360,
+      "route_changes": 11,
+      "D2_top1_changes": 81,
+      "maximum_actor_route_change_rate": 0.06666666666666667,
+      "actor_equal_D2_TV_mean": 0.12350435122039909,
+      "per_actor": {
+        "02": {
+          "support": 30,
+          "route_changes": 2,
+          "D2_top1_changes": 2,
+          "route_change_rate": 0.06666666666666667,
+          "D2_TV_mean": 0.07303086832059363,
+          "D2_TV_p95_linear": 0.12786171767196547
+        },
+        "07": {
+          "support": 30,
+          "route_changes": 0,
+          "D2_top1_changes": 7,
+          "route_change_rate": 0.0,
+          "D2_TV_mean": 0.11042113425601936,
+          "D2_TV_p95_linear": 0.27971594132944066
+        },
+        "08": {
+          "support": 30,
+          "route_changes": 2,
+          "D2_top1_changes": 9,
+          "route_change_rate": 0.06666666666666667,
+          "D2_TV_mean": 0.11345230105187029,
+          "D2_TV_p95_linear": 0.2287542827540452
+        },
+        "09": {
+          "support": 30,
+          "route_changes": 0,
+          "D2_top1_changes": 3,
+          "route_change_rate": 0.0,
+          "D2_TV_mean": 0.12974698908087748,
+          "D2_TV_p95_linear": 0.2592825748670782
+        },
+        "10": {
+          "support": 30,
+          "route_changes": 1,
+          "D2_top1_changes": 6,
+          "route_change_rate": 0.03333333333333333,
+          "D2_TV_mean": 0.13680815688273942,
+          "D2_TV_p95_linear": 0.30054370212274606
+        },
+        "14": {
+          "support": 30,
+          "route_changes": 0,
+          "D2_top1_changes": 7,
+          "route_change_rate": 0.0,
+          "D2_TV_mean": 0.10339748964788295,
+          "D2_TV_p95_linear": 0.22454365827007214
+        },
+        "15": {
+          "support": 30,
+          "route_changes": 1,
+          "D2_top1_changes": 7,
+          "route_change_rate": 0.03333333333333333,
+          "D2_TV_mean": 0.13635133512096786,
+          "D2_TV_p95_linear": 0.27046619935928784
+        },
+        "16": {
+          "support": 30,
+          "route_changes": 2,
+          "D2_top1_changes": 8,
+          "route_change_rate": 0.06666666666666667,
+          "D2_TV_mean": 0.10758810998027313,
+          "D2_TV_p95_linear": 0.21038447948748795
+        },
+        "18": {
+          "support": 30,
+          "route_changes": 0,
+          "D2_top1_changes": 7,
+          "route_change_rate": 0.0,
+          "D2_TV_mean": 0.11133289761228723,
+          "D2_TV_p95_linear": 0.253757879784844
+        },
+        "19": {
+          "support": 30,
+          "route_changes": 1,
+          "D2_top1_changes": 10,
+          "route_change_rate": 0.03333333333333333,
+          "D2_TV_mean": 0.19003595087265657,
+          "D2_TV_p95_linear": 0.3790927496629282
+        },
+        "20": {
+          "support": 30,
+          "route_changes": 0,
+          "D2_top1_changes": 9,
+          "route_change_rate": 0.0,
+          "D2_TV_mean": 0.17162004145521215,
+          "D2_TV_p95_linear": 0.4278099882432229
+        },
+        "22": {
+          "support": 30,
+          "route_changes": 2,
+          "D2_top1_changes": 6,
+          "route_change_rate": 0.06666666666666667,
+          "D2_TV_mean": 0.0982669403634091,
+          "D2_TV_p95_linear": 0.18517969839805704
+        }
+      },
+      "transitions": {
+        "b_policy->b_policy": 344,
+        "vocal_angry->b_policy": 3,
+        "b_policy->vocal_angry": 7,
+        "vocal_angry->vocal_angry": 4,
+        "vocal_fear->vocal_fear": 1,
+        "vocal_fear->b_policy": 1
+      },
+      "route_to_baseline_transitions": 4,
+      "baseline_to_route_transitions": 7
+    }
+  },
+  "source_preservation": {
+    "records": 839,
+    "audio_available": 838,
+    "exact_preservation": true,
+    "categorical_probability_max_abs_difference": 0.0,
+    "categorical_prediction_changes": 0,
+    "B_temperature_before_and_after": 1.7140600388082663,
+    "independently_recomputed_B_metrics": {
+      "n": 839,
+      "accuracy": 0.635280095351609,
+      "macro_f1": 0.5004668338970936,
+      "weighted_f1": 0.6195674456074874,
+      "nll": 1.0830059210117766,
+      "ece_15": 0.058472036238853026,
+      "confusion_matrix": [
+        [
+          298,
+          16,
+          10,
+          10,
+          13,
+          4,
+          2
+        ],
+        [
+          31,
+          68,
+          1,
+          9,
+          12,
+          0,
+          0
+        ],
+        [
+          36,
+          8,
+          21,
+          11,
+          1,
+          2,
+          4
+        ],
+        [
+          30,
+          9,
+          6,
+          56,
+          13,
+          1,
+          6
+        ],
+        [
+          12,
+          8,
+          3,
+          12,
+          76,
+          3,
+          0
+        ],
+        [
+          5,
+          2,
+          4,
+          8,
+          4,
+          7,
+          0
+        ],
+        [
+          4,
+          0,
+          1,
+          2,
+          2,
+          1,
+          7
+        ]
+      ]
+    },
+    "metric_recompute_absolute_errors": {
+      "macro_f1": 0.0,
+      "weighted_f1": 0.0,
+      "nll": 0.0,
+      "ece_15": 6.938893903907228e-18
+    },
+    "response_changes": 1,
+    "separate_saved_B_stream_logit_max_difference": 4.76837158203125e-07,
+    "scope": "Cached response-policy validation, not fresh waveform equivalence. D2 is not scored as contextual MELD truth."
+  },
+  "frozen_D2": {
+    "soft_support": 412,
+    "unique_plurality_support": 398,
+    "actor_equal_nll6": 1.3510569641402335,
+    "actor_equal_brier6": 0.3439323712231576,
+    "actor_equal_jsd6": 0.219004109581566,
+    "actor_equal_macro_f1": 0.43534787062973335,
+    "pooled_class_accounting": {
+      "neutral": {
+        "support": 46,
+        "true_positives": 42,
+        "recall": 0.9130434782608695
+      },
+      "happy": {
+        "support": 36,
+        "true_positives": 1,
+        "recall": 0.027777777777777776
+      },
+      "sad": {
+        "support": 68,
+        "true_positives": 12,
+        "recall": 0.17647058823529413
+      },
+      "angry": {
+        "support": 97,
+        "true_positives": 79,
+        "recall": 0.8144329896907216
+      },
+      "fear": {
+        "support": 84,
+        "true_positives": 51,
+        "recall": 0.6071428571428571
+      },
+      "disgust": {
+        "support": 67,
+        "true_positives": 35,
+        "recall": 0.5223880597014925
+      }
+    },
+    "interpretation": "Frozen listener evidence on used working data; unchanged by response routing."
+  },
+  "training_prior_control": {
+    "source": "CREMA training listener targets only",
+    "rows": 3697,
+    "probabilities": [
+      0.412771245405441,
+      0.07116268761222413,
+      0.10575085083706542,
+      0.15160372388584872,
+      0.1212869255596486,
+      0.13742456669977204
+    ]
+  },
+  "fixed_cases": {
+    "count": 15,
+    "passed": true,
+    "cases": [
+      {
+        "id": "angry",
+        "passed": true
+      },
+      {
+        "id": "fear",
+        "passed": true
+      },
+      {
+        "id": "disgust",
+        "passed": true
+      },
+      {
+        "id": "low_context_confidence",
+        "passed": true
+      },
+      {
+        "id": "confident_disagreement",
+        "passed": true
+      },
+      {
+        "id": "context_boundary",
+        "passed": true
+      },
+      {
+        "id": "low_vocal",
+        "passed": true
+      },
+      {
+        "id": "vocal_boundary",
+        "passed": true
+      },
+      {
+        "id": "missing",
+        "passed": true
+      },
+      {
+        "id": "farewell",
+        "passed": true
+      },
+      {
+        "id": "thanks",
+        "passed": true
+      },
+      {
+        "id": "unsupported_neutral",
+        "passed": true
+      },
+      {
+        "id": "unsupported_happy",
+        "passed": true
+      },
+      {
+        "id": "unsupported_sad",
+        "passed": true
+      },
+      {
+        "id": "inert_transcript",
+        "passed": true
+      }
+    ]
+  },
+  "historical_failures_retained": {
+    "latest_ablation_status": "TRAINING_GRADIENT_BENEFIT_WITH_SOURCE_TRADEOFF",
+    "candidate_ready": false,
+    "per_seed": {
+      "1337": {
+        "working_six_relative_nll_improvement": 0.1094880383952427,
+        "working_six_jsd_difference": -0.019584005585268655,
+        "primary_pass": true,
+        "D2_nll_limit": 1.3710569641402335,
+        "D2_nonregression_pass": true,
+        "source_nll_differences": {
+          "MELD": 0.32820858095118854,
+          "CREMA-D": 0.002983751489740394
+        },
+        "source_nonregression_pass": false,
+        "repeat_pair_count": 67,
+        "repeat_pass": false,
+        "all_quality_pass": false,
+        "primary_mode": "calibrated actor-equal conditional-six; unit-temperature separately reported"
+      },
+      "1338": {
+        "working_six_relative_nll_improvement": 0.07046496089430207,
+        "working_six_jsd_difference": -0.016980873299441424,
+        "primary_pass": true,
+        "D2_nll_limit": 1.3710569641402335,
+        "D2_nonregression_pass": true,
+        "source_nll_differences": {
+          "MELD": 0.2924234671587427,
+          "CREMA-D": 0.005517814262403942
+        },
+        "source_nonregression_pass": false,
+        "repeat_pair_count": 67,
+        "repeat_pass": false,
+        "all_quality_pass": false,
+        "primary_mode": "calibrated actor-equal conditional-six; unit-temperature separately reported"
+      },
+      "1339": {
+        "working_six_relative_nll_improvement": 0.0876975583454359,
+        "working_six_jsd_difference": -0.019018750377665122,
+        "primary_pass": true,
+        "D2_nll_limit": 1.3710569641402335,
+        "D2_nonregression_pass": true,
+        "source_nll_differences": {
+          "MELD": 0.29096321474237485,
+          "CREMA-D": 0.0007367084711624727
+        },
+        "source_nonregression_pass": false,
+        "repeat_pair_count": 67,
+        "repeat_pass": false,
+        "all_quality_pass": false,
+        "primary_mode": "calibrated actor-equal conditional-six; unit-temperature separately reported"
+      }
+    },
+    "pair_selectivity_support": {
+      "rules": {
+        "minimum_actors": 8,
+        "changing_pairs_per_actor": 10,
+        "stable_repeats_per_actor": 4
+      },
+      "qualifying_actors": 3,
+      "passed": false
+    },
+    "original_repeat_thresholds": {
+      "actor_mean_TV_excess_max": 0.01,
+      "maximum_within_actor_p95_TV_excess_max": 0.03
+    },
+    "original_repeat_result": "All3 candidate means passed; all3 maximum-actor tails failed. H1 does not alter D2 or repair those rejected models.",
+    "Stage_A": "Rejected: reference macroF1gain .003665 below .02; all3 D2NLL and repeat tails failed; source safeguards passed.",
+    "joint_J": "Preferred ECE increase .021882241 exceeds .02; workingNLL6 1.826067 above D2 1.351057;19/67 stable flips;3/8 actor support.",
+    "runtime": "Historical canonical B+D2 p95RTF failed on64ms probes. Changed-runtime benchmark NOT_MEASURED here."
+  },
+  "scope_limits": [
+    "Used working actors are adaptive development evidence",
+    "Independent evaluation pending",
+    "Human response usefulness unmeasured",
+    "Source preservation is cached policy validation, not fresh waveform equivalence"
+  ]
+}

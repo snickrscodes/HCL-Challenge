@@ -1,0 +1,15 @@
+{
+  "changes": [
+    "complete-system source and root-entry pinning",
+    "exact H1 policy source pinned by evaluator",
+    "root CLI closes hooks on completion/failure",
+    "formatter-only layout updates"
+  ],
+  "model_or_policy_arithmetic_changed": false,
+  "initial_H1_policy_sha256": "9814915d9fd0bdd45256227ed251c42d31cb8aa260b63f36dd494f0c6e724d9a",
+  "current_H1_policy_sha256": "9814915d9fd0bdd45256227ed251c42d31cb8aa260b63f36dd494f0c6e724d9a",
+  "initial_evaluator_sha256": "2ece41eda1f2c24271366dcc708b071d64a736f3739ce90e50241ad323bba51c",
+  "current_evaluator_sha256": "c38a92f31aa3a292a3bc573d5e7f8e8a6d389257f16a384d5d268f4ffb5a7522",
+  "runtime_source_entries": 36,
+  "root_source_entries": 2
+}

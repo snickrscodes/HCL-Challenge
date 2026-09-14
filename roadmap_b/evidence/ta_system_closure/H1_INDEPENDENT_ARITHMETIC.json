@@ -1,0 +1,37 @@
+{
+  "created_at_utc": "2026-09-14T07:51:51.664042+00:00",
+  "passed": true,
+  "method": "Separate literal implementation of frozen card, without importing evaluator or policy; only existing working prediction JSONs read.",
+  "checks": {
+    "candidate": {
+      "actor_equal_signed_routed_agreement": 0.04095507441788781,
+      "eligible_route_count": 20,
+      "eligible_route_coverage": 0.04854368932038835,
+      "actors_with_eligible_route": 9,
+      "routed_mean_listener_agreement": 0.9175000000000001,
+      "all_recording_response_changes": 21
+    },
+    "fixed_coupled_shuffle": {
+      "actor_equal_signed_routed_agreement": 0.00036123255445403836,
+      "eligible_route_count": 11,
+      "eligible_route_coverage": 0.02669902912621359,
+      "actors_with_eligible_route": 6,
+      "routed_mean_listener_agreement": 0.5116161616161616,
+      "all_recording_response_changes": 21
+    },
+    "stable_proxy": {
+      "support": 67,
+      "route_changes": 5
+    },
+    "all_performed_repeats": {
+      "support": 360,
+      "route_changes": 11
+    }
+  },
+  "pair_annotation_counts_join_exact": true,
+  "fixed_shuffle_bijection720": true,
+  "maximum_allowed_scalar_error": 1e-14,
+  "no_model_forward_or_fit": true,
+  "result_sha256": "c17fbc31dbe4e5a6d331391e2acce062852e3713329758de6ae01a8741c86b83",
+  "decision_sha256": "ab3bc1132d738cd441a4baa1e88d12b8081ce3c30c479c55ece2dab24dd53209"
+}
