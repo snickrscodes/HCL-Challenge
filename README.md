@@ -53,3 +53,7 @@ cd roadmap_b
 Aggregate regeneration reads fixed saved training/development/working evidence and verifies hashes; it runs no model inference or fitting. The large evidence dependency is separate from inference assets. It refuses forbidden partitions and never reopens former confirmation. Original historical failures remain in the report. See the report for the separate pretrained and raw-validation commands and hardware scope.
 
 No push, remote PR, release publication, upload, cloud-resource change, model retraining or extension was performed. The local review branch is intended for user review and a user-initiated push.
+
+## Stateful perception
+
+The causal session API accepts incremental observations, keeps immutable perception snapshots and preserves final T+A inference and deterministic responses. Run `python stateful_ta.py --asset-root /path/to/ta-assets --text "Hello."`, or use `--replay` / `--events`. See [STATEFUL_ARCHITECTURE.md](STATEFUL_ARCHITECTURE.md) for the API, retention and replay contracts. Partial checkpoints contain observed inputs only; WavLM remains utterance-final.

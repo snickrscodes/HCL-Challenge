@@ -1,0 +1,37 @@
+{
+  "B": {
+    "components": {
+      "selected_text": {
+        "total": 124062727,
+        "trainable": 0
+      },
+      "frozen_wavlm": {
+        "total": 94381936,
+        "trainable": 0
+      },
+      "audio_head": {
+        "total": 198663,
+        "trainable": 0
+      },
+      "residual": {
+        "total": 54728,
+        "trainable": 0
+      }
+    },
+    "learned_scalars": {
+      "original_alpha": 1,
+      "original_diagnostic_temperatures": 3,
+      "B_temperature": 1
+    },
+    "total_required_parameters": 218698059,
+    "within_6b": true,
+    "note": "Conservative count retains all loaded A diagnostic scalars; no quantization discount"
+  },
+  "additional_neural_parameters": 197779,
+  "additional_temperature": 1,
+  "loaded_unique_neural_parameters": 218895833,
+  "total_learned_parameters": 218895839,
+  "normalization_buffer_elements": 19981,
+  "normalization_buffer_bytes": 79924,
+  "shared_wavlm_instances": 1
+}

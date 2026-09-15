@@ -1,0 +1,20 @@
+[
+  {
+    "id": "A1",
+    "phase": "before_implementation",
+    "reason": "Raw15 and existing Session support supplied observed prior human context; its import must be explicit observations, never hidden state.",
+    "contract": "StatefulSession(history=...) accepts at most3 Turn values; SESSION_STARTED payload.history records these externally asserted past human turns. They seed only observed human dialogue and T1 context with stable initial-history references; participant mappings for these keys remain external. No inferred values or robot roles allowed. No threshold or data boundary change."
+  },
+  {
+    "id": "A2",
+    "phase": "before_implementation",
+    "reason": "Stale publication protection does not serialize the mutable model tap.",
+    "contract": "In-flight guard remains true through cancellation until model exits. New turns reject while busy. Frozen request PCM/text/context are captured under lock. Shared models require caller serialization. Metadata bounded: provenance4096 characters, IDs128, source/availability160, payload8 times max_text_chars; validated before mutation."
+  },
+  {
+    "id": "A3",
+    "phase": "implementation_review_before_H0",
+    "reason": "An observation-only sequence cannot encode completion order for a cancelled in-flight request or a failed request followed by recovery.",
+    "contract": "Optional caller-owned bounded ReplayRecorder stores separate observation and execution completion records plus limits/manifest identity. Replay defers sealed requests until execution boundary. Successful requests recompute; recorded failure/cancel dispositions replay without inventing model evidence. Plain observation event files remain sequential convenience only. Full recorder overflow is explicit and cannot export a claimed complete trace. No numeric/latency threshold changed."
+  }
+]

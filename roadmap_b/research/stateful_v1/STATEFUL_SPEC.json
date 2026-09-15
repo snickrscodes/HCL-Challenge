@@ -1,0 +1,81 @@
+{
+  "version": "stateful-perception-v1",
+  "status": "FROZEN_BEFORE_IMPLEMENTATION",
+  "accepted_base": "3a403f4418a4399f0a40741ca9f54bd3b5038006",
+  "selection": {
+    "core": true,
+    "partial_model_inference": false,
+    "prefix_audio": false,
+    "optional_experiments": [],
+    "learned_parameters_added": 0,
+    "response_policy": "evidence_only",
+    "speaker_association": "EXTERNALLY_SUPPLIED"
+  },
+  "namespaces": [
+    "observations",
+    "perception",
+    "execution"
+  ],
+  "events": [
+    "SESSION_STARTED",
+    "PARTICIPANT_REGISTERED",
+    "HUMAN_TURN_STARTED",
+    "TEXT_FRAGMENT_OBSERVED",
+    "TEXT_FINALIZED",
+    "AUDIO_CHUNK_OBSERVED",
+    "AUDIO_UNAVAILABLE",
+    "HUMAN_TURN_ENDED",
+    "TURN_CANCELLED",
+    "ROBOT_RESPONSE_EMITTED",
+    "SESSION_ENDED"
+  ],
+  "event_fields": [
+    "event_id",
+    "session_id",
+    "event_seq",
+    "monotonic_timestamp",
+    "event_type",
+    "participant_id",
+    "turn_id",
+    "source",
+    "availability",
+    "provenance",
+    "payload_json",
+    "pcm_bytes"
+  ],
+  "event_identity": "event_id equals session_id + : + decimal event_seq; seq starts at 1, contiguous; exact retained duplicates idempotent, expired sequences rejected; conflicting reuse rejected",
+  "ordering": "receipt sequence authoritative, timestamps finite nondecreasing; out of order rejected atomically, never queued or silently reordered",
+  "ownership": "single process; RLock guards transitions; predictor call outside lock; one active or pending turn; shared model serialized by caller; no custom async framework",
+  "limits": {
+    "sample_rate": 16000,
+    "max_audio_samples": 960000,
+    "max_chunk_samples": 65536,
+    "max_text_chars": 16384,
+    "max_id_chars": 128,
+    "max_participants": 32,
+    "retained_turns": 64,
+    "retained_snapshots": 128,
+    "retained_observations": 256,
+    "retained_execution": 256,
+    "dedup_events": 256,
+    "max_replay_bytes": 67108864
+  },
+  "context": "last 3 successfully perceived finalized human turns across participants, exact original speaker keys and text; no robot/partial/cancelled/failed turn or inferred-state input",
+  "audio": "mono floating point 16kHz PCM copied to float32 as existing Session; unchanged concatenation and final preprocessing; over 60s discards retained PCM and uses explicit duration-limit execution sentinel; missing/corrupt/silence preserved; no per-chunk normalization/resampling",
+  "failure": "observed ended turn remains observed, execution failed, no final snapshot and no T1 context append; release PCM and allow fresh turn; no retry of same end event; new turn required",
+  "snapshots": "frozen canonical JSON strings, defensive parsed copies; partial input checkpoint has no model estimate; final B and D2 separate; IDs hash session/turn/event/input/model semantic content; deterministic created_at from event timestamp; measured timing excluded from canonical payload",
+  "validation": {
+    "raw_probes": 15,
+    "saved_inventory": 1109,
+    "temporal_turns": 4,
+    "raw_same_device_tolerance": 0.0,
+    "event_p95_ms": 5.0,
+    "finalization_overhead_p95_ms": 5.0,
+    "stress_turns": 10000,
+    "benchmark_warmups": 30,
+    "benchmark_turns_per_interface": 200,
+    "hardware": "local RTX 5080 Laptop",
+    "official_test": false,
+    "runpod": false
+  }
+}
